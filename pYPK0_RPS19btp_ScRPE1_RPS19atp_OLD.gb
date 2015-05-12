@@ -1,9 +1,8 @@
-LOCUS       pMEC1132                7686 bp    DNA     circular UNK 12-MAY-2015
+LOCUS       pMEC1132                7686 bp    DNA     circular UNK 10-MAY-2015
 DEFINITION  pYPK0_RPS19btp_ScRPE1_RPS19atp
-            cSEGUID_7ZyB5nd5PHehioELmuUpWJgPyHA_2015-05-12T13:25:30.700216
+            cSEGUID_aOI5FF932B5dg-6nLRqeOFUH-pw_2015-05-10T08:01:11.667350
 ACCESSION   <unknown id>
 VERSION     <unknown id>
-DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -11,40 +10,40 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      overlap         433..530
                      /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#F2D1D4"
+                     /ApEinfo_fwdcolor="#E1B6C4"
                      /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#CAF7E5"
+                     /ApEinfo_revcolor="#DFCFFE"
      misc            531..556
                      /label="648_ScRPS19btpf2"
      promoter        537..1162
                      /note="tp YNL301C YNL302C"
-                     /ApEinfo_fwdcolor="#b1e6cc"
                      /ApEinfo_revcolor="#b1e681"
+                     /ApEinfo_fwdcolor="#b1e6cc"
      primer_bind     537..556
                      /note="648_ScRPS19btpf2"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      primer_bind     complement(1142..1162)
                      /note="647_ScRPS19btpr_PacI"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(1142..1169)
                      /label="647_ScRPS19btpr_PacI"
      overlap         1170..1219
                      /note="olp_8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_fwdcolor="#C1ECD6"
+                     /ApEinfo_fwdcolor="#B2D5CE"
                      /chksum="8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_revcolor="#B9D1E9"
+                     /ApEinfo_revcolor="#FDB4F3"
      primer_bind     complement(1197..1217)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(1197..1219)
                      /label="567_pCAPsAjiIF"
      primer_bind     complement(1197..1219)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1197..1219)
                      /label="567_pCAPsAjiIF"
      misc            1220..1248
@@ -91,11 +90,11 @@ FEATURES             Location/Qualifiers
                      /label="556_RPE1_YPK_rev"
      misc            1948..1969
                      /label="568_pCAPsAjiIR"
-     overlap         1948..1984
-                     /note="olp_-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_fwdcolor="#F6D5DB"
-                     /chksum="-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_revcolor="#BDEADD"
+     overlap         1948..1978
+                     /note="olp_ucNuXLfr2NLE3QLKTobL1QWrl64"
+                     /ApEinfo_fwdcolor="#D5CEFC"
+                     /chksum="ucNuXLfr2NLE3QLKTobL1QWrl64"
+                     /ApEinfo_revcolor="#FBFBF8"
      primer_bind     1950..1969
                      /note="568_pCAPsAjiIR"
                      /ApEinfo_revcolor="red"
@@ -104,29 +103,27 @@ FEATURES             Location/Qualifiers
                      /note="467_pCAPs_releas"
                      /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
-     misc            complement(1954..1984)
-                     /label="467_pCAPs_release_re"
-     source          1985..2528
-                     /strain="S288c"
-                     /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
-                     /db_xref="taxon:559292"
+     misc            1979..2004
+                     /label="538_ScRPS19atpr_FspA"
+     promoter        1985..2528
+                     /note="tp YOL120C YOL121C"
+                     /ApEinfo_fwdcolor="#b1e6cc"
+                     /ApEinfo_revcolor="#b1e681"
      primer_bind     1985..2004
-                     /note="652_ScRPS19atpf2"
-                     /ApEinfo_fwdcolor="green"
+                     /note="538_ScRPS19atpr_FspA"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(2509..2528)
                      /note="651_ScRPS19atpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(2509..2535)
                      /label="651_ScRPS19atpr_PacI"
      overlap         2536..2596
                      /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#D2ECC4"
+                     /ApEinfo_fwdcolor="#EBBAB1"
                      /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#FAEDFE"
+                     /ApEinfo_revcolor="#C1EEF9"
      primer_bind     complement(2573..2596)
                      /note="166_pCAPSrv"
                      /ApEinfo_fwdcolor="green"
@@ -179,8 +176,8 @@ ORIGIN
      1741 aactttgaga gccaagttcc cccatttgaa tatccaagtc gatggtggtt tgggcaagga
      1801 gaccatcccg aaagccgcca aagccggtgc caacgttatt gtcgctggta ccagtgtttt
      1861 cactgcagct gacccgcacg atgttatctc cttcatgaaa gaagaagtct cgaaggaatt
-     1921 gcgttctaga gatttgctag attagccgtg ccatctgtgc agacaaacgc atcaggattt
-     1981 aaatgttaac tgaaatgaaa atttcatatt tactttttta ttgttactca tttgtaattc
+     1921 gcgttctaga gatttgctag attagccgtg ccatctgtgc agacaaacgc atcaggatgc
+     1981 gcatgttaac tgaaatgaaa atttcatatt tactttttta ttgttactca tttgtaattc
      2041 ataaactaca tacactttca atcgtttctt tcaaactaca taatttttac tggcgatcaa
      2101 taacgcattt agttcataaa gtgagtcaaa gttaacacta gaatatttgc tacaccatca
      2161 ataggctaga ccatagttga aaactttcat aataaattct tccgttttca atcttcatat
