@@ -1,9 +1,8 @@
-LOCUS       pMEC1137               14484 bp    DNA     circular UNK 12-MAY-2015
+LOCUS       pMEC1137               14484 bp    DNA     circular UNK 10-MAY-2015
 DEFINITION  pYPK0-PDC1-ScTKL1-RPS19b-ScRPE1-RPS19a-ScRKI1-TPI1-CiGXF1-ScENO2
-            cSEGUID_6E0AGs78NqyqjtuAWRWhkIGlLnI_2015-05-12T13:35:57.577450
+            cSEGUID_m0xMQs_8lEPU395640FMaHI23HI_2015-05-10T13:34:16.058678
 ACCESSION   <unknown id>
 VERSION     <unknown id>
-DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -11,9 +10,9 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      overlap         433..530
                      /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#EDC6E7"
+                     /ApEinfo_revcolor="#C7BFED"
                      /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#F8D3E6"
+                     /ApEinfo_fwdcolor="#D9F8F9"
      misc            531..554
                      /label="413_ScPDC1tpf"
      promoter        538..1492
@@ -80,9 +79,9 @@ FEATURES             Location/Qualifiers
                      /label="TKL_YPK_rec_rev"
      overlap         3615..4253
                      /note="olp_Be8RsH0ELvUptJVnrmxRlftTCBw"
-                     /ApEinfo_fwdcolor="#C5E9B9"
+                     /ApEinfo_revcolor="#EAF9B3"
                      /chksum="Be8RsH0ELvUptJVnrmxRlftTCBw"
-                     /ApEinfo_revcolor="#B2DEB6"
+                     /ApEinfo_fwdcolor="#EFBDCD"
      promoter        3621..4246
                      /note="tp YNL301C YNL302C"
                      /ApEinfo_revcolor="#b1e681"
@@ -149,39 +148,37 @@ FEATURES             Location/Qualifiers
                      /protein_id="NP_012414.1"
      primer_bind     4313..4332
                      /note="557_RPE1_YPK_fwd"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      primer_bind     complement(5010..5029)
                      /note="556_RPE1_YPK_rev"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(5010..5031)
                      /label="556_RPE1_YPK_rev"
      misc            5032..5053
                      /label="568_pCAPsAjiIR"
      primer_bind     5034..5053
                      /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(5038..5062)
                      /note="467_pCAPs_releas"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
-     misc            complement(5038..5068)
-                     /label="467_pCAPs_release_re"
-     overlap         5063..5619
-                     /note="olp_KlgKSQoWn-GKRuWkxAOD_TtLmS4"
-                     /ApEinfo_fwdcolor="#F7DFFC"
-                     /chksum="KlgKSQoWn-GKRuWkxAOD_TtLmS4"
-                     /ApEinfo_revcolor="#E8BCF0"
-     source          5069..5612
-                     /strain="S288c"
-                     /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
-                     /db_xref="taxon:559292"
+                     /ApEinfo_revcolor="red"
+     misc            5063..5088
+                     /label="538_ScRPS19atpr_FspA"
+     overlap         5067..5619
+                     /note="olp_TNJMwhxgP61tAl1TIF2P2DxFpDo"
+                     /ApEinfo_revcolor="#EFC3DA"
+                     /chksum="TNJMwhxgP61tAl1TIF2P2DxFpDo"
+                     /ApEinfo_fwdcolor="#DDD2DF"
+     promoter        5069..5612
+                     /note="tp YOL120C YOL121C"
+                     /ApEinfo_fwdcolor="#b1e6cc"
+                     /ApEinfo_revcolor="#b1e681"
      primer_bind     5069..5088
-                     /note="652_ScRPS19atpf2"
+                     /note="538_ScRPS19atpr_FspA"
                      /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
      primer_bind     complement(5593..5612)
@@ -192,8 +189,8 @@ FEATURES             Location/Qualifiers
                      /label="651_ScRPS19atpr_PacI"
      primer_bind     complement(5593..5619)
                      /note="651_ScRPS19atpr_"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(5593..5619)
                      /label="651_ScRPS19atpr_PacI"
      primer_bind     complement(5647..5669)
@@ -257,9 +254,9 @@ FEATURES             Location/Qualifiers
                      /label="467_pCAPs_release_re"
      overlap         6489..7084
                      /note="olp_SLlgGiDcM2GrByhPr94FNplslzM"
-                     /ApEinfo_fwdcolor="#E1B3FE"
+                     /ApEinfo_revcolor="#BDCCC0"
                      /chksum="SLlgGiDcM2GrByhPr94FNplslzM"
-                     /ApEinfo_revcolor="#C9B2BD"
+                     /ApEinfo_fwdcolor="#BEE8CD"
      promoter        6495..7077
                      /note="tp YDR051C YDR050C"
                      /ApEinfo_revcolor="#b1e681"
@@ -356,9 +353,9 @@ FEATURES             Location/Qualifiers
                      /label="452_ScENO2tpr_FspAI"
      overlap         9334..9394
                      /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#DED6C3"
+                     /ApEinfo_revcolor="#BAD6CC"
                      /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#EAC5F6"
+                     /ApEinfo_fwdcolor="#D8BDD7"
      primer_bind     complement(9371..9394)
                      /note="166_pCAPSrv"
                      /ApEinfo_fwdcolor="green"
@@ -372,18 +369,18 @@ FEATURES             Location/Qualifiers
      misc            complement(9371..9394)
                      /label="166_pCAPSrv"
      rep_origin      10035
-                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="cyan"
                      /direction=BOTH
                      /label="feat1"
-                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="red"
      misc            complement(10779..11582)
-                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="cyan"
                      /label="URA3"
-                     /ApEinfo_fwdcolor="cyan"
-     CDS             complement(13431..14089)
                      /ApEinfo_revcolor="red"
-                     /label="AmpR"
+     CDS             complement(13431..14089)
                      /ApEinfo_fwdcolor="cyan"
+                     /label="AmpR"
+                     /ApEinfo_revcolor="red"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
@@ -469,7 +466,7 @@ ORIGIN
      4861 agtcgatggt ggtttgggca aggagaccat cccgaaagcc gccaaagccg gtgccaacgt
      4921 tattgtcgct ggtaccagtg ttttcactgc agctgacccg cacgatgtta tctccttcat
      4981 gaaagaagaa gtctcgaagg aattgcgttc tagagatttg ctagattagc cgtgccatct
-     5041 gtgcagacaa acgcatcagg atttaaatgt taactgaaat gaaaatttca tatttacttt
+     5041 gtgcagacaa acgcatcagg atgcgcatgt taactgaaat gaaaatttca tatttacttt
      5101 tttattgtta ctcatttgta attcataaac tacatacact ttcaatcgtt tctttcaaac
      5161 tacataattt ttactggcga tcaataacgc atttagttca taaagtgagt caaagttaac
      5221 actagaatat ttgctacacc atcaataggc tagaccatag ttgaaaactt tcataataaa

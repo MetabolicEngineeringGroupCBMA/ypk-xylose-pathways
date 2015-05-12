@@ -1,8 +1,8 @@
-LOCUS       pMEC1138               22594 bp    DNA     circular UNK 12-MAY-2015
+LOCUS       pMEC1138               22594 bp    DNA     circular UNK 11-MAY-2015
 DEFINITION  
-            pYPK0_TEF1tp_XR_N272D_TPI1tp_XDH_PDC1tp_XK_FBA1tp_TAL1_PDC1tpPDC1tp_ScTKL1_RPS19btp_ScRPE1_RPS19atp_ScRKI1_TPI1tp_CiGXF1_ENO2tp
+            pYPK0_TEF1tp_XR_TPI1tp_XDH_PDC1tp_XK_FBA1tp_TAL1_PDC1tpPDC1tp_ScTKL1_RPS19btp_ScRPE1_RPS19atp_ScRKI1_TPI1tp_CiGXF1_ENO2tp
             (alternative name pYPK0_8)
-            cSEGUID_tWtIxyv-o0uXDkfaXxdPoFbkWco_2015-05-12T13:41:00.081226
+            cSEGUID_EdK3WFlDMQp10JMDKEgSitFWyxg_2015-05-11T09:33:09.964999
 ACCESSION   <unknown id>
 VERSION     <unknown id>
 DBLINK      BioProject:PRJNA43747
@@ -13,61 +13,83 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      overlap         433..530
                      /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#ECFDEC"
+                     /ApEinfo_fwdcolor="#BFE5D4"
                      /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#C1F3F4"
+                     /ApEinfo_revcolor="#CFD1CA"
      misc            531..560
-                     /ApEinfo_fwdcolor="cyan"
                      /label="417_ScTEF1tpf"
-                     /ApEinfo_revcolor="red"
      promoter        538..1116
                      /note="tp YPR079W YPR080W"
-                     /ApEinfo_revcolor="#b1e681"
-                     /label="tp YPR079W YPR080W"
                      /ApEinfo_fwdcolor="#b1e6cc"
+                     /ApEinfo_revcolor="#b1e681"
      primer_bind     538..560
                      /note="417_ScTEF1tpf"
+                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
-                     /label="417_ScTEF1tpf"
-                     /ApEinfo_revcolor="red"
-     CDS             complement(926..1584)
-                     /ApEinfo_revcolor="red"
-                     /label="AmpR"
-                     /ApEinfo_fwdcolor="cyan"
      primer_bind     complement(1089..1116)
                      /note="626_ScTEF1tpr_PacI"
+                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
-                     /label="626_ScTEF1tpr_PacI"
-                     /ApEinfo_revcolor="red"
      misc            complement(1089..1123)
-                     /ApEinfo_fwdcolor="cyan"
                      /label="626_ScTEF1tpr_PacI"
-                     /ApEinfo_revcolor="red"
+     gene            1164..2120
+                     /gene="xyl1"
+     CDS             1164..2120
+                     /function="NAD(P)H-dependent,reduces Xylose into Xylit"
+                     /product="Xylose reductase"
+                     /citation=[2]
+                     /codon_start=1
+                     /transl_table=12
+                     /db_xref="GI:3261"
+                     /db_xref="GOA:P31867"
+                     /db_xref="InterPro:IPR001395"
+                     /db_xref="InterPro:IPR018170"
+                     /db_xref="InterPro:IPR020471"
+                     /db_xref="InterPro:IPR023210"
+                     /db_xref="UniProtKB/Swiss-Prot:P31867"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /translation="MPSIKLNSGYDMPAVGFGCWKVDVDTCSEQIYRAIKTGYRLFDGA
+                     EDYANEKLVGAGVKKAIDEGIVKREDLFLTSKLWNNYHHPDNVEKALNRTLSDLQVDYV
+                     DLFLIHFPVTFKFVPLEEKYPPGFYCGKGDNFDYEDVPILETWKALEKLVKAGKIRSIG
+                     VSNFPGALLLDLLRGATIKPSVLQVEHHPYLQQPRLIEFAQSRGIAVTAYSSFGPQSFV
+                     ELNQGRALNTSPLFENETIKAIAAKHGKSPAQVLLRWSSQRGIAIIPKSNTVPRLLENK
+                     DVNSFDLDEQDFADIAKLDINLRFNDPWDWDKIPIFV"
+                     /gene="xyl1"
+                     /protein_id="CAA42072.1"
      primer_bind     1164..1189
                      /note="XR_YPK_rec_fwd"
-                     /ApEinfo_revcolor="red"
-                     /label="XR_YPK_rec_fwd"
                      /ApEinfo_fwdcolor="green"
-     CDS             1164..2120
-                     /label="PsXYL1_N272D"
+                     /ApEinfo_revcolor="red"
+     primer_bind     complement(2095..2120)
+                     /note="XR_YPK_rec_rev"
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+     misc            complement(2095..2158)
+                     /label="XR_YPK_rec_rev"
      overlap         2153..2864
                      /note="olp_t-5ztakvUkuGtUKBpYQWSwQAfDU"
-                     /ApEinfo_fwdcolor="#F8BBDD"
+                     /ApEinfo_fwdcolor="#ECE7D2"
                      /chksum="t-5ztakvUkuGtUKBpYQWSwQAfDU"
-                     /ApEinfo_revcolor="#D9DBB4"
-     misc            2510..2539
-                     /ApEinfo_revcolor="red"
-                     /label="417_ScTEF1tpf"
-                     /ApEinfo_fwdcolor="cyan"
-     primer_bind     2517..2539
-                     /note="417_ScTEF1tpf"
-                     /ApEinfo_revcolor="red"
-                     /label="417_ScTEF1tpf"
+                     /ApEinfo_revcolor="#B7DAF5"
+     promoter        2160..2857
+                     /note="tp YGR193C YGR192C"
+                     /ApEinfo_revcolor="#b1e681"
+                     /ApEinfo_fwdcolor="#b1e6cc"
+     primer_bind     2160..2181
+                     /note="415_ScTDH3tpf"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+     primer_bind     complement(2832..2857)
+                     /note="623_ScTDH3tpr_PacI"
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+     misc            complement(2832..2864)
+                     /label="623_ScTDH3tpr_PacI"
      primer_bind     complement(2832..2864)
                      /note="623_ScTDH3tpr_PacI"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(2832..2864)
                      /label="623_ScTDH3tpr_PacI"
      CDS             2905..3996
@@ -95,9 +117,9 @@ FEATURES             Location/Qualifiers
                      /label="XDH_YPK_rec_rev"
      overlap         4029..5041
                      /note="olp_gyA7WnplTdAnoJUkOlPQDVDTHlQ"
-                     /ApEinfo_fwdcolor="#CCC1C2"
+                     /ApEinfo_fwdcolor="#DFDCEA"
                      /chksum="gyA7WnplTdAnoJUkOlPQDVDTHlQ"
-                     /ApEinfo_revcolor="#B3E3E7"
+                     /ApEinfo_revcolor="#DDC7B5"
      primer_bind     4035..4055
                      /note="549_ScPGI1tpf"
                      /ApEinfo_revcolor="red"
@@ -203,9 +225,9 @@ FEATURES             Location/Qualifiers
                      /label="XK_YPK_rec_rev"
      overlap         6917..7560
                      /note="olp_AL4vcr5ryHKKJfiy301ZtmImO0U"
-                     /ApEinfo_fwdcolor="#B6F2E8"
+                     /ApEinfo_fwdcolor="#D2E3D3"
                      /chksum="AL4vcr5ryHKKJfiy301ZtmImO0U"
-                     /ApEinfo_revcolor="#C3CDBC"
+                     /ApEinfo_revcolor="#EFDBF2"
      primer_bind     6924..6953
                      /note="409_ScFBA1tpf"
                      /ApEinfo_revcolor="red"
@@ -266,9 +288,9 @@ FEATURES             Location/Qualifiers
                      /label="TAL1_YPK_rec_rev"
      overlap         8641..9609
                      /note="olp_ig-LXpH9WTOdIQm7JwHl8QA25Os"
-                     /ApEinfo_fwdcolor="#B3D9CA"
+                     /ApEinfo_fwdcolor="#F2E0CA"
                      /chksum="ig-LXpH9WTOdIQm7JwHl8QA25Os"
-                     /ApEinfo_revcolor="#CBC1E1"
+                     /ApEinfo_revcolor="#D4C4D8"
      promoter        8648..9602
                      /note="tp YLR045C YLR044C"
                      /ApEinfo_fwdcolor="#b1e6cc"
@@ -339,9 +361,9 @@ FEATURES             Location/Qualifiers
                      /label="TKL_YPK_rec_rev"
      overlap         11725..12363
                      /note="olp_Be8RsH0ELvUptJVnrmxRlftTCBw"
-                     /ApEinfo_fwdcolor="#C3D7EE"
+                     /ApEinfo_fwdcolor="#BAFEC9"
                      /chksum="Be8RsH0ELvUptJVnrmxRlftTCBw"
-                     /ApEinfo_revcolor="#DEC2E3"
+                     /ApEinfo_revcolor="#B6DEC3"
      promoter        11731..12356
                      /note="tp YNL301C YNL302C"
                      /ApEinfo_revcolor="#b1e681"
@@ -364,14 +386,14 @@ FEATURES             Location/Qualifiers
                      /label="647_ScRPS19btpr_PacI"
      primer_bind     complement(12391..12411)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(12391..12413)
                      /label="567_pCAPsAjiIF"
      primer_bind     complement(12391..12413)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(12391..12413)
                      /label="567_pCAPsAjiIF"
      misc            12414..12442
@@ -426,27 +448,25 @@ FEATURES             Location/Qualifiers
                      /note="467_pCAPs_releas"
                      /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
-     misc            complement(13148..13178)
-                     /label="467_pCAPs_release_re"
-     overlap         13173..13729
-                     /note="olp_KlgKSQoWn-GKRuWkxAOD_TtLmS4"
-                     /ApEinfo_fwdcolor="#D8DBFB"
-                     /chksum="KlgKSQoWn-GKRuWkxAOD_TtLmS4"
-                     /ApEinfo_revcolor="#DEB4C8"
-     source          13179..13722
-                     /strain="S288c"
-                     /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
-                     /db_xref="taxon:559292"
+     misc            13173..13198
+                     /label="538_ScRPS19atpr_FspA"
+     overlap         13177..13729
+                     /note="olp_TNJMwhxgP61tAl1TIF2P2DxFpDo"
+                     /ApEinfo_fwdcolor="#C4CBCA"
+                     /chksum="TNJMwhxgP61tAl1TIF2P2DxFpDo"
+                     /ApEinfo_revcolor="#FFB9D7"
+     promoter        13179..13722
+                     /note="tp YOL120C YOL121C"
+                     /ApEinfo_fwdcolor="#b1e6cc"
+                     /ApEinfo_revcolor="#b1e681"
      primer_bind     13179..13198
-                     /note="652_ScRPS19atpf2"
-                     /ApEinfo_fwdcolor="green"
+                     /note="538_ScRPS19atpr_FspA"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(13703..13722)
                      /note="651_ScRPS19atpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(13703..13729)
                      /label="651_ScRPS19atpr_PacI"
      primer_bind     complement(13703..13729)
@@ -516,9 +536,9 @@ FEATURES             Location/Qualifiers
                      /label="467_pCAPs_release_re"
      overlap         14599..15194
                      /note="olp_SLlgGiDcM2GrByhPr94FNplslzM"
-                     /ApEinfo_fwdcolor="#F4EEF9"
+                     /ApEinfo_fwdcolor="#B3C5D4"
                      /chksum="SLlgGiDcM2GrByhPr94FNplslzM"
-                     /ApEinfo_revcolor="#EAD3D4"
+                     /ApEinfo_revcolor="#B4D9C8"
      promoter        14605..15187
                      /note="tp YDR051C YDR050C"
                      /ApEinfo_revcolor="#b1e681"
@@ -615,9 +635,9 @@ FEATURES             Location/Qualifiers
                      /label="452_ScENO2tpr_FspAI"
      overlap         17444..17504
                      /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#E2F2D6"
+                     /ApEinfo_fwdcolor="#E8E4BD"
                      /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#BEF3E7"
+                     /ApEinfo_revcolor="#DEE1E9"
      primer_bind     complement(17481..17504)
                      /note="166_pCAPSrv"
                      /ApEinfo_fwdcolor="green"
@@ -676,7 +696,7 @@ ORIGIN
      1741 acttgcaaca accaagattg atcgaattcg ctcaatcccg tggtattgct gtcaccgctt
      1801 actcttcgtt cggtcctcaa tctttcgttg aattgaacca aggtagagct ttgaacactt
      1861 ctccattgtt cgagaacgaa actatcaagg ctatcgctgc taagcacggt aagtctccag
-     1921 ctcaagtctt gttgagatgg tcttcccaaa gaggcattgc catcattcca aagtccgaca
+     1921 ctcaagtctt gttgagatgg tcttcccaaa gaggcattgc catcattcca aagtccaaca
      1981 ctgtcccaag attgttggaa aacaaggacg tcaacagctt cgacttggac gaacaagatt
      2041 tcgctgacat tgccaagttg gacatcaact tgagattcaa cgacccatgg gactgggaca
      2101 agattcctat cttcgtctaa cgcgccatct gtgcagacaa acgcatcagg atttaaataa
@@ -863,7 +883,7 @@ ORIGIN
     12961 tgaatatcca agtcgatggt ggtttgggca aggagaccat cccgaaagcc gccaaagccg
     13021 gtgccaacgt tattgtcgct ggtaccagtg ttttcactgc agctgacccg cacgatgtta
     13081 tctccttcat gaaagaagaa gtctcgaagg aattgcgttc tagagatttg ctagattagc
-    13141 cgtgccatct gtgcagacaa acgcatcagg atttaaatgt taactgaaat gaaaatttca
+    13141 cgtgccatct gtgcagacaa acgcatcagg atgcgcatgt taactgaaat gaaaatttca
     13201 tatttacttt tttattgtta ctcatttgta attcataaac tacatacact ttcaatcgtt
     13261 tctttcaaac tacataattt ttactggcga tcaataacgc atttagttca taaagtgagt
     13321 caaagttaac actagaatat ttgctacacc atcaataggc tagaccatag ttgaaaactt
