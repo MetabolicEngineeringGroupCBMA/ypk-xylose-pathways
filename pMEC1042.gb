@@ -1,0 +1,132 @@
+LOCUS       pMEC1042                3276 bp    DNA     circular UNK 13-MAY-2015
+DEFINITION  cSEGUID_sZL0T1A3LTftmAUlDZU9wdE46do_2015-05-15T13:03:04.436771
+ACCESSION   -
+VERSION     -
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            771..1631
+                     /gene="Amp"
+     CDS             771..1631
+                     /product="ampicillin resistant protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /db_xref="GI:84570489"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+                     /gene="Amp"
+                     /protein_id="BAE72674.1"
+     overlap         1684..1723
+                     /note="olp_jQQ00q2OGY5dm-j92h2BmuvgYZ4"
+                     /ApEinfo_fwdcolor="#DDB8CB"
+                     /chksum="jQQ00q2OGY5dm-j92h2BmuvgYZ4"
+                     /ApEinfo_revcolor="#D6F1BA"
+     primer_bind     1724..1741
+                     /note="476_CEN6ARSHf"
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+     misc_feature    complement(1739..2113)
+                     /note="ARSH4"
+     misc_feature    complement(2114..2230)
+                     /note="CEN6"
+     overlap         2197..2236
+                     /note="olp_7tg9o726eC4gUKAFxcY2x0mSxyQ"
+                     /ApEinfo_fwdcolor="#C4C9F4"
+                     /chksum="7tg9o726eC4gUKAFxcY2x0mSxyQ"
+                     /ApEinfo_revcolor="#FFC3BE"
+     primer_bind     complement(2207..2236)
+                     /note="475_CEN6ARSHr"
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+     misc            complement(2207..2236)
+                     /label="475_CEN6ARSHr"
+     primer_bind     2237..2250
+                     /note="478_bleMX4f"
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+     gene            2606..2986
+                     /gene="ble"
+     CDS             2606..2986
+                     /product="bleomycin resistance protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /db_xref="GI:11344913"
+                     /translation="MADQATPNLPSRDFDSTAAFYERLGFGIVFRDAGWMILQRGDLKL
+                     EFFAHPGLDPLASWFSCCLRLDDLAEFYRQCKSVGIQETSSGYPRIHAPELQEWGGTMA
+                     ALVDPDGTLLRLIQNELLAGIS"
+                     /gene="ble"
+                     /protein_id="AAG34545.1"
+     primer_bind     complement(3223..3236)
+                     /note="477_bleMX4r"
+                     /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
+     misc            complement(3223..3276)
+                     /label="477_bleMX4r"
+     overlap         3236..3276
+                     /note="olp_GRVIHxN91PLs7weaRc9hncr71sU"
+                     /ApEinfo_fwdcolor="#B3DFBB"
+                     /chksum="GRVIHxN91PLs7weaRc9hncr71sU"
+                     /ApEinfo_revcolor="#F3DAE1"
+ORIGIN
+        1 gagcgtcaga ccccgtagaa aagatcaaag gatcttcttg agatcctttt tttctgcgcg
+       61 taatctgctg cttgcaaaca aaaaaaccac cgctaccagc ggtggtttgt ttgccggatc
+      121 aagagctacc aactcttttt ccgaaggtaa ctggcttcag cagagcgcag ataccaaata
+      181 ctgtccttct agtgtagccg tagttaggcc accacttcaa gaactctgta gcaccgccta
+      241 catacctcgc tctgctaatc ctgttaccag tggctgctgc cagtggcgat aagtcgtgtc
+      301 ttaccgggtt ggactcaaga cgatagttac cggataaggc gcagcggtcg ggctgaacgg
+      361 ggggttcgtg cacacagccc agcttggagc gaacgaccta caccgaactg agatacctac
+      421 agcgtgagct atgagaaagc gccacgcttc ccgaagggag aaaggcggac aggtatccgg
+      481 taagcggcag ggtcggaaca ggagagcgca cgagggagct tccaggggga aacgcctggt
+      541 atctttatag tcctgtcggg tttcgccacc tctgacttga gcgtcgattt ttgtgatgct
+      601 cgtcaggggg gcggagccta tggaaaaacg ccagcaacgc ggccttttta cggttcctgg
+      661 gcttttgctg gccttttgct cacatgttct ttcctgcgtt atcccctgat tctgtggata
+      721 accgtattac cgccgggatc catcggaatt catattgaaa aaggaagagt atgagtattc
+      781 aacatttccg tgtcgccctt attccctttt ttgcggcatt ttgccttcct gtttttgctc
+      841 acccagaaac gctggtgaaa gtaaaagatg ctgaagatca gttgggtgca cgagtgggtt
+      901 acatcgaact ggatctcaac agcggtaaga tccttgagag ttttcgcccc gaagaacgtt
+      961 ttccaatgat gagcactttt aaagttctgc tatgtgatac actattatcc cgtattgacg
+     1021 ccgggcaaga gcaactcggt cgccgcatac actattctca gaatgacttg gttgagtact
+     1081 caccagtcac agaaaagcat cttacggatg gcatgacagt aagagaatta tgcagtgctg
+     1141 ccataaccat gagtgataac actgcggcca acttacttct gacaacgatc ggaggaccga
+     1201 aggagctaac cgcttttttg cacaacatgg gggatcatgt aactcgcctt gatcgttggg
+     1261 aaccggagct gaatgaagcc ataccaaacg acgagagtga caccacgatg cctgtagcaa
+     1321 tgccaacaac gttgcgcaaa ctattaactg gcgaactact tactctagct tcccggcaac
+     1381 aattaataga ctggatggag gcggataaag ttgcaggacc acttctgcgc tcggcccttc
+     1441 cggctggctg gtttattgct gataaatctg gagccggtga gcgtgggtct cgcggtatca
+     1501 ttgcagcact ggggccagat ggtaagcgct cccgtatcgt agttatctac acgacgggga
+     1561 gtcaggcaac tatggatgaa cgaaatagac agatcgctga gataggtgcc tcactgatta
+     1621 agcattggta actgtcagac caagtttact catatatact ttagattgat ttaaaacttc
+     1681 atttttaatt taaaaggatc taggtgaaga tcctttttga taaacggatc gcttgcctgt
+     1741 aacttacacg cgcctcgtat cttttaatga tggaataatt tgggaattta ctctgtgttt
+     1801 atttattttt atgttttgta tttggatttt agaaagtaaa taaagaaggt agaagagtta
+     1861 cggaatgaag aaaaaaaaat aaacaaaggt ttaaaaaatt tcaacaaaaa gcgtacttta
+     1921 catatatatt tattagacaa gaaaagcaga ttaaatagat atacattcga ttaacgataa
+     1981 gtaaaatgta aaatcacagg attttcgtgt gtggtcttct acacagacaa gatgaaacaa
+     2041 ttcggcatta atacctgaga gcaggaagag caagataaaa ggtagtattt gttggcgatc
+     2101 cccctagagt cttttacatc ttcggaaaac aaaaactatt ttttctttaa tttctttttt
+     2161 tactttctat ttttaattta tatatttata ttaaaaaatt taaattataa ttatttttat
+     2221 agcacgtgat gaaaaggtcc ccgccgggtc acccggccag cgacatggag gcccagaata
+     2281 ccctccttga cagtcttgac gtgcgcagct caggggcatg atgtgactgt cgcccgtaca
+     2341 tttagcccat acatccccat gtataatcat ttgcatccat acattttgat ggccgcacgg
+     2401 cgcgaagcaa aaattacggc tcctcgctgc agacctgcga gcagggaaac gctcccctca
+     2461 cagacgcgtt gaattgtccc cacgccgcgc ccctgtagag aaatataaaa ggttaggatt
+     2521 tgccactgag gttcttcttt catatacttc cttttaaaat cttgctagga tacagttctc
+     2581 acatcacatc cgaacataaa caaccatggc cgaccaagcg acgcccaacc tgccatcacg
+     2641 agatttcgat tccacggccg ccttctatga aaggttgggc ttcggaatcg ttttccggga
+     2701 cgccggctgg atgatcctcc agcgcgggga tctcaagctg gagttcttcg cccaccccgg
+     2761 gctcgatccc ctcgcgagtt ggttcagctg ctgcctgagg ctggacgacc tcgcggagtt
+     2821 ctaccggcag tgcaaatccg tcggcatcca ggaaaccagc agcggctatc cgcgcatcca
+     2881 tgcccccgaa ctgcaggagt ggggaggcac gatggccgct ttggtcgacc cggacgggac
+     2941 gctcctgcgc ctgatacaga acgaattgct tgcaggcatc tcatgatcag tactgacaat
+     3001 aaaaagattc ttgttttcaa gaacttgtca tttgtatagt ttttttatat tgtagttgtt
+     3061 ctattttaat caaatgttag cgtgatttat attttttttc gcctcgacat catctgccca
+     3121 gatgcgaagt taagtgcgca gaaagtaata tcatgcgtca atcgtatgtg aatgctggtc
+     3181 gctatactgc tgtcgattcg atactaacgc cgccatccag tgtcgaaaac gagctcctca
+     3241 tgaccaaaat cccttaacgt gagttttcgt tccact
+//
