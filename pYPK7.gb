@@ -1,5 +1,5 @@
-LOCUS       -                       6339 bp    DNA     circular UNK 15-MAY-2015
-DEFINITION  cSEGUID_OzTYGqLHmK4hKgFANunZ7k9JJUs_2015-05-15T14:59:12.678086
+LOCUS       pYPK7                   6339 bp    DNA     circular UNK 15-MAY-2015
+DEFINITION  cSEGUID_OzTYGqLHmK4hKgFANunZ7k9JJUs_2015-05-16T06:23:52.352870
 ACCESSION   -
 VERSION     -
 KEYWORDS    .
@@ -8,15 +8,14 @@ SOURCE      .
             .
 FEATURES             Location/Qualifiers
      gene            complement(315..947)
-                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="cyan"
                      /gene="crp"
                      /label="feat633"
-                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="red"
      CDS             complement(315..947)
                      /product="catabolite gene activator protein"
+                     /gene="crp"
                      /codon_start=1
-                     /label="artificially mutated crp; cyclic AMP receptor
-                     protein"
                      /transl_table=11
                      /note="artificially mutated crp; cyclic AMP receptor
                      protein"
@@ -28,19 +27,20 @@ FEATURES             Location/Qualifiers
                      GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
                      QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
                      MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
-                     /gene="crp"
+                     /label="artificially mutated crp; cyclic AMP receptor
+                     protein"
                      /protein_id="CAA04867.1"
                      /ApEinfo_fwdcolor="cyan"
      rep_origin      1313
-                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="cyan"
                      /direction=BOTH
                      /label="feat1"
-                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="red"
      overlap         1952..1978
                      /note="olp_Vz6HNwLIswTkTlL2QRfRTpiuAPM"
-                     /ApEinfo_fwdcolor="#B9D7C0"
-                     /chksum="Vz6HNwLIswTkTlL2QRfRTpiuAPM"
                      /ApEinfo_revcolor="#F0C6B8"
+                     /chksum="Vz6HNwLIswTkTlL2QRfRTpiuAPM"
+                     /ApEinfo_fwdcolor="#B9D7C0"
      primer_bind     1979..2007
                      /note="678_pYPK0_hygfwd:"
      misc_feature    2056..2089
@@ -69,19 +69,19 @@ FEATURES             Location/Qualifiers
                      /note="loxP site"
      primer_bind     complement(3644..3663)
                      /note="666_pYPK0_hygrev"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(3644..3692)
                      /label="666_pYPK0_hygrev"
      overlap         3664..3692
                      /note="olp_qy6sz9DB3IIP_DoA7rrIe_OyxR8"
-                     /ApEinfo_fwdcolor="#CFBBE8"
-                     /chksum="qy6sz9DB3IIP_DoA7rrIe_OyxR8"
                      /ApEinfo_revcolor="#E3DDB8"
+                     /chksum="qy6sz9DB3IIP_DoA7rrIe_OyxR8"
+                     /ApEinfo_fwdcolor="#CFBBE8"
      CDS             complement(5286..5944)
-                     /ApEinfo_revcolor="red"
-                     /label="AmpR"
                      /ApEinfo_fwdcolor="cyan"
+                     /label="AmpR"
+                     /ApEinfo_revcolor="red"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
