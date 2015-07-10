@@ -1,8 +1,9 @@
-LOCUS       pYPKa_E_TDH3tp          3840 bp    DNA     circular UNK 11-MAY-2015
+LOCUS       pYPKa_E_TDH3tp          3840 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_E_TDH3tp
-            cSEGUID_h1clDle64wo9AsT3Cie2P3KpSeE_2015-05-11T13:34:13.106622
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_h1clDle64wo9AsT3Cie2P3KpSeE_2015-05-27T13:48:36.669443
+ACCESSION   -
+VERSION     -
+DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -22,10 +23,12 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="red"
      misc            612..640
                      /label="415_ScTDH3tpf"
-     promoter        619..1316
-                     /note="tp YGR193C YGR192C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+     source          619..1316
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="VII"
+                     /db_xref="taxon:559292"
      primer_bind     619..640
                      /note="415_ScTDH3tpf"
                      /ApEinfo_fwdcolor="green"

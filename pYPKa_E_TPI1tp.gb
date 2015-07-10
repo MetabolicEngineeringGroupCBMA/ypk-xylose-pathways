@@ -1,8 +1,9 @@
-LOCUS       pYPKa_E_TPI1tp          3724 bp    DNA     circular UNK 11-MAY-2015
+LOCUS       pYPKa_E_TPI1tp          3724 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_E_TPI1tp
-            cSEGUID_710wmGD03YAtPfyLJNo0rzoFVC0_2015-05-11T13:35:39.424192
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_710wmGD03YAtPfyLJNo0rzoFVC0_2015-05-27T13:49:01.557088
+ACCESSION   -
+VERSION     -
+DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -22,10 +23,12 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="red"
      misc            612..643
                      /label="419_ScTPI1tpf"
-     promoter        618..1200
-                     /note="tp YDR051C YDR050C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+     source          618..1200
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="IV"
+                     /db_xref="taxon:559292"
      primer_bind     618..643
                      /note="419_ScTPI1tpf"
                      /ApEinfo_fwdcolor="green"

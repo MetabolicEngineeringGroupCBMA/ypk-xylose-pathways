@@ -1,8 +1,9 @@
-LOCUS       pYPKa_Z_FBA1tp          3772 bp    DNA     circular UNK 11-MAY-2015
+LOCUS       pYPKa_Z_FBA1tp          3772 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_Z_FBA1tp
-            cSEGUID_8SMBgtkGm6DdpB4kCIA9t94aoeM_2015-05-11T13:22:32.918823
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_8SMBgtkGm6DdpB4kCIA9t94aoeM_2015-05-27T13:31:24.727147
+ACCESSION   -
+VERSION     -
+DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -10,10 +11,12 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      misc            531..567
                      /label="409_ScFBA1tpf"
-     promoter        538..1167
-                     /note="tp YKL059C YKL060C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+     source          538..1167
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="XI"
+                     /db_xref="taxon:559292"
      primer_bind     538..567
                      /note="409_ScFBA1tpf"
                      /ApEinfo_fwdcolor="green"
@@ -26,16 +29,16 @@ FEATURES             Location/Qualifiers
                      /label="624_ScFBA1tpr_PacI"
      primer_bind     complement(1202..1222)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1202..1224)
                      /label="567_pCAPsAjiIF"
      misc            1225..1246
                      /label="568_pCAPsAjiIR"
      primer_bind     1227..1246
                      /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      rep_origin      1957
                      /direction=BOTH
      gene            complement(2716..3576)

@@ -1,8 +1,9 @@
-LOCUS       pYPKa_Z_TDH3tp          3840 bp    DNA     circular UNK 11-MAY-2015
+LOCUS       pYPKa_Z_TDH3tp          3840 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_Z_TDH3tp
-            cSEGUID_1dD0IRJGyisMH7wXCirsMG08HnQ_2015-05-11T13:36:31.910663
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_1dD0IRJGyisMH7wXCirsMG08HnQ_2015-05-27T13:36:40.927219
+ACCESSION   -
+VERSION     -
+DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -10,18 +11,20 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      misc            531..559
                      /label="415_ScTDH3tpf"
-     promoter        538..1235
-                     /note="tp YGR193C YGR192C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+     source          538..1235
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="VII"
+                     /db_xref="taxon:559292"
      primer_bind     538..559
                      /note="415_ScTDH3tpf"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(1210..1235)
                      /note="623_ScTDH3tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1210..1242)
                      /label="623_ScTDH3tpr_PacI"
      primer_bind     complement(1270..1290)

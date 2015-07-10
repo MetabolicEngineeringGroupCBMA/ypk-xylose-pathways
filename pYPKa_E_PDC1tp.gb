@@ -1,8 +1,9 @@
-LOCUS       pYPKa_E_PDC1tp          4097 bp    DNA     circular UNK 11-MAY-2015
+LOCUS       pYPKa_E_PDC1tp          4097 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_E_PDC1tp
-            cSEGUID_5ggKwKkKkosYE7pOpRJ-Toer4VM_2015-05-11T13:32:24.193530
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_5ggKwKkKkosYE7pOpRJ-Toer4VM_2015-05-27T13:46:41.007146
+ACCESSION   -
+VERSION     -
+DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -22,10 +23,12 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="red"
      misc            612..635
                      /label="413_ScPDC1tpf"
-     promoter        619..1573
-                     /note="tp YLR045C YLR044C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+     source          619..1573
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="XII"
+                     /db_xref="taxon:559292"
      primer_bind     619..635
                      /note="413_ScPDC1tpf"
                      /ApEinfo_fwdcolor="green"

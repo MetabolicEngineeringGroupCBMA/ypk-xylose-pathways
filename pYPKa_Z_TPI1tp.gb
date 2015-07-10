@@ -1,8 +1,9 @@
-LOCUS       pYPKa_Z_TPI1tp          3724 bp    DNA     circular UNK 11-MAY-2015
+LOCUS       pYPKa_Z_TPI1tp          3724 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_Z_TPI1tp
-            cSEGUID_2GKjDNZ342eyAuz1oFXGAyrC-VE_2015-05-11T13:30:21.862580
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_2GKjDNZ342eyAuz1oFXGAyrC-VE_2015-05-27T13:36:53.043887
+ACCESSION   -
+VERSION     -
+DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -10,18 +11,20 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      misc            531..562
                      /label="419_ScTPI1tpf"
-     promoter        537..1119
-                     /note="tp YDR051C YDR050C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+     source          537..1119
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="IV"
+                     /db_xref="taxon:559292"
      primer_bind     537..562
                      /note="419_ScTPI1tpf"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(1092..1119)
                      /note="621_ScTPI1tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1092..1126)
                      /label="621_ScTPI1tpr_PacI"
      primer_bind     complement(1154..1174)

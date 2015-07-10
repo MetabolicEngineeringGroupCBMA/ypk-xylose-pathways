@@ -1,8 +1,8 @@
-LOCUS       pYPKa_Z_RPS19atp        3685 bp    DNA     circular UNK 12-MAY-2015
+LOCUS       pYPKa_Z_RPS19atp        3685 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_Z_RPS19atp
-            cSEGUID_X6BxAcX4KUzScMcGb0RyNvAWwCc_2015-05-12T13:19:05.224242
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_X6BxAcX4KUzScMcGb0RyNvAWwCc_2015-05-27T13:36:29.691469
+ACCESSION   -
+VERSION     -
 DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
@@ -19,12 +19,12 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:559292"
      primer_bind     537..556
                      /note="652_ScRPS19atpf2"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(1061..1080)
                      /note="651_ScRPS19atpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1061..1087)
                      /label="651_ScRPS19atpr_PacI"
      primer_bind     complement(1115..1135)

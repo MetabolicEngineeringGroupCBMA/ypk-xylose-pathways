@@ -1,8 +1,9 @@
-LOCUS       pYPKa_E_RPS19btp        3767 bp    DNA     circular UNK 11-MAY-2015
+LOCUS       pYPKa_E_RPS19btp        3767 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_E_RPS19btp
-            cSEGUID_fJ7xfJAfjgWBzZp5tzFjmqhttUk_2015-05-11T13:29:34.396057
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_fJ7xfJAfjgWBzZp5tzFjmqhttUk_2015-05-27T13:48:11.403354
+ACCESSION   -
+VERSION     -
+DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -10,30 +11,32 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      primer_bind     complement(558..578)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(558..580)
                      /label="567_pCAPsAjiIF"
      misc            581..602
                      /label="568_pCAPsAjiIR"
      primer_bind     583..602
                      /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            612..637
                      /label="648_ScRPS19btpf2"
-     promoter        618..1243
-                     /note="tp YNL301C YNL302C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+     source          618..1243
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="XIV"
+                     /db_xref="taxon:559292"
      primer_bind     618..637
                      /note="648_ScRPS19btpf2"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(1223..1243)
                      /note="647_ScRPS19btpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1223..1250)
                      /label="647_ScRPS19btpr_PacI"
      rep_origin      1952

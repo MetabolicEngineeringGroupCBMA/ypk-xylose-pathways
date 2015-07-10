@@ -1,8 +1,8 @@
-LOCUS       pYPKa_Z_TEF1tp          3721 bp    DNA     circular UNK 11-MAY-2015
+LOCUS       pYPKa_Z_TEF1tp          3721 bp    DNA     circular UNK 27-MAY-2015
 DEFINITION  pYPKa_Z_TEF1tp
-            cSEGUID_inRfvhISKV2ATGWH7MRU60tr5sk_2015-05-11T13:33:24.342135
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+            cSEGUID_inRfvhISKV2ATGWH7MRU60tr5sk_2015-05-27T13:36:46.710601
+ACCESSION   -
+VERSION     -
 DBLINK      BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
@@ -19,26 +19,26 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:559292"
      primer_bind     538..560
                      /note="417_ScTEF1tpf"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(1089..1116)
                      /note="626_ScTEF1tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1089..1123)
                      /label="626_ScTEF1tpr_PacI"
      primer_bind     complement(1151..1171)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(1151..1173)
                      /label="567_pCAPsAjiIF"
      misc            1174..1195
                      /label="568_pCAPsAjiIR"
      primer_bind     1176..1195
                      /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      rep_origin      1906
                      /direction=BOTH
      gene            complement(2665..3525)
