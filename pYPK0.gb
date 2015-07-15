@@ -1,67 +1,48 @@
-LOCUS       pYKP0                   5762 bp    DNA     circular UNK 09-MAY-2015
-DEFINITION  pYPK0 cSEGUID_qSJ95NM815X60yBy4l6iI69a_Dw_2015-05-09T06:06:22.550085
-ACCESSION   <unknown id>
-VERSION     <unknown id>
+LOCUS       pYKP0                   5762 bp    DNA     circular UNK 15-JUL-2015
+DEFINITION  @_rc cSEGUID_qSJ95NM815X60yBy4l6iI69a_Dw_2015-07-15T11:55:09.522091
+ACCESSION   -_rc
+VERSION     -_rc
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
      gene            complement(315..947)
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="cyan"
                      /gene="crp"
-                     /label="feat633"
      CDS             complement(315..947)
                      /product="catabolite gene activator protein"
                      /codon_start=1
-                     /label="artificially mutated crp; cyclic AMP receptor
-                     protein"
                      /transl_table=11
                      /note="artificially mutated crp; cyclic AMP receptor
                      protein"
                      /db_xref="GI:2769262"
                      /experiment="experimental evidence, no additional details
                      recorded"
-                     /ApEinfo_revcolor="red"
                      /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
                      GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
                      QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
                      MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
                      /gene="crp"
                      /protein_id="CAA04867.1"
-                     /ApEinfo_fwdcolor="cyan"
      overlap         1279..1978
-                     /note="olp_lQPmXhrpcJP0VhkB1gXCrZVyjqA"
-                     /ApEinfo_fwdcolor="#C1F3B1"
-                     /chksum="lQPmXhrpcJP0VhkB1gXCrZVyjqA"
-                     /label="olp_lQPmXhrpcJP0VhkB1gXCrZVyjqA"
-                     /ApEinfo_revcolor="#FED2EA"
-     rep_origin      1313
-                     /ApEinfo_revcolor="red"
-                     /direction=BOTH
-                     /ApEinfo_fwdcolor="cyan"
-                     /label="feat1"
+                     /note="olp_gf0xzr_JzrjxWRje_FrAQpd6LeA"
+                     /ApEinfo_revcolor="#C3F9BF"
+                     /chksum="gf0xzr_JzrjxWRje_FrAQpd6LeA"
+                     /ApEinfo_fwdcolor="#FAEAED"
+     rep_origin      complement(1295..1976)
+                     /label="ColE1 origin"
      misc            complement(2057..2860)
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="cyan"
                      /label="URA3"
-     CDS             complement(4709..5367)
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="cyan"
-                     /label="AmpR"
      overlap         4810..5013
-                     /note="olp_KFRCKsb-YIAV0bzDHHxIssmW6qY"
-                     /ApEinfo_fwdcolor="#E0E3B5"
-                     /chksum="KFRCKsb-YIAV0bzDHHxIssmW6qY"
-                     /label="olp_KFRCKsb-YIAV0bzDHHxIssmW6qY"
-                     /ApEinfo_revcolor="#E9B4CC"
+                     /note="olp_BZGjlrLjm10Ew_KU59TByOu-CwQ"
+                     /ApEinfo_revcolor="#DEDFC1"
+                     /chksum="BZGjlrLjm10Ew_KU59TByOu-CwQ"
+                     /ApEinfo_fwdcolor="#FEB9AF"
      overlap         5341..5585
-                     /note="olp_PrH6fFQ_Xlj09X_ymVtJGXI9hx0"
-                     /ApEinfo_fwdcolor="#D3D0D8"
-                     /chksum="PrH6fFQ_Xlj09X_ymVtJGXI9hx0"
-                     /label="olp_PrH6fFQ_Xlj09X_ymVtJGXI9hx0"
-                     /ApEinfo_revcolor="#E7F7D0"
+                     /note="olp_mGvCDRsViMEGD5V6qEoVS_rrgoQ"
+                     /ApEinfo_revcolor="#CFFDFB"
+                     /chksum="mGvCDRsViMEGD5V6qEoVS_rrgoQ"
+                     /ApEinfo_fwdcolor="#B0C6C6"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

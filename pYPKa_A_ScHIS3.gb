@@ -1,5 +1,5 @@
-LOCUS       na                      3802 bp    DNA     circular UNK 14-JUN-2015
-DEFINITION  cSEGUID_SuTj4l27jSSln3F7NSKaJtJga5E_2015-06-14T05:55:22.972927
+LOCUS       na                      3802 bp    DNA     circular UNK 15-JUL-2015
+DEFINITION  cSEGUID_SuTj4l27jSSln3F7NSKaJtJga5E_2015-07-15T12:10:05.612021
 ACCESSION   -
 VERSION     -
 DBLINK      BioProject:PRJNA43747
@@ -22,12 +22,12 @@ FEATURES             Location/Qualifiers
                      /organism="Saccharomyces cerevisiae S288c"
                      /chromosome="XV"
                      /db_xref="taxon:559292"
-     gene            590..1252
+     gene            <590..>1252
                      /locus_tag="YOR202W"
                      /gene="HIS3"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            590..1252
+     mRNA            <590..>1252
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
                      /gene="HIS3"
                      /locus_tag="YOR202W"
@@ -69,12 +69,12 @@ FEATURES             Location/Qualifiers
                      /protein_id="DAA10975.1"
      primer_bind     590..607
                      /note="572_ScHIS3fwd"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(1228..1252)
                      /note="571_ScHIS3rev"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1228..1254)
                      /label="571_ScHIS3rev"
      misc            1255..1276

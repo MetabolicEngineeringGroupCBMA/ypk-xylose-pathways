@@ -1,4 +1,4 @@
-LOCUS       na                      6436 bp    DNA     circular UNK 15-JUN-2015
+LOCUS       na                      6436 bp    DNA     circular UNK 15-JUL-2015
 DEFINITION  @
 ACCESSION   -
 VERSION     -
@@ -10,9 +10,9 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      overlap         531..565
                      /note="olp_EqY4UORSlyw6eyAnCZAqnxDseKc"
-                     /ApEinfo_revcolor="#F5D2DE"
+                     /ApEinfo_fwdcolor="#CDDFAF"
                      /chksum="EqY4UORSlyw6eyAnCZAqnxDseKc"
-                     /ApEinfo_fwdcolor="#C7B8CB"
+                     /ApEinfo_revcolor="#B2D9E3"
      misc            581..607
                      /label="572_ScHIS3fwd"
      source          590..1252
@@ -21,12 +21,12 @@ FEATURES             Location/Qualifiers
                      /organism="Saccharomyces cerevisiae S288c"
                      /chromosome="XV"
                      /db_xref="taxon:559292"
-     gene            590..1252
+     gene            <590..>1252
                      /locus_tag="YOR202W"
                      /gene="HIS3"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            590..1252
+     mRNA            <590..>1252
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
                      /gene="HIS3"
                      /locus_tag="YOR202W"
@@ -80,30 +80,21 @@ FEATURES             Location/Qualifiers
                      /label="568_pCAPsAjiIR"
      primer_bind     1257..1276
                      /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      overlap         1257..1285
                      /note="olp_QOnip9e87ur0nZtOpa53x4VDlsQ"
-                     /ApEinfo_revcolor="#FBFEDD"
+                     /ApEinfo_fwdcolor="#C5B5C7"
                      /chksum="QOnip9e87ur0nZtOpa53x4VDlsQ"
-                     /ApEinfo_fwdcolor="#F7C1F5"
+                     /ApEinfo_revcolor="#D4D5EE"
      primer_bind     complement(1261..1285)
                      /note="467"
+                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     rep_origin      1987
-                     /ApEinfo_fwdcolor="cyan"
-                     /direction=BOTH
-                     /label="feat1"
-                     /ApEinfo_revcolor="red"
+     rep_origin      complement(1969..2650)
+                     /label="ColE1 origin"
      misc            complement(2731..3534)
-                     /ApEinfo_fwdcolor="cyan"
                      /label="URA3"
-                     /ApEinfo_revcolor="red"
-     CDS             complement(5383..6041)
-                     /ApEinfo_fwdcolor="cyan"
-                     /label="AmpR"
-                     /ApEinfo_revcolor="red"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

@@ -1,4 +1,4 @@
-LOCUS       na                      8044 bp    DNA     circular UNK 14-JUN-2015
+LOCUS       na                      8044 bp    DNA     circular UNK 15-JUL-2015
 DEFINITION  @
 ACCESSION   -
 VERSION     -
@@ -10,9 +10,9 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      overlap         433..530
                      /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#D2D2DC"
+                     /ApEinfo_revcolor="#B2C3E8"
                      /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#F1F1EB"
+                     /ApEinfo_fwdcolor="#C3D7B9"
      misc            531..554
                      /label="413_ScPDC1tpf"
      source          538..1492
@@ -33,9 +33,9 @@ FEATURES             Location/Qualifiers
                      /label="625_ScPDC1tpr_PacI"
      overlap         1500..1549
                      /note="olp_8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_revcolor="#B1B8C3"
+                     /ApEinfo_revcolor="#D2B4C5"
                      /chksum="8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_fwdcolor="#FCEECE"
+                     /ApEinfo_fwdcolor="#CCF6BA"
      primer_bind     complement(1527..1547)
                      /note="567_pCAPsAjiIF"
                      /ApEinfo_revcolor="red"
@@ -44,8 +44,8 @@ FEATURES             Location/Qualifiers
                      /label="567_pCAPsAjiIF"
      primer_bind     complement(1527..1549)
                      /note="567"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1527..1549)
                      /label="567"
      misc            1550..1576
@@ -56,12 +56,12 @@ FEATURES             Location/Qualifiers
                      /organism="Saccharomyces cerevisiae S288c"
                      /chromosome="XV"
                      /db_xref="taxon:559292"
-     gene            1559..2221
+     gene            <1559..>2221
                      /locus_tag="YOR202W"
                      /gene="HIS3"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            1559..2221
+     mRNA            <1559..>2221
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
                      /gene="HIS3"
                      /locus_tag="YOR202W"
@@ -103,21 +103,21 @@ FEATURES             Location/Qualifiers
                      /protein_id="DAA10975.1"
      primer_bind     1559..1576
                      /note="572_ScHIS3fwd"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      primer_bind     complement(2197..2221)
                      /note="571_ScHIS3rev"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(2197..2223)
                      /label="571_ScHIS3rev"
      misc            2224..2245
                      /label="568_pCAPsAjiIR"
      overlap         2224..2260
                      /note="olp_-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_revcolor="#B7BCFB"
+                     /ApEinfo_revcolor="#C4D5B4"
                      /chksum="-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_fwdcolor="#C7D2F2"
+                     /ApEinfo_fwdcolor="#F8CAE3"
      primer_bind     2226..2245
                      /note="568_pCAPsAjiIR"
                      /ApEinfo_fwdcolor="green"
@@ -146,28 +146,19 @@ FEATURES             Location/Qualifiers
                      /label="647_ScRPS19btpr_PacI"
      overlap         2894..2954
                      /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#EDC5C0"
+                     /ApEinfo_revcolor="#F9DDC9"
                      /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#B0F3C7"
+                     /ApEinfo_fwdcolor="#CFBFD1"
      primer_bind     complement(2931..2954)
                      /note="166"
                      /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
      misc            complement(2931..2954)
                      /label="166"
-     rep_origin      3595
-                     /ApEinfo_fwdcolor="cyan"
-                     /direction=BOTH
-                     /label="feat1"
-                     /ApEinfo_revcolor="red"
+     rep_origin      complement(3577..4258)
+                     /label="ColE1 origin"
      misc            complement(4339..5142)
-                     /ApEinfo_fwdcolor="cyan"
                      /label="URA3"
-                     /ApEinfo_revcolor="red"
-     CDS             complement(6991..7649)
-                     /ApEinfo_fwdcolor="cyan"
-                     /label="AmpR"
-                     /ApEinfo_revcolor="red"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

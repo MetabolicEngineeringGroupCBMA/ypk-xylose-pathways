@@ -1,4 +1,4 @@
-LOCUS       na                      7741 bp    DNA     circular UNK 14-JUN-2015
+LOCUS       na                      7741 bp    DNA     circular UNK 15-JUL-2015
 DEFINITION  @
 ACCESSION   -
 VERSION     -
@@ -10,9 +10,9 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      overlap         433..530
                      /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#B0F7D4"
+                     /ApEinfo_fwdcolor="#F1F2C0"
                      /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#C9DFB9"
+                     /ApEinfo_revcolor="#CCE1F4"
      misc            531..560
                      /label="417_ScTEF1tpf"
      source          538..1116
@@ -23,19 +23,19 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:559292"
      primer_bind     538..560
                      /note="417_ScTEF1tpf"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(1089..1116)
                      /note="626_ScTEF1tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1089..1123)
                      /label="626_ScTEF1tpr_PacI"
      overlap         1124..1173
                      /note="olp_8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_fwdcolor="#EAC9FF"
+                     /ApEinfo_fwdcolor="#C2BFE6"
                      /chksum="8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_revcolor="#CCEBD0"
+                     /ApEinfo_revcolor="#D9D6DE"
      primer_bind     complement(1151..1171)
                      /note="567_pCAPsAjiIF"
                      /ApEinfo_revcolor="red"
@@ -44,8 +44,8 @@ FEATURES             Location/Qualifiers
                      /label="567_pCAPsAjiIF"
      primer_bind     complement(1151..1173)
                      /note="567"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1151..1173)
                      /label="567"
      misc            1174..1200
@@ -56,12 +56,12 @@ FEATURES             Location/Qualifiers
                      /organism="Saccharomyces cerevisiae S288c"
                      /chromosome="XV"
                      /db_xref="taxon:559292"
-     gene            1183..1845
+     gene            <1183..>1845
                      /locus_tag="YOR202W"
                      /gene="HIS3"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            1183..1845
+     mRNA            <1183..>1845
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
                      /gene="HIS3"
                      /locus_tag="YOR202W"
@@ -103,21 +103,21 @@ FEATURES             Location/Qualifiers
                      /protein_id="DAA10975.1"
      primer_bind     1183..1200
                      /note="572_ScHIS3fwd"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(1821..1845)
                      /note="571_ScHIS3rev"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(1821..1847)
                      /label="571_ScHIS3rev"
      misc            1848..1869
                      /label="568_pCAPsAjiIR"
      overlap         1848..1884
                      /note="olp_-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_fwdcolor="#F0F3FC"
+                     /ApEinfo_fwdcolor="#EED1DE"
                      /chksum="-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_revcolor="#F5E7FC"
+                     /ApEinfo_revcolor="#BED0BB"
      primer_bind     1850..1869
                      /note="568_pCAPsAjiIR"
                      /ApEinfo_revcolor="red"
@@ -136,38 +136,29 @@ FEATURES             Location/Qualifiers
                      /db_xref="taxon:559292"
      primer_bind     1886..1907
                      /note="415_ScTDH3tpf"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      primer_bind     complement(2558..2583)
                      /note="623_ScTDH3tpr_PacI"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(2558..2590)
                      /label="623_ScTDH3tpr_PacI"
      overlap         2591..2651
                      /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#EDF7B7"
+                     /ApEinfo_fwdcolor="#DCB4C2"
                      /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#C4B8F1"
+                     /ApEinfo_revcolor="#BFE2B4"
      primer_bind     complement(2628..2651)
                      /note="166"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(2628..2651)
                      /label="166"
-     rep_origin      3292
-                     /ApEinfo_revcolor="red"
-                     /direction=BOTH
-                     /label="feat1"
-                     /ApEinfo_fwdcolor="cyan"
+     rep_origin      complement(3274..3955)
+                     /label="ColE1 origin"
      misc            complement(4036..4839)
-                     /ApEinfo_revcolor="red"
                      /label="URA3"
-                     /ApEinfo_fwdcolor="cyan"
-     CDS             complement(6688..7346)
-                     /ApEinfo_revcolor="red"
-                     /label="AmpR"
-                     /ApEinfo_fwdcolor="cyan"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

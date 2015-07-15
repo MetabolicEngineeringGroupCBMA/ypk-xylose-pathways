@@ -1,9 +1,10 @@
-LOCUS       pMEC1137               14484 bp    DNA     circular UNK 12-MAY-2015
+LOCUS       pMEC1137               14484 bp    DNA     circular UNK 15-JUL-2015
 DEFINITION  pYPK0-PDC1-ScTKL1-RPS19b-ScRPE1-RPS19a-ScRKI1-TPI1-CiGXF1-ScENO2
-            cSEGUID_6E0AGs78NqyqjtuAWRWhkIGlLnI_2015-05-12T13:35:57.577450
-ACCESSION   <unknown id>
-VERSION     <unknown id>
-DBLINK      BioProject:PRJNA43747
+            cSEGUID_6E0AGs78NqyqjtuAWRWhkIGlLnI_2015-07-15T13:47:22.919084
+ACCESSION   -
+VERSION     -
+DBLINK      BioProject:PRJNA43747 BioProject:PRJNA128
+            BioProject:PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
@@ -11,15 +12,17 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      overlap         433..530
                      /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#EDC6E7"
+                     /ApEinfo_revcolor="#AFF5E8"
                      /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#F8D3E6"
+                     /ApEinfo_fwdcolor="#AFE1B9"
      misc            531..554
                      /label="413_ScPDC1tpf"
-     promoter        538..1492
-                     /note="tp YLR045C YLR044C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+     source          538..1492
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="XII"
+                     /db_xref="taxon:559292"
      primer_bind     538..554
                      /note="413_ScPDC1tpf"
                      /ApEinfo_fwdcolor="green"
@@ -36,7 +39,7 @@ FEATURES             Location/Qualifiers
                      /organism="Saccharomyces cerevisiae S288c"
                      /chromosome="XVI"
                      /db_xref="taxon:559292"
-     gene            1540..3582
+     gene            <1540..>3582
                      /db_xref="GeneID:856188"
                      /locus_tag="YPR074C"
                      /gene="TKL1"
@@ -80,21 +83,23 @@ FEATURES             Location/Qualifiers
                      /label="TKL_YPK_rec_rev"
      overlap         3615..4253
                      /note="olp_Be8RsH0ELvUptJVnrmxRlftTCBw"
-                     /ApEinfo_fwdcolor="#C5E9B9"
+                     /ApEinfo_revcolor="#E6B3E7"
                      /chksum="Be8RsH0ELvUptJVnrmxRlftTCBw"
-                     /ApEinfo_revcolor="#B2DEB6"
-     promoter        3621..4246
-                     /note="tp YNL301C YNL302C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+                     /ApEinfo_fwdcolor="#C1ECBB"
+     source          3621..4246
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="XIV"
+                     /db_xref="taxon:559292"
      primer_bind     3621..3640
                      /note="648_ScRPS19btpf2"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(4226..4246)
                      /note="647_ScRPS19btpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(4226..4253)
                      /label="647_ScRPS19btpr_PacI"
      primer_bind     complement(4226..4253)
@@ -105,16 +110,16 @@ FEATURES             Location/Qualifiers
                      /label="647_ScRPS19btpr_PacI"
      primer_bind     complement(4281..4301)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(4281..4303)
                      /label="567_pCAPsAjiIF"
      primer_bind     complement(4281..4303)
-                     /note="567_pCAPsAjiIF"
+                     /note="567"
                      /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
      misc            complement(4281..4303)
-                     /label="567_pCAPsAjiIF"
+                     /label="567"
      misc            4304..4332
                      /label="557_RPE1_YPK_fwd"
      source          4313..5029
@@ -123,7 +128,7 @@ FEATURES             Location/Qualifiers
                      /organism="Saccharomyces cerevisiae S288c"
                      /chromosome="X"
                      /db_xref="taxon:559292"
-     gene            4313..5029
+     gene            <4313..>5029
                      /db_xref="GeneID:853322"
                      /locus_tag="YJL121C"
                      /gene="RPE1"
@@ -149,12 +154,12 @@ FEATURES             Location/Qualifiers
                      /protein_id="NP_012414.1"
      primer_bind     4313..4332
                      /note="557_RPE1_YPK_fwd"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      primer_bind     complement(5010..5029)
                      /note="556_RPE1_YPK_rev"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(5010..5031)
                      /label="556_RPE1_YPK_rev"
      misc            5032..5053
@@ -164,16 +169,16 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
      primer_bind     complement(5038..5062)
-                     /note="467_pCAPs_releas"
-                     /ApEinfo_revcolor="red"
+                     /note="467"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(5038..5068)
-                     /label="467_pCAPs_release_re"
+                     /label="467"
      overlap         5063..5619
                      /note="olp_KlgKSQoWn-GKRuWkxAOD_TtLmS4"
-                     /ApEinfo_fwdcolor="#F7DFFC"
+                     /ApEinfo_revcolor="#CFB2C4"
                      /chksum="KlgKSQoWn-GKRuWkxAOD_TtLmS4"
-                     /ApEinfo_revcolor="#E8BCF0"
+                     /ApEinfo_fwdcolor="#B5D5E8"
      source          5069..5612
                      /strain="S288c"
                      /mol_type="genomic DNA"
@@ -192,16 +197,22 @@ FEATURES             Location/Qualifiers
                      /label="651_ScRPS19atpr_PacI"
      primer_bind     complement(5593..5619)
                      /note="651_ScRPS19atpr_"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(5593..5619)
                      /label="651_ScRPS19atpr_PacI"
-     primer_bind     complement(5647..5669)
+     primer_bind     complement(5647..5667)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(5647..5669)
                      /label="567_pCAPsAjiIF"
+     primer_bind     complement(5647..5669)
+                     /note="567"
+                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
+     misc            complement(5647..5669)
+                     /label="567"
      misc            5670..5698
                      /label="555_RKI1_YPK_fwd"
      source          5679..6455
@@ -210,7 +221,7 @@ FEATURES             Location/Qualifiers
                      /organism="Saccharomyces cerevisiae S288c"
                      /chromosome="XV"
                      /db_xref="taxon:559292"
-     gene            5679..6455
+     gene            <5679..>6455
                      /db_xref="GeneID:854262"
                      /locus_tag="YOR095C"
                      /gene="RKI1"
@@ -235,43 +246,45 @@ FEATURES             Location/Qualifiers
                      /protein_id="NP_014738.1"
      primer_bind     5679..5698
                      /note="555_RKI1_YPK_fwd"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      primer_bind     complement(6432..6455)
                      /note="554_RKI1_YPK_rev"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(6432..6457)
                      /label="554_RKI1_YPK_rev"
      misc            6458..6479
                      /label="568_pCAPsAjiIR"
      primer_bind     6460..6479
                      /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      primer_bind     complement(6464..6488)
-                     /note="467_pCAPs_releas"
+                     /note="467"
                      /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
      misc            complement(6464..6494)
-                     /label="467_pCAPs_release_re"
+                     /label="467"
      overlap         6489..7084
                      /note="olp_SLlgGiDcM2GrByhPr94FNplslzM"
-                     /ApEinfo_fwdcolor="#E1B3FE"
+                     /ApEinfo_revcolor="#EAFBFE"
                      /chksum="SLlgGiDcM2GrByhPr94FNplslzM"
-                     /ApEinfo_revcolor="#C9B2BD"
-     promoter        6495..7077
-                     /note="tp YDR051C YDR050C"
-                     /ApEinfo_revcolor="#b1e681"
-                     /ApEinfo_fwdcolor="#b1e6cc"
+                     /ApEinfo_fwdcolor="#D1EFDF"
+     source          6495..7077
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="IV"
+                     /db_xref="taxon:559292"
      primer_bind     6495..6520
                      /note="419_ScTPI1tpf"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      primer_bind     complement(7050..7077)
                      /note="621_ScTPI1tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(7050..7084)
                      /label="621_ScTPI1tpr_PacI"
      primer_bind     complement(7050..7084)
@@ -323,27 +336,32 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_fwdcolor="green"
      misc            complement(8745..8806)
                      /label="579_GXF1_YPK_rev"
+     source          8807..9326
+                     /strain="S288c"
+                     /mol_type="genomic DNA"
+                     /organism="Saccharomyces cerevisiae S288c"
+                     /chromosome="VIII"
+                     /db_xref="taxon:559292"
      primer_bind     8807..8823
                      /note="411_ScENO2tpf"
                      /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
-     gene            complement(8815..9153)
+     gene            complement(<8815..>9153)
                      /locus_tag="YHR173C"
-     mRNA            complement(8815..9153)
+     mRNA            complement(<8815..>9153)
                      /locus_tag="YHR173C"
                      /product="hypothetical protein"
      CDS             complement(8815..9153)
-                     /product="hypothetical protein"
-                     /GO_component="GO:0005575 - cellular_component [Evidence
-                     ND]"
-                     /GO_function="GO:0003674 - molecular_function [Evidence
-                     ND]"
-                     /codon_start=1
                      /locus_tag="YHR173C"
+                     /codon_start=1
+                     /product="hypothetical protein"
                      /note="hypothetical protein; expressed at both mRNA and
-                     protein levels"
+                     protein levels; GO_component: GO:0005575 -
+                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
+                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
+                     biological_process [Evidence ND]"
+                     /db_xref="GI:386804021"
                      /db_xref="SGD:S000001216"
-                     /GO_process="GO:0008150 - biological_process [Evidence ND]"
                      /translation="MLFFFIYAWCHLSHTILQPSTKIQMIVRSKPESNGEKKLMNHDEP
                      NDQYNQRNYPSEVYADLVSHFMNFAYGKVHESGLQKKGVRCVDVSISGCQFWNGIPLSA
                      SWCTSLVT"
@@ -356,34 +374,25 @@ FEATURES             Location/Qualifiers
                      /label="452_ScENO2tpr_FspAI"
      overlap         9334..9394
                      /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#DED6C3"
+                     /ApEinfo_revcolor="#E6E2B9"
                      /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#EAC5F6"
+                     /ApEinfo_fwdcolor="#E5B4BB"
      primer_bind     complement(9371..9394)
-                     /note="166_pCAPSrv"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(9371..9394)
-                     /label="166_pCAPSrv"
-     primer_bind     complement(9371..9394)
-                     /note="166_pCAPSrv"
+                     /note="166"
                      /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
      misc            complement(9371..9394)
-                     /label="166_pCAPSrv"
-     rep_origin      10035
+                     /label="166"
+     primer_bind     complement(9371..9394)
+                     /note="166"
                      /ApEinfo_revcolor="red"
-                     /direction=BOTH
-                     /label="feat1"
-                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_fwdcolor="green"
+     misc            complement(9371..9394)
+                     /label="166"
+     rep_origin      complement(10017..10698)
+                     /label="ColE1 origin"
      misc            complement(10779..11582)
-                     /ApEinfo_revcolor="red"
                      /label="URA3"
-                     /ApEinfo_fwdcolor="cyan"
-     CDS             complement(13431..14089)
-                     /ApEinfo_revcolor="red"
-                     /label="AmpR"
-                     /ApEinfo_fwdcolor="cyan"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

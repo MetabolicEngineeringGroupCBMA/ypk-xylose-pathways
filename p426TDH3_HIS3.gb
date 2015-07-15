@@ -1,4 +1,4 @@
-LOCUS       na                      7272 bp    DNA     circular UNK 15-JUN-2015
+LOCUS       na                      7272 bp    DNA     circular UNK 15-JUL-2015
 DEFINITION  @
 ACCESSION   -
 VERSION     -
@@ -10,21 +10,21 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      overlap         4277..4309
                      /note="olp_vtag6BUy431DpULbde91SPn_AMA"
-                     /ApEinfo_fwdcolor="#C3BBF1"
+                     /ApEinfo_revcolor="#F7D0F7"
                      /chksum="vtag6BUy431DpULbde91SPn_AMA"
-                     /ApEinfo_revcolor="#C2EEEE"
+                     /ApEinfo_fwdcolor="#DEBBFA"
      source          4311..4973
                      /strain="S288c"
                      /mol_type="genomic DNA"
                      /organism="Saccharomyces cerevisiae S288c"
                      /chromosome="XV"
                      /db_xref="taxon:559292"
-     gene            4311..4973
+     gene            <4311..>4973
                      /locus_tag="YOR202W"
                      /gene="HIS3"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            4311..4973
+     mRNA            <4311..>4973
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
                      /gene="HIS3"
                      /locus_tag="YOR202W"
@@ -74,15 +74,15 @@ FEATURES             Location/Qualifiers
                      /ApEinfo_revcolor="red"
      primer_bind     complement(4949..4973)
                      /note="HIS3_mum_rev"
-                     /ApEinfo_revcolor="red"
                      /ApEinfo_fwdcolor="green"
+                     /ApEinfo_revcolor="red"
      misc            complement(4949..5011)
                      /label="HIS3_mum_rev"
      overlap         4974..5011
                      /note="olp_7dalbDTWljtc2RhDzjP51lvkezs"
-                     /ApEinfo_fwdcolor="#BCB3DB"
+                     /ApEinfo_revcolor="#FFBEB7"
                      /chksum="7dalbDTWljtc2RhDzjP51lvkezs"
-                     /ApEinfo_revcolor="#B2DDF6"
+                     /ApEinfo_fwdcolor="#DFE9AF"
 ORIGIN
         1 gacgaaaggg cctcgtgata cgcctatttt tataggttaa tgtcatgata ataatggttt
        61 cttagtatga tccaatatca aaggaaatga tagcattgaa ggatgagact aatccaattg

@@ -1,6 +1,6 @@
-LOCUS       pYPKa                   3128 bp    DNA     circular UNK 08-MAY-2015
+LOCUS       pYPKa                   3128 bp    DNA     circular UNK 15-JUL-2015
 DEFINITION  Product_568_pCAPsAjiIR (22-mer)_567_pCAPsAjiIF (23-mer)
-            cSEGUID_aV1eIrzOiCjvw01yvKkxDXHKLMk_2015-05-08T16:41:28.034624
+            cSEGUID_aV1eIrzOiCjvw01yvKkxDXHKLMk_2015-07-15T11:12:28.104963
 ACCESSION   3128bp TmU_6uVdgKq5aQhTpHux7dVk9J8
 VERSION     3128bp TmU_6uVdgKq5aQhTpHux7dVk9J8
 KEYWORDS    .
@@ -10,16 +10,16 @@ SOURCE      .
 FEATURES             Location/Qualifiers
      primer_bind     complement(558..578)
                      /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      misc            complement(558..580)
                      /label="567_pCAPsAjiIF"
      misc            581..602
                      /label="568_pCAPsAjiIR"
      primer_bind     583..602
                      /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
                      /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="green"
      rep_origin      1313
                      /direction=BOTH
      gene            complement(2072..2932)
