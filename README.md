@@ -1,7 +1,7 @@
 # Xylose pathway constructs described in Pereira et al. 2015
 
-This repository contains IPython notebook files describing metabolic pathways
-for Saccharomyces cerevisiae D-xylose utilization.
+This repository contains Jupyter notebook files describing metabolic pathways
+for Saccharomyces cerevisiae D-xylose utilization made using the Yeast Pathway Kit.
 
 #[index notebook](http://nbviewer.ipython.org/github/BjornFJohansson/ypk-xylose-pathways/blob/master/index.ipynb)
 
