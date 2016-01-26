@@ -9,6 +9,7 @@ If you would like to have your own copy of this pathway repository, the best way
 Github account and then make your own fork. If you would like to download all files to your 
 computer, follow the instructions at the end of this page.
 
-### Click on the "Download ZIP" button to download pathway files and supplementary data as a zip archive
+Click on the "Download ZIP" button to download pathway files and supplementary data as a zip archive. The button is located 
+at the right side on the top of this page (see below).
 
 ![download_as_zip](download_as_zip.png)
