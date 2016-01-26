@@ -2,6 +2,7 @@
 
 This repository contains Jupyter notebook files describing metabolic pathways
 for Saccharomyces cerevisiae D-xylose utilization made using the Yeast Pathway Kit.
+The index notebook link below opens the main notebook.
 
 #[index notebook](http://nbviewer.ipython.org/github/BjornFJohansson/ypk-xylose-pathways/blob/master/index.ipynb)
 
