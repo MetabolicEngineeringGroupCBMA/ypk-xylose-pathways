@@ -8,3 +8,8 @@ is the place to start.
 If you would like to have your own copy of this repository, the best solution is to get a 
 Github account and then make your own fork. If you would like to download all files to your 
 computer, Click [here](https://github.com/BjornFJohansson/ypk-xylose-pathways/archive/master.zip)
+
+
+These notebooks are run automatically on TravisCI continuous integration service.
+
+[![Build Status](https://travis-ci.org/BjornFJohansson/ypk-xylose-pathways.svg?branch=master)](https://travis-ci.org/BjornFJohansson/ypk-xylose-pathways)
