@@ -11,7 +11,7 @@ source activate testenv
 
 
 
-conda install -channel BjornFJohansson/label/test pydna
+conda install -c BjornFJohansson/label/test pydna=2.0.0a3
 
 
 
