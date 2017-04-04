@@ -6,7 +6,13 @@ rm Miniconda_latest.sh
 conda config --set always_yes yes --set show_channel_urls yes
 conda update -qy conda
 conda config --add channels BjornFJohansson
-conda create -qy -n testenv python=3.5 pydna=1.2.0 nbval pytest lxml requests
+conda create -qy -n testenv python=3.5 nbval pytest lxml requests
 source activate testenv
+
+
+
+conda install -channel BjornFJohansson/label/test pydna
+
+
 
 python run_test.py

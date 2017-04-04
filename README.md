@@ -10,6 +10,8 @@ Github account and then make your own fork. If you would like to download all fi
 computer, Click [here](https://github.com/BjornFJohansson/ypk-xylose-pathways/archive/master.zip)
 
 
-These notebooks are run automatically on TravisCI continuous integration service.
+These notebooks are run automatically and tested at least onve per month on the [TravisCI](https://travis-ci.org) 
+continuous integration service. The build status is visualized by the badge below which is also a link
+to the build server. This ensures that the notebooks can be reproduced. 
 
 [![Build Status](https://travis-ci.org/BjornFJohansson/ypk-xylose-pathways.svg?branch=master)](https://travis-ci.org/BjornFJohansson/ypk-xylose-pathways)

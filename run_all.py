@@ -15,9 +15,7 @@ for dirpath, dirnames, filenames in os.walk(thisdir):
         os.chdir(dirpath)
         cmd = "jupyter nbconvert --execute --inplace {}".format(file_)
         print(cmd)
-        subprocess.run(cmd.split())
+        pr = subprocess.run(cmd.split())
+        if pr.returncode:
+            p.rename(p.with_name("ERROR_"+p.name))
 print("run_all.py finished.")
-
-
-
-
