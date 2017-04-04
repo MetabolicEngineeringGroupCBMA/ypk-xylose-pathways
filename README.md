@@ -1,7 +1,7 @@
 ## Xylose pathway constructs described in [Pereira et al. 2016](http://pubs.acs.org/doi/abs/10.1021/acssynbio.5b00250)
 
 This repository contains Jupyter notebook files describing metabolic pathways
-for Saccharomyces cerevisiae D-xylose utilization and other related vectors.
+for _Saccharomyces cerevisiae_ D-xylose utilization and other related vectors.
 The cloning strategies are expressed in [python](https://www.python.org/) code using [pydna](https://github.com/BjornFJohansson/pydna).
 
 Most of these vectors were made using the Yeast Pathway Kit. The vectors are a part of this publication:
@@ -13,6 +13,9 @@ Citation:
 
 The [index notebook](http://nbviewer.ipython.org/github/BjornFJohansson/ypk-xylose-pathways/blob/master/index.ipynb)
 is the place to start.
+
+Most files have either a .ipynb or .gb extension. The .ipynb files are [Jupyter notebooks](http://jupyter.org/) and .gb files are [genbank formatted](http://quma.cdb.riken.jp/help/gbHelp.html) text files. 
+
 
 If you would like to have your own copy of this repository, the best solution is to get a 
 Github account and then make your own fork. If you would like to download all files to your 
