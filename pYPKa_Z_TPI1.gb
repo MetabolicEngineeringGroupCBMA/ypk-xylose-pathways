@@ -1,67 +1,38 @@
-LOCUS       pYPKa_Z_TPI1tp          3724 bp    DNA     circular UNK 15-JUL-2015
+LOCUS       pYPKa_Z_TPI1tp          3724 bp    DNA     circular UNK 01-JAN-1980
 DEFINITION  pYPKa_Z_TPI1tp
-            cSEGUID_2GKjDNZ342eyAuz1oFXGAyrC-VE_2015-07-15T11:25:04.968743
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
+            cSEGUID_2GKjDNZ342eyAuz1oFXGAyrC-VE_2018-05-15T07:40:08.397042.
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+DBLINK      BioProject: PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     misc            531..562
-                     /label="419_ScTPI1tpf"
      source          537..1119
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="IV"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="IV"
      primer_bind     537..562
-                     /note="419_ScTPI1tpf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="419_ScTPI1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1092..1119)
-                     /note="621_ScTPI1tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1092..1126)
                      /label="621_ScTPI1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1154..1174)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1154..1176)
                      /label="567_pCAPsAjiIF"
-     misc            1177..1198
-                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     1179..1198
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      rep_origin      1909
                      /direction=BOTH
-     gene            complement(2668..3528)
-                     /gene="bla"
-     CDS             complement(2668..3528)
-                     /product="beta-lactamase"
-                     /codon_start=1
-                     /transl_table=11
-                     /db_xref="GI:2769263"
-                     /db_xref="GOA:Q79DR3"
-                     /db_xref="HSSP:P62593"
-                     /db_xref="InterPro:IPR000871"
-                     /db_xref="InterPro:IPR001466"
-                     /db_xref="InterPro:IPR012338"
-                     /db_xref="UniProtKB/TrEMBL:Q79DR3"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
-                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
-                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
-                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
-                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
-                     LIKHW"
-                     /gene="bla"
-                     /protein_id="CAA04868.1"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

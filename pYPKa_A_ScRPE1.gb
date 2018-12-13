@@ -1,90 +1,61 @@
-LOCUS       na                      3856 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  cSEGUID_ohg-HZ_50aunMEGIUMYkvAcTTXM_2015-07-15T12:10:41.649906
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA128
+LOCUS       name                    3856 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  <unknown description>
+            cSEGUID_ohg-HZ_50aunMEGIUMYkvAcTTXM_2018-05-15T07:40:02.257256.
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+DBLINK      BioProject: PRJNA128
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
      primer_bind     complement(558..578)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(558..580)
                      /label="567_pCAPsAjiIF"
-     misc            581..609
-                     /label="557_RPE1_YPK_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          590..1306
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="mRNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="X"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
-     gene            <590..>1306
-                     /db_xref="GeneID:853322"
-                     /locus_tag="YJL121C"
+                     /chromosome="X"
+     gene            590..1306
                      /gene="RPE1"
-                     /gene_synonym="EPI1; POS18"
-     CDS             590..1306
                      /locus_tag="YJL121C"
-                     /codon_start=1
+                     /gene_synonym="EPI1; POS18"
+                     /db_xref="GeneID:853322"
+     CDS             590..1306
+                     /gene="RPE1"
+                     /locus_tag="YJL121C"
                      /gene_synonym="EPI1; POS18"
                      /EC_number="5.1.3.1"
                      /note="D-ribulose-5-phosphate 3-epimerase; catalyzes a
                      reaction in the non-oxidative part of the pentose-phosphate
                      pathway; mutants are sensitive to oxidative stress"
-                     /db_xref="GI:6322341"
-                     /db_xref="SGD:S000003657"
+                     /codon_start=1
+                     /product="ribulose-phosphate 3-epimerase RPE1"
+                     /protein_id="NP_012414.1"
                      /db_xref="GeneID:853322"
+                     /db_xref="SGD:S000003657"
                      /translation="MVKPIIAPSILASDFANLGCECHKVINAGADWLHIDVMDGHFVPN
                      ITLGQPIVTSLRRSVPRPGDASNTEKKPTAFFDCHMMVENPEKWVDDFAKCGADQFTFH
                      YEATQDPLHLVKLIKSKGIKAACAIKPGTSVDVLFELAPHLDMALVMTVEPGFGGQKFM
                      EDMMPKVETLRAKFPHLNIQVDGGLGKETIPKAAKAGANVIVAGTSVFTAADPHDVISF
                      MKEEVSKELRSRDLLD"
-                     /gene="RPE1"
-                     /product="ribulose-phosphate 3-epimerase RPE1"
-                     /protein_id="NP_012414.1"
      primer_bind     590..609
-                     /note="557_RPE1_YPK_fwd"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="557_RPE1_YPK_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1287..1306)
-                     /note="556_RPE1_YPK_rev"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1287..1308)
                      /label="556_RPE1_YPK_rev"
-     misc            1309..1330
-                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     1311..1330
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      rep_origin      2041
                      /direction=BOTH
-     gene            complement(2800..3660)
-                     /gene="bla"
-     CDS             complement(2800..3660)
-                     /product="beta-lactamase"
-                     /codon_start=1
-                     /transl_table=11
-                     /db_xref="GI:2769263"
-                     /db_xref="GOA:Q79DR3"
-                     /db_xref="HSSP:P62593"
-                     /db_xref="InterPro:IPR000871"
-                     /db_xref="InterPro:IPR001466"
-                     /db_xref="InterPro:IPR012338"
-                     /db_xref="UniProtKB/TrEMBL:Q79DR3"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
-                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
-                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
-                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
-                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
-                     LIKHW"
-                     /gene="bla"
-                     /protein_id="CAA04868.1"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

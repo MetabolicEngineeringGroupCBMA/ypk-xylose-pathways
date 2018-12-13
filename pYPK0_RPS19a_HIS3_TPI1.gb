@@ -1,75 +1,66 @@
-LOCUS       na                      7589 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  @
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
+LOCUS       name                    7589 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         433..530
-                     /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#BEBFE9"
-                     /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#EAC4E9"
-     misc            531..556
-                     /label="652_ScRPS19atpf2"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          537..1080
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="XV"
      primer_bind     537..556
-                     /note="652_ScRPS19atpf2"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="652_ScRPS19atpf2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1061..1080)
-                     /note="651_ScRPS19atpr_PacI"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1061..1087)
                      /label="651_ScRPS19atpr_PacI"
-     overlap         1088..1137
-                     /note="olp_8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_fwdcolor="#BAB1C1"
-                     /chksum="8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_revcolor="#B5BEF8"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1088..1112
+                     /label="468_pCAPs_release_fw"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1115..1135)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1115..1137)
                      /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1115..1137)
-                     /note="567"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1115..1137)
-                     /label="567"
-     misc            1138..1164
-                     /label="572_ScHIS3fwd"
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1115..1135)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          1147..1809
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
-     gene            <1147..>1809
-                     /locus_tag="YOR202W"
+                     /chromosome="XV"
+     gene            1147..1809
                      /gene="HIS3"
+                     /locus_tag="YOR202W"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            <1147..>1809
+     mRNA            1147..1809
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
+     CDS             1147..1809
                      /gene="HIS3"
                      /locus_tag="YOR202W"
-                     /gene_synonym="HIS10"
-                     /gene_synonym="HIS8"
-     CDS             1147..1809
-                     /locus_tag="YOR202W"
-                     /codon_start=1
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /EC_number="4.2.1.19"
@@ -92,73 +83,64 @@ FEATURES             Location/Qualifiers
                      biosynthetic process [Evidence IMP] [PMID 14190241];
                      GO_process: GO:0000105 - histidine biosynthetic process
                      [Evidence IDA] [PMID 341150]"
-                     /db_xref="GI:285815082"
+                     /codon_start=1
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+                     /protein_id="DAA10975.1"
                      /db_xref="SGD:S000005728"
                      /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /gene="HIS3"
-                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
-                     /protein_id="DAA10975.1"
      primer_bind     1147..1164
-                     /note="572_ScHIS3fwd"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="572_ScHIS3fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1785..1809)
-                     /note="571_ScHIS3rev"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1785..1811)
                      /label="571_ScHIS3rev"
-     misc            1812..1833
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1812..1833
                      /label="568_pCAPsAjiIR"
-     overlap         1812..1848
-                     /note="olp_-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_fwdcolor="#E7FCB1"
-                     /chksum="-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_revcolor="#E6F9CE"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     1814..1833
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1814..1833
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1818..1842)
-                     /note="467"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1818..1848)
-                     /label="467"
+                     /label="467_pCAPs_release_re"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          1849..2431
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="IV"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="IV"
      primer_bind     1849..1874
-                     /note="419_ScTPI1tpf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="419_ScTPI1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2404..2431)
-                     /note="621_ScTPI1tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(2404..2438)
                      /label="621_ScTPI1tpr_PacI"
-     overlap         2439..2499
-                     /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#C8CEAF"
-                     /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#CEC1DD"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2476..2499)
-                     /note="166"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(2476..2499)
                      /label="166"
-     rep_origin      complement(3122..3803)
-                     /label="ColE1 origin"
-     misc            complement(3884..4687)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      2945
+                     /direction=BOTH
+     CDS             3169..3827
+                     /label="AmpR"
+     misc            5676..6479
                      /label="URA3"
+     rep_origin      6640..7321
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

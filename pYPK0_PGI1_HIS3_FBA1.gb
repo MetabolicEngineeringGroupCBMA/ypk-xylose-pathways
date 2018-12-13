@@ -1,69 +1,97 @@
-LOCUS       na                      8093 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  @
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
+LOCUS       name                    8093 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         433..530
-                     /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#FDBFBF"
-                     /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#F9D4F8"
-     misc            531..555
-                     /label="PGIfw"
-     primer_bind     537..555
-                     /note="pfw1000"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     complement(1519..1536)
-                     /note="prv1000"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1519..1543)
-                     /label="PGIrv"
-     overlap         1544..1593
-                     /note="olp_8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_revcolor="#C2F8CC"
-                     /chksum="8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_fwdcolor="#FDE4B3"
-     primer_bind     complement(1571..1591)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1571..1593)
-                     /label="567_pCAPsAjiIF"
-     primer_bind     complement(1571..1593)
-                     /note="567"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1571..1593)
-                     /label="567"
-     misc            1594..1620
-                     /label="572_ScHIS3fwd"
-     source          1603..2265
-                     /strain="S288c"
-                     /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
-                     /db_xref="taxon:559292"
-     gene            <1603..>2265
-                     /locus_tag="YOR202W"
-                     /gene="HIS3"
-                     /gene_synonym="HIS10"
-                     /gene_synonym="HIS8"
-     mRNA            <1603..>2265
-                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
-                     /gene="HIS3"
-                     /locus_tag="YOR202W"
-                     /gene_synonym="HIS10"
-                     /gene_synonym="HIS8"
-     CDS             1603..2265
-                     /locus_tag="YOR202W"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     537..557
+                     /label="549_ScPGI1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            807..911
+                     /locus_tag="YBR196C-B"
+     mRNA            807..911
+                     /locus_tag="YBR196C-B"
+                     /product="hypothetical protein"
+     CDS             807..911
+                     /locus_tag="YBR196C-B"
+                     /note="hypothetical protein; identified by expression
+                     profiling and mass spectrometry; GO_component: GO:0005575 -
+                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
+                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
+                     biological_process [Evidence ND]"
                      /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07312.1"
+                     /db_xref="SGD:S000028816"
+                     /translation="MWVVLSKEKILLKKAYYAKTILFSALVLRGVRGE"
+     gene            1264..1413
+                     /locus_tag="YBR196C-A"
+     mRNA            1264..1413
+                     /locus_tag="YBR196C-A"
+                     /product="hypothetical protein"
+     CDS             1264..1413
+                     /locus_tag="YBR196C-A"
+                     /note="hypothetical protein; identified by fungal homology
+                     and RT-PCR; GO_component: GO:0005575 - cellular_component
+                     [Evidence ND]; GO_component: GO:0016021 - integral
+                     component of membrane [Evidence IEA]; GO_component:
+                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
+                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
+                     GO:0008150 - biological_process [Evidence ND]"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07311.1"
+                     /db_xref="SGD:S000028534"
+                     /translation="MSRVYIYPLTVFYFFAIEMSVFCYYNWFYRRNFPYLFRPIFPFLI
+                     VLIS"
+     primer_bind     complement(1516..1536)
+                     /label="622_ScPGI1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1544..1568
+                     /label="468_pCAPs_release_fw"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1571..1591)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1571..1593)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1571..1591)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     source          1603..2265
+                     /organism="Saccharomyces cerevisiae S288C"
+                     /mol_type="genomic DNA"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="XV"
+     gene            1603..2265
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+     mRNA            1603..2265
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+     CDS             1603..2265
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /EC_number="4.2.1.19"
@@ -86,73 +114,64 @@ FEATURES             Location/Qualifiers
                      biosynthetic process [Evidence IMP] [PMID 14190241];
                      GO_process: GO:0000105 - histidine biosynthetic process
                      [Evidence IDA] [PMID 341150]"
-                     /db_xref="GI:285815082"
+                     /codon_start=1
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+                     /protein_id="DAA10975.1"
                      /db_xref="SGD:S000005728"
                      /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /gene="HIS3"
-                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
-                     /protein_id="DAA10975.1"
      primer_bind     1603..1620
-                     /note="572_ScHIS3fwd"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="572_ScHIS3fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2241..2265)
-                     /note="571_ScHIS3rev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(2241..2267)
                      /label="571_ScHIS3rev"
-     misc            2268..2289
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2268..2289
                      /label="568_pCAPsAjiIR"
-     overlap         2268..2304
-                     /note="olp_-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_revcolor="#D3F9D8"
-                     /chksum="-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_fwdcolor="#FEB8D9"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     2270..2289
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2270..2289
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2274..2298)
-                     /note="467"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(2274..2304)
-                     /label="467"
+                     /label="467_pCAPs_release_re"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          2306..2935
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XI"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="XI"
      primer_bind     2306..2335
-                     /note="409_ScFBA1tpf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="409_ScFBA1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2914..2935)
-                     /note="624_ScFBA1tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(2914..2942)
                      /label="624_ScFBA1tpr_PacI"
-     overlap         2943..3003
-                     /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#ECFEDD"
-                     /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#C8FAD6"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2980..3003)
-                     /note="166"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(2980..3003)
                      /label="166"
-     rep_origin      complement(3626..4307)
-                     /label="ColE1 origin"
-     misc            complement(4388..5191)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      3449
+                     /direction=BOTH
+     CDS             3673..4331
+                     /label="AmpR"
+     misc            6180..6983
                      /label="URA3"
+     rep_origin      7144..7825
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

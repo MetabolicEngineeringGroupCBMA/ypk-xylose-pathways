@@ -1,60 +1,69 @@
-LOCUS       pYPKa_E_PGI1tp          4141 bp    DNA     circular UNK 14-JUL-2015
+LOCUS       pYPKa_E_PGI1tp          4141 bp    DNA     circular UNK 01-JAN-1980
 DEFINITION  pYPKa_E_PGI1tp
-            cSEGUID_rUgqaXXbOUAYLfsY_x8mrjAMbzo_2015-07-15T11:15:50.809233
-ACCESSION   -
-VERSION     -
+            cSEGUID_rUgqaXXbOUAYLfsY_x8mrjAMbzo_2018-05-15T07:40:23.511080.
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+DBLINK      BioProject: PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
      primer_bind     complement(558..578)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(558..580)
                      /label="567_pCAPsAjiIF"
-     misc            581..602
-                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     583..602
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            612..636
-                     /label="PGIfw"
-     primer_bind     618..636
-                     /note="pfw1000"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     primer_bind     complement(1600..1617)
-                     /note="prv1000"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1600..1624)
-                     /label="PGIrv"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     618..638
+                     /label="549_ScPGI1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            888..992
+                     /locus_tag="YBR196C-B"
+     mRNA            888..992
+                     /locus_tag="YBR196C-B"
+                     /product="hypothetical protein"
+     CDS             888..992
+                     /locus_tag="YBR196C-B"
+                     /note="hypothetical protein; identified by expression
+                     profiling and mass spectrometry; GO_component: GO:0005575 -
+                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
+                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
+                     biological_process [Evidence ND]"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07312.1"
+                     /db_xref="SGD:S000028816"
+                     /translation="MWVVLSKEKILLKKAYYAKTILFSALVLRGVRGE"
+     gene            1345..1494
+                     /locus_tag="YBR196C-A"
+     mRNA            1345..1494
+                     /locus_tag="YBR196C-A"
+                     /product="hypothetical protein"
+     CDS             1345..1494
+                     /locus_tag="YBR196C-A"
+                     /note="hypothetical protein; identified by fungal homology
+                     and RT-PCR; GO_component: GO:0005575 - cellular_component
+                     [Evidence ND]; GO_component: GO:0016021 - integral
+                     component of membrane [Evidence IEA]; GO_component:
+                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
+                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
+                     GO:0008150 - biological_process [Evidence ND]"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07311.1"
+                     /db_xref="SGD:S000028534"
+                     /translation="MSRVYIYPLTVFYFFAIEMSVFCYYNWFYRRNFPYLFRPIFPFLI
+                     VLIS"
+     primer_bind     complement(1597..1617)
+                     /label="622_ScPGI1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      rep_origin      2326
                      /direction=BOTH
-     gene            complement(3085..3945)
-                     /gene="bla"
-     CDS             complement(3085..3945)
-                     /product="beta-lactamase"
-                     /codon_start=1
-                     /transl_table=11
-                     /db_xref="GI:2769263"
-                     /db_xref="GOA:Q79DR3"
-                     /db_xref="HSSP:P62593"
-                     /db_xref="InterPro:IPR000871"
-                     /db_xref="InterPro:IPR001466"
-                     /db_xref="InterPro:IPR012338"
-                     /db_xref="UniProtKB/TrEMBL:Q79DR3"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
-                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
-                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
-                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
-                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
-                     LIKHW"
-                     /gene="bla"
-                     /protein_id="CAA04868.1"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

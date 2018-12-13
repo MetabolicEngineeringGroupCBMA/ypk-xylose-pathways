@@ -1,76 +1,67 @@
-LOCUS       na                      8321 bp    DNA     circular UNK 15-JUL-2015
+LOCUS       name                    8321 bp    DNA     circular UNK 09-SEP-2018
 DEFINITION  pYPK0_RPS19b_HIS3_TDH1
-            cSEGUID_SwdfqItt_MXzPPQ6N-D_OKL-Wz4_2015-07-15T15:34:52.720656
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
+            cSEGUID_SwdfqItt_MXzPPQ6N-D_OKL-Wz4_2018-05-15T07:40:49.829732.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         433..530
-                     /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#BBFFB7"
-                     /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#BCC9EC"
-     misc            531..556
-                     /label="648_ScRPS19btpf2"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          537..1162
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
                      /chromosome="XIV"
-                     /db_xref="taxon:559292"
      primer_bind     537..556
-                     /note="648_ScRPS19btpf2"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="648_ScRPS19btpf2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1142..1162)
-                     /note="647_ScRPS19btpr_PacI"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1142..1169)
                      /label="647_ScRPS19btpr_PacI"
-     overlap         1170..1219
-                     /note="olp_8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_revcolor="#BEC7C1"
-                     /chksum="8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_fwdcolor="#B9CFC3"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1170..1194
+                     /label="468_pCAPs_release_fw"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1197..1217)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1197..1219)
                      /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1197..1219)
-                     /note="567"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1197..1219)
-                     /label="567"
-     misc            1220..1246
-                     /label="572_ScHIS3fwd"
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1197..1217)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          1229..1891
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
-     gene            <1229..>1891
-                     /locus_tag="YOR202W"
+                     /chromosome="XV"
+     gene            1229..1891
                      /gene="HIS3"
+                     /locus_tag="YOR202W"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            <1229..>1891
+     mRNA            1229..1891
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
+     CDS             1229..1891
                      /gene="HIS3"
                      /locus_tag="YOR202W"
-                     /gene_synonym="HIS10"
-                     /gene_synonym="HIS8"
-     CDS             1229..1891
-                     /locus_tag="YOR202W"
-                     /codon_start=1
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /EC_number="4.2.1.19"
@@ -93,94 +84,85 @@ FEATURES             Location/Qualifiers
                      biosynthetic process [Evidence IMP] [PMID 14190241];
                      GO_process: GO:0000105 - histidine biosynthetic process
                      [Evidence IDA] [PMID 341150]"
-                     /db_xref="GI:285815082"
+                     /codon_start=1
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+                     /protein_id="DAA10975.1"
                      /db_xref="SGD:S000005728"
                      /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /gene="HIS3"
-                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
-                     /protein_id="DAA10975.1"
      primer_bind     1229..1246
-                     /note="572_ScHIS3fwd"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="572_ScHIS3fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1867..1891)
-                     /note="571_ScHIS3rev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1867..1893)
                      /label="571_ScHIS3rev"
-     misc            1894..1915
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1894..1915
                      /label="568_pCAPsAjiIR"
-     overlap         1894..1930
-                     /note="olp_-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_revcolor="#DFD5FC"
-                     /chksum="-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_fwdcolor="#FBE4F9"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     1896..1915
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1896..1915
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1900..1924)
-                     /note="467"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1900..1930)
-                     /label="467"
+                     /label="467_pCAPs_release_re"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          1931..3163
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="X"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="X"
      primer_bind     1931..1951
-                     /note="547_ScTDH1tpf"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="547_ScTDH1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      rep_origin      2174..2422
                      /note="ARS1011; Autonomously Replicating Sequence"
                      /db_xref="SGD:S000028448"
-     gene            complement(<2777..>2896)
+     gene            complement(2777..2896)
                      /locus_tag="YJL052C-A"
-     mRNA            complement(<2777..>2896)
+     mRNA            complement(2777..2896)
                      /locus_tag="YJL052C-A"
                      /product="hypothetical protein"
      CDS             complement(2777..2896)
                      /locus_tag="YJL052C-A"
-                     /codon_start=1
-                     /product="hypothetical protein"
                      /note="hypothetical protein; identified based on comparison
-                     to related yeast species; GO_component: GO:0005575 -
+                     to related yeast species; mCherry fusion protein localizes
+                     to the vacuole; GO_component: GO:0005575 -
                      cellular_component [Evidence ND]; GO_function: GO:0003674 -
                      molecular_function [Evidence ND]; GO_process: GO:0008150 -
                      biological_process [Evidence ND]"
-                     /db_xref="GI:285812848"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA08746.1"
                      /db_xref="SGD:S000007610"
                      /translation="MHLRSRWWLALLYCKDPVSRSATTPKVETRASCLLSRAF"
-                     /protein_id="DAA08746.1"
      primer_bind     complement(3142..3163)
-                     /note="653_ScTDH1tpr_PacI"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(3142..3170)
                      /label="653_ScTDH1tpr_PacI"
-     overlap         3171..3231
-                     /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#DAD4AF"
-                     /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#F6D2E2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3208..3231)
-                     /note="166"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(3208..3231)
                      /label="166"
-     rep_origin      complement(3854..4535)
-                     /label="ColE1 origin"
-     misc            complement(4616..5419)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      3677
+                     /direction=BOTH
+     CDS             3901..4559
+                     /label="AmpR"
+     misc            6408..7211
                      /label="URA3"
+     rep_origin      7372..8053
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

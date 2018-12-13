@@ -1,48 +1,20 @@
-LOCUS       pYKP0                   5762 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  @_rc cSEGUID_qSJ95NM815X60yBy4l6iI69a_Dw_2015-07-15T11:55:09.522091
-ACCESSION   -_rc
-VERSION     -_rc
+LOCUS       pYKP0                   5762 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  cSEGUID_qSJ95NM815X60yBy4l6iI69a_Dw_2018-05-15T07:40:31.009387.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     gene            complement(315..947)
-                     /gene="crp"
-     CDS             complement(315..947)
-                     /product="catabolite gene activator protein"
-                     /codon_start=1
-                     /transl_table=11
-                     /note="artificially mutated crp; cyclic AMP receptor
-                     protein"
-                     /db_xref="GI:2769262"
-                     /experiment="experimental evidence, no additional details
-                     recorded"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
-                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
-                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
-                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
-                     /gene="crp"
-                     /protein_id="CAA04867.1"
-     overlap         1279..1978
-                     /note="olp_gf0xzr_JzrjxWRje_FrAQpd6LeA"
-                     /ApEinfo_revcolor="#C3F9BF"
-                     /chksum="gf0xzr_JzrjxWRje_FrAQpd6LeA"
-                     /ApEinfo_fwdcolor="#FAEAED"
-     rep_origin      complement(1295..1976)
-                     /label="ColE1 origin"
-     misc            complement(2057..2860)
+     rep_origin      1118
+                     /direction=BOTH
+     CDS             1342..2000
+                     /label="AmpR"
+     misc            3849..4652
                      /label="URA3"
-     overlap         4810..5013
-                     /note="olp_BZGjlrLjm10Ew_KU59TByOu-CwQ"
-                     /ApEinfo_revcolor="#DEDFC1"
-                     /chksum="BZGjlrLjm10Ew_KU59TByOu-CwQ"
-                     /ApEinfo_fwdcolor="#FEB9AF"
-     overlap         5341..5585
-                     /note="olp_mGvCDRsViMEGD5V6qEoVS_rrgoQ"
-                     /ApEinfo_revcolor="#CFFDFB"
-                     /chksum="mGvCDRsViMEGD5V6qEoVS_rrgoQ"
-                     /ApEinfo_fwdcolor="#B0C6C6"
+     rep_origin      4813..5494
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

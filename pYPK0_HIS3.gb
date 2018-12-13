@@ -1,40 +1,40 @@
-LOCUS       na                      6436 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  @
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
+LOCUS       name                    6436 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  description.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         531..565
-                     /note="olp_EqY4UORSlyw6eyAnCZAqnxDseKc"
-                     /ApEinfo_fwdcolor="#CDDFAF"
-                     /chksum="EqY4UORSlyw6eyAnCZAqnxDseKc"
-                     /ApEinfo_revcolor="#B2D9E3"
-     misc            581..607
-                     /label="572_ScHIS3fwd"
+     primer_bind     531..555
+                     /label="468_pCAPs_release_fw"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(558..578)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          590..1252
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
-     gene            <590..>1252
-                     /locus_tag="YOR202W"
+                     /chromosome="XV"
+     gene            590..1252
                      /gene="HIS3"
+                     /locus_tag="YOR202W"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            <590..>1252
+     mRNA            590..1252
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
+     CDS             590..1252
                      /gene="HIS3"
                      /locus_tag="YOR202W"
-                     /gene_synonym="HIS10"
-                     /gene_synonym="HIS8"
-     CDS             590..1252
-                     /locus_tag="YOR202W"
-                     /codon_start=1
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /EC_number="4.2.1.19"
@@ -57,44 +57,38 @@ FEATURES             Location/Qualifiers
                      biosynthetic process [Evidence IMP] [PMID 14190241];
                      GO_process: GO:0000105 - histidine biosynthetic process
                      [Evidence IDA] [PMID 341150]"
-                     /db_xref="GI:285815082"
+                     /codon_start=1
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+                     /protein_id="DAA10975.1"
                      /db_xref="SGD:S000005728"
                      /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /gene="HIS3"
-                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
-                     /protein_id="DAA10975.1"
      primer_bind     590..607
-                     /note="572_ScHIS3fwd"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="572_ScHIS3fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1228..1252)
-                     /note="571_ScHIS3rev"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1228..1254)
                      /label="571_ScHIS3rev"
-     misc            1255..1276
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     join(1257..1276,7692^7693)
                      /label="568_pCAPsAjiIR"
-     primer_bind     1257..1276
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     overlap         1257..1285
-                     /note="olp_QOnip9e87ur0nZtOpa53x4VDlsQ"
-                     /ApEinfo_fwdcolor="#C5B5C7"
-                     /chksum="QOnip9e87ur0nZtOpa53x4VDlsQ"
-                     /ApEinfo_revcolor="#D4D5EE"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1261..1285)
-                     /note="467"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     rep_origin      complement(1969..2650)
-                     /label="ColE1 origin"
-     misc            complement(2731..3534)
+                     /label="467_pCAPs_release_re"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      1792
+                     /direction=BOTH
+     CDS             2016..2674
+                     /label="AmpR"
+     misc            4523..5326
                      /label="URA3"
+     rep_origin      5487..6168
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

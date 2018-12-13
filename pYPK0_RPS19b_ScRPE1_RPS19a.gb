@@ -1,145 +1,126 @@
-LOCUS       pMEC1132                7686 bp    DNA     circular UNK 15-JUL-2015
+LOCUS       pMEC1132                7686 bp    DNA     circular UNK 09-SEP-2018
 DEFINITION  pYPK0_RPS19b_ScRPE1_RPS19atp
-            cSEGUID_7ZyB5nd5PHehioELmuUpWJgPyHA_2015-07-15T12:38:28.191748
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
-            BioProject:PRJNA128
+            cSEGUID_7ZyB5nd5PHehioELmuUpWJgPyHA_2018-05-15T07:37:14.090683.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         433..530
-                     /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#E4D2B2"
-                     /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#B0E6BE"
-     misc            531..556
-                     /label="648_ScRPS19btpf2"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          537..1162
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
                      /chromosome="XIV"
-                     /db_xref="taxon:559292"
      primer_bind     537..556
-                     /note="648_ScRPS19btpf2"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="648_ScRPS19btpf2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1142..1162)
-                     /note="647_ScRPS19btpr_PacI"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1142..1169)
                      /label="647_ScRPS19btpr_PacI"
-     overlap         1170..1219
-                     /note="olp_8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_fwdcolor="#F5AFB1"
-                     /chksum="8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_revcolor="#C1CEFF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1170..1194
+                     /label="468_pCAPs_release_fw"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1197..1217)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1197..1219)
                      /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1197..1219)
-                     /note="567"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1197..1219)
-                     /label="567"
-     misc            1220..1248
-                     /label="557_RPE1_YPK_fwd"
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1197..1217)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          1229..1945
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="mRNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="X"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
-     gene            <1229..>1945
-                     /db_xref="GeneID:853322"
-                     /locus_tag="YJL121C"
+                     /chromosome="X"
+     gene            1229..1945
                      /gene="RPE1"
-                     /gene_synonym="EPI1; POS18"
-     CDS             1229..1945
                      /locus_tag="YJL121C"
-                     /codon_start=1
+                     /gene_synonym="EPI1; POS18"
+                     /db_xref="GeneID:853322"
+     CDS             1229..1945
+                     /gene="RPE1"
+                     /locus_tag="YJL121C"
                      /gene_synonym="EPI1; POS18"
                      /EC_number="5.1.3.1"
                      /note="D-ribulose-5-phosphate 3-epimerase; catalyzes a
                      reaction in the non-oxidative part of the pentose-phosphate
                      pathway; mutants are sensitive to oxidative stress"
-                     /db_xref="GI:6322341"
-                     /db_xref="SGD:S000003657"
+                     /codon_start=1
+                     /product="ribulose-phosphate 3-epimerase RPE1"
+                     /protein_id="NP_012414.1"
                      /db_xref="GeneID:853322"
+                     /db_xref="SGD:S000003657"
                      /translation="MVKPIIAPSILASDFANLGCECHKVINAGADWLHIDVMDGHFVPN
                      ITLGQPIVTSLRRSVPRPGDASNTEKKPTAFFDCHMMVENPEKWVDDFAKCGADQFTFH
                      YEATQDPLHLVKLIKSKGIKAACAIKPGTSVDVLFELAPHLDMALVMTVEPGFGGQKFM
                      EDMMPKVETLRAKFPHLNIQVDGGLGKETIPKAAKAGANVIVAGTSVFTAADPHDVISF
                      MKEEVSKELRSRDLLD"
-                     /gene="RPE1"
-                     /product="ribulose-phosphate 3-epimerase RPE1"
-                     /protein_id="NP_012414.1"
      primer_bind     1229..1248
-                     /note="557_RPE1_YPK_fwd"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="557_RPE1_YPK_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1926..1945)
-                     /note="556_RPE1_YPK_rev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1926..1947)
                      /label="556_RPE1_YPK_rev"
-     misc            1948..1969
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1948..1969
                      /label="568_pCAPsAjiIR"
-     overlap         1948..1984
-                     /note="olp_-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_fwdcolor="#CDB1C2"
-                     /chksum="-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_revcolor="#C8B6D1"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     1950..1969
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1950..1969
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1954..1978)
-                     /note="467"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1954..1984)
-                     /label="467"
+                     /label="467_pCAPs_release_re"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          1985..2528
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="XV"
      primer_bind     1985..2004
-                     /note="652_ScRPS19atpf2"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="652_ScRPS19atpf2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2509..2528)
-                     /note="651_ScRPS19atpr_PacI"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(2509..2535)
                      /label="651_ScRPS19atpr_PacI"
-     overlap         2536..2596
-                     /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#C1BAD6"
-                     /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#DDF0B9"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2573..2596)
-                     /note="166"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(2573..2596)
                      /label="166"
-     rep_origin      complement(3219..3900)
-                     /label="ColE1 origin"
-     misc            complement(3981..4784)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      3042
+                     /direction=BOTH
+     CDS             3266..3924
+                     /label="AmpR"
+     misc            5773..6576
                      /label="URA3"
+     rep_origin      6737..7418
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

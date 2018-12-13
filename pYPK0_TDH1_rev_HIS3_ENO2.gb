@@ -1,96 +1,87 @@
-LOCUS       na                      8215 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  cSEGUID_9yP0r3XpSpOLLZg6tsXf3ePr860_2015-07-15T14:55:38.471978
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
+LOCUS       name                    8215 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  cSEGUID_9yP0r3XpSpOLLZg6tsXf3ePr860_2018-05-15T07:37:30.593056.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         433..530
-                     /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#B8FFB9"
-                     /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#C0E9D1"
-     misc            531..559
-                     /label="653_ScTDH1tpr_PacI"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          complement(538..1770)
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="X"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="X"
      primer_bind     538..559
-                     /note="653_ScTDH1tpr_PacI"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     gene            <805..>924
+                     /label="653_ScTDH1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            805..924
                      /locus_tag="YJL052C-A"
-     mRNA            <805..>924
+     mRNA            805..924
                      /locus_tag="YJL052C-A"
                      /product="hypothetical protein"
      CDS             805..924
                      /locus_tag="YJL052C-A"
-                     /codon_start=1
-                     /product="hypothetical protein"
                      /note="hypothetical protein; identified based on comparison
-                     to related yeast species; GO_component: GO:0005575 -
+                     to related yeast species; mCherry fusion protein localizes
+                     to the vacuole; GO_component: GO:0005575 -
                      cellular_component [Evidence ND]; GO_function: GO:0003674 -
                      molecular_function [Evidence ND]; GO_process: GO:0008150 -
                      biological_process [Evidence ND]"
-                     /db_xref="GI:285812848"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA08746.1"
                      /db_xref="SGD:S000007610"
                      /translation="MHLRSRWWLALLYCKDPVSRSATTPKVETRASCLLSRAF"
-                     /protein_id="DAA08746.1"
      rep_origin      complement(1279..1527)
                      /note="ARS1011; Autonomously Replicating Sequence"
                      /db_xref="SGD:S000028448"
      primer_bind     complement(1750..1770)
-                     /note="547_ScTDH1tpf"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            1750..1776
                      /label="547_ScTDH1tpf"
-     overlap         1777..1826
-                     /note="olp_8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_fwdcolor="#ECF4FF"
-                     /chksum="8ro7GZnjXs9RDyEisndJYyFeLIU"
-                     /ApEinfo_revcolor="#C9E5FF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1777..1801
+                     /label="468_pCAPs_release_fw"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1804..1824)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1804..1826)
                      /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1804..1826)
-                     /note="567"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1804..1826)
-                     /label="567"
-     misc            1827..1853
-                     /label="572_ScHIS3fwd"
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1804..1824)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          1836..2498
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XV"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
-     gene            <1836..>2498
-                     /locus_tag="YOR202W"
+                     /chromosome="XV"
+     gene            1836..2498
                      /gene="HIS3"
+                     /locus_tag="YOR202W"
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
-     mRNA            <1836..>2498
+     mRNA            1836..2498
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
+     CDS             1836..2498
                      /gene="HIS3"
                      /locus_tag="YOR202W"
-                     /gene_synonym="HIS10"
-                     /gene_synonym="HIS8"
-     CDS             1836..2498
-                     /locus_tag="YOR202W"
-                     /codon_start=1
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /EC_number="4.2.1.19"
@@ -113,93 +104,84 @@ FEATURES             Location/Qualifiers
                      biosynthetic process [Evidence IMP] [PMID 14190241];
                      GO_process: GO:0000105 - histidine biosynthetic process
                      [Evidence IDA] [PMID 341150]"
-                     /db_xref="GI:285815082"
+                     /codon_start=1
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+                     /protein_id="DAA10975.1"
                      /db_xref="SGD:S000005728"
                      /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
                      QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
                      KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
                      LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
-                     /gene="HIS3"
-                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
-                     /protein_id="DAA10975.1"
      primer_bind     1836..1853
-                     /note="572_ScHIS3fwd"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="572_ScHIS3fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2474..2498)
-                     /note="571_ScHIS3rev"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(2474..2500)
                      /label="571_ScHIS3rev"
-     misc            2501..2522
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2501..2522
                      /label="568_pCAPsAjiIR"
-     overlap         2501..2537
-                     /note="olp_-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_fwdcolor="#BBEDEB"
-                     /chksum="-ALddA7RDRqA4MsR6S2vDiSMYD0"
-                     /ApEinfo_revcolor="#BDB1BB"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     2503..2522
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2503..2522
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2507..2531)
-                     /note="467"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(2507..2537)
-                     /label="467"
+                     /label="467_pCAPs_release_re"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          2538..3057
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="VIII"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="VIII"
      primer_bind     2538..2554
-                     /note="411_ScENO2tpf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     gene            complement(<2546..>2884)
+                     /label="411_ScENO2tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            complement(2546..2884)
                      /locus_tag="YHR173C"
-     mRNA            complement(<2546..>2884)
+     mRNA            complement(2546..2884)
                      /locus_tag="YHR173C"
                      /product="hypothetical protein"
      CDS             complement(2546..2884)
                      /locus_tag="YHR173C"
+                     /note="hypothetical protein; expressed at both mRNA and
+                     protein levels; SWAT-GFP and mCherry fusion proteins
+                     localize to the vacuole; GO_component: GO:0000324 -
+                     fungal-type vacuole [Evidence IDA] [PMID 26928762];
+                     GO_function: GO:0003674 - molecular_function [Evidence ND];
+                     GO_process: GO:0008150 - biological_process [Evidence ND]"
                      /codon_start=1
                      /product="hypothetical protein"
-                     /note="hypothetical protein; expressed at both mRNA and
-                     protein levels; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
-                     /db_xref="GI:386804021"
+                     /protein_id="DAA35091.1"
                      /db_xref="SGD:S000001216"
                      /translation="MLFFFIYAWCHLSHTILQPSTKIQMIVRSKPESNGEKKLMNHDEP
                      NDQYNQRNYPSEVYADLVSHFMNFAYGKVHESGLQKKGVRCVDVSISGCQFWNGIPLSA
                      SWCTSLVT"
-                     /protein_id="DAA35091.1"
      primer_bind     complement(3026..3057)
-                     /note="452_ScENO2tpr_FspAI"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3026..3064)
                      /label="452_ScENO2tpr_FspAI"
-     overlap         3065..3125
-                     /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#FCBEC6"
-                     /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#BCE5CC"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3102..3125)
-                     /note="166"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(3102..3125)
                      /label="166"
-     rep_origin      complement(3748..4429)
-                     /label="ColE1 origin"
-     misc            complement(4510..5313)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      3571
+                     /direction=BOTH
+     CDS             3795..4453
+                     /label="AmpR"
+     misc            6302..7105
                      /label="URA3"
+     rep_origin      7266..7947
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

@@ -1,6 +1,6 @@
-LOCUS       pYPKa                   3128 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  Product_568_pCAPsAjiIR (22-mer)_567_pCAPsAjiIF (23-mer)
-            cSEGUID_aV1eIrzOiCjvw01yvKkxDXHKLMk_2015-07-15T11:12:28.104963
+LOCUS       pYPKa                   3128 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  pcr product_568_pCAPsAjiIR (22-mer)_567_pCAPsAjiIF (23-mer)
+            cSEGUID_aV1eIrzOiCjvw01yvKkxDXHKLMk_2018-05-15T07:36:41.458995.
 ACCESSION   3128bp TmU_6uVdgKq5aQhTpHux7dVk9J8
 VERSION     3128bp TmU_6uVdgKq5aQhTpHux7dVk9J8
 KEYWORDS    .
@@ -9,40 +9,15 @@ SOURCE      .
             .
 FEATURES             Location/Qualifiers
      primer_bind     complement(558..578)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(558..580)
                      /label="567_pCAPsAjiIF"
-     misc            581..602
-                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     583..602
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      rep_origin      1313
                      /direction=BOTH
-     gene            complement(2072..2932)
-                     /gene="bla"
-     CDS             complement(2072..2932)
-                     /product="beta-lactamase"
-                     /codon_start=1
-                     /transl_table=11
-                     /db_xref="GI:2769263"
-                     /db_xref="GOA:Q79DR3"
-                     /db_xref="HSSP:P62593"
-                     /db_xref="InterPro:IPR000871"
-                     /db_xref="InterPro:IPR001466"
-                     /db_xref="InterPro:IPR012338"
-                     /db_xref="UniProtKB/TrEMBL:Q79DR3"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
-                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
-                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
-                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
-                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
-                     LIKHW"
-                     /gene="bla"
-                     /protein_id="CAA04868.1"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

@@ -1,87 +1,58 @@
-LOCUS       pYPKa_E_ENO2tp          3661 bp    DNA     circular UNK 15-JUL-2015
+LOCUS       pYPKa_E_ENO2tp          3661 bp    DNA     circular UNK 01-JAN-1980
 DEFINITION  pYPKa_E_ENO2tp
-            cSEGUID_FdJ9OEz2UrPe1uMY8CGs45XX2NI_2015-07-15T11:44:27.549194
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
+            cSEGUID_FdJ9OEz2UrPe1uMY8CGs45XX2NI_2018-05-15T07:37:40.013762.
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+DBLINK      BioProject: PRJNA43747
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
      primer_bind     complement(558..578)
-                     /note="567_pCAPsAjiIF"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(558..580)
                      /label="567_pCAPsAjiIF"
-     misc            581..602
-                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     583..602
-                     /note="568_pCAPsAjiIR"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            612..634
-                     /label="411_ScENO2tpf"
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          618..1137
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="VIII"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="VIII"
      primer_bind     618..634
-                     /note="411_ScENO2tpf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     gene            complement(<626..>964)
+                     /label="411_ScENO2tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            complement(626..964)
                      /locus_tag="YHR173C"
-     mRNA            complement(<626..>964)
+     mRNA            complement(626..964)
                      /locus_tag="YHR173C"
                      /product="hypothetical protein"
      CDS             complement(626..964)
                      /locus_tag="YHR173C"
+                     /note="hypothetical protein; expressed at both mRNA and
+                     protein levels; SWAT-GFP and mCherry fusion proteins
+                     localize to the vacuole; GO_component: GO:0000324 -
+                     fungal-type vacuole [Evidence IDA] [PMID 26928762];
+                     GO_function: GO:0003674 - molecular_function [Evidence ND];
+                     GO_process: GO:0008150 - biological_process [Evidence ND]"
                      /codon_start=1
                      /product="hypothetical protein"
-                     /note="hypothetical protein; expressed at both mRNA and
-                     protein levels; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
-                     /db_xref="GI:386804021"
+                     /protein_id="DAA35091.1"
                      /db_xref="SGD:S000001216"
                      /translation="MLFFFIYAWCHLSHTILQPSTKIQMIVRSKPESNGEKKLMNHDEP
                      NDQYNQRNYPSEVYADLVSHFMNFAYGKVHESGLQKKGVRCVDVSISGCQFWNGIPLSA
                      SWCTSLVT"
-                     /protein_id="DAA35091.1"
      primer_bind     complement(1106..1137)
-                     /note="452_ScENO2tpr_FspAI"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1106..1144)
                      /label="452_ScENO2tpr_FspAI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      rep_origin      1846
                      /direction=BOTH
-     gene            complement(2605..3465)
-                     /gene="bla"
-     CDS             complement(2605..3465)
-                     /product="beta-lactamase"
-                     /codon_start=1
-                     /transl_table=11
-                     /db_xref="GI:2769263"
-                     /db_xref="GOA:Q79DR3"
-                     /db_xref="HSSP:P62593"
-                     /db_xref="InterPro:IPR000871"
-                     /db_xref="InterPro:IPR001466"
-                     /db_xref="InterPro:IPR012338"
-                     /db_xref="UniProtKB/TrEMBL:Q79DR3"
-                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
-                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
-                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
-                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
-                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
-                     LIKHW"
-                     /gene="bla"
-                     /protein_id="CAA04868.1"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

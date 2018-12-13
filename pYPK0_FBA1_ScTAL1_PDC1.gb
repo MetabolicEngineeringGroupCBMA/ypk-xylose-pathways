@@ -1,120 +1,99 @@
-LOCUS       pMEC1130                8374 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  cSEGUID_z56XvyucVzpo2iNPYy5TbXbxWlk_2015-07-15T12:32:52.717518
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
-            BioProject:PRJNA128
+LOCUS       pMEC1130                8374 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  cSEGUID_z56XvyucVzpo2iNPYy5TbXbxWlk_2018-05-15T07:40:46.014321.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         433..530
-                     /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#DFF6C4"
-                     /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#EFB6F3"
-     misc            531..567
-                     /label="409_ScFBA1tpf"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          538..1167
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
                      /chromosome="XI"
-                     /db_xref="taxon:559292"
      primer_bind     538..567
-                     /note="409_ScFBA1tpf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="409_ScFBA1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1146..1167)
-                     /note="624_ScFBA1tpr_PacI"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(1146..1174)
                      /label="624_ScFBA1tpr_PacI"
-     overlap         1175..1212
-                     /note="olp_m_4jtQmCZgh1wa0OPZ0OU_QwImY"
-                     /ApEinfo_revcolor="#B2F4FE"
-                     /chksum="m_4jtQmCZgh1wa0OPZ0OU_QwImY"
-                     /ApEinfo_fwdcolor="#D3EDC9"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          1215..2222
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="mRNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XII"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
-     gene            <1215..>2222
-                     /db_xref="GeneID:851068"
-                     /locus_tag="YLR354C"
+                     /chromosome="XII"
+     gene            1215..2222
                      /gene="TAL1"
-     CDS             1215..2222
                      /locus_tag="YLR354C"
-                     /codon_start=1
-                     /product="sedoheptulose-7-phosphate:D-glyceraldehyde-3-
-                     phosphate transaldolase TAL1"
+                     /db_xref="GeneID:851068"
+     CDS             1215..2222
+                     /gene="TAL1"
+                     /locus_tag="YLR354C"
                      /EC_number="2.2.1.2"
                      /note="Transaldolase, enzyme in the non-oxidative pentose
                      phosphate pathway; converts sedoheptulose 7-phosphate and
                      glyceraldehyde 3-phosphate to erythrose 4-phosphate and
                      fructose 6-phosphate; TAL1 has a paralog, NQM1, that arose
                      from the whole genome duplication"
-                     /db_xref="GI:6323386"
-                     /db_xref="SGD:S000004346"
+                     /codon_start=1
+                     /product="sedoheptulose-7-phosphate:D-glyceraldehyde-3-
+                     phosphate transaldolase TAL1"
+                     /protein_id="NP_013458.1"
                      /db_xref="GeneID:851068"
+                     /db_xref="SGD:S000004346"
                      /translation="MSEPAQKKQKVANNSLEQLKASGTVVVADTGDFGSIAKFQPQDST
                      TNPSLILAAAKQPTYAKLIDVAVEYGKKHGKTTEEQVENAVDRLLVEFGKEILKIVPGR
                      VSTEVDARLSFDTQATIEKARHIIKLFEQEGVSKERVLIKIASTWEGIQAAKELEEKDG
                      IHCNLTLLFSFVQAVACAEAQVTLISPFVGRILDWYKSSTGKDYKGEADPGVISVKKIY
                      NYYKKYGYKTIVMGASFRSTDEIKNLAGVDYLTISPALLDKLMNSTEPFPRVLDPVSAK
                      KEAGDKISYISDESKFRFDLNEDAMATEKLSEGIRKFSADIVTLFDLIEKKVTA"
-                     /gene="TAL1"
-                     /protein_id="NP_013458.1"
      primer_bind     1215..1237
-                     /note="TAL1_YPK_rec_fwd"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="TAL1_YPK_rec_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2197..2222)
-                     /note="TAL1_YPK_rec_rev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(2197..2260)
                      /label="TAL1_YPK_rec_rev"
-     overlap         2226..2260
-                     /note="olp_gVqHWzv3HOhuqbUhs0M6Bpf4WBM"
-                     /ApEinfo_revcolor="#C2E1C1"
-                     /chksum="gVqHWzv3HOhuqbUhs0M6Bpf4WBM"
-                     /ApEinfo_fwdcolor="#E1DDC4"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2226..2245
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          2262..3216
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="XII"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="XII"
      primer_bind     2262..2278
-                     /note="413_ScPDC1tpf"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="413_ScPDC1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3190..3216)
-                     /note="625_ScPDC1tpr_PacI"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(3190..3223)
                      /label="625_ScPDC1tpr_PacI"
-     overlap         3224..3284
-                     /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#B7DBC2"
-                     /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#F2CEF1"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3261..3284)
-                     /note="166"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(3261..3284)
                      /label="166"
-     rep_origin      complement(3907..4588)
-                     /label="ColE1 origin"
-     misc            complement(4669..5472)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      3730
+                     /direction=BOTH
+     CDS             3954..4612
+                     /label="AmpR"
+     misc            6461..7264
                      /label="URA3"
+     rep_origin      7425..8106
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

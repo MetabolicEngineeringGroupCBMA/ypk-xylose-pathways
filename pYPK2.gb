@@ -1,76 +1,86 @@
-LOCUS       pYPK2                   5069 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  @_rc cSEGUID_X9gHbzMYILV9E2vkmRsDRdsVlJY_2015-07-15T15:48:57.349653
-ACCESSION   -_rc
-VERSION     -_rc
+LOCUS       pYPK2                   5069 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  description_rc
+            cSEGUID_X9gHbzMYILV9E2vkmRsDRdsVlJY_2018-05-15T07:38:43.409044.
+ACCESSION   id_rc
+VERSION     id_rc
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     gene            complement(315..947)
-                     /gene="crp"
-     CDS             complement(315..947)
-                     /product="catabolite gene activator protein"
+     gene            411..1271
+                     /gene="Amp"
+     CDS             411..1271
+                     /gene="Amp"
                      /codon_start=1
                      /transl_table=11
-                     /note="artificially mutated crp; cyclic AMP receptor
-                     protein"
-                     /db_xref="GI:2769262"
-                     /experiment="experimental evidence, no additional details
-                     recorded"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
-                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
-                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
-                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
-                     /gene="crp"
-                     /protein_id="CAA04867.1"
-     overlap         1979..2229
-                     /note="olp_9sIPnHtE8eM_ayUn8O6H4MqIjXo"
-                     /ApEinfo_revcolor="#BCC6BA"
-                     /chksum="9sIPnHtE8eM_ayUn8O6H4MqIjXo"
-                     /ApEinfo_fwdcolor="#D6CAFB"
+                     /product="ampicillin resistant protein"
+                     /protein_id="BAE72674.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+     primer_bind     1364..1381
+                     /label="476_CEN6ARSHf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1847..1876)
+                     /label="475_CEN6ARSHr"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1877..1890
+                     /label="478_bleMX4f"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          complement(1996..2220)
-                     /db_xref="taxon:33169"
-                     /mol_type="other DNA"
                      /organism="Eremothecium gossypii"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:33169"
      gene            complement(2026..2220)
                      /gene="TEF"
      regulatory      complement(2026..2220)
-                     /note="translation elongation factor 1 alpha"
-                     /gene="TEF"
-                     /citation=[2]
                      /regulatory_class="terminator"
+                     /gene="TEF"
+                     /note="translation elongation factor 1 alpha"
+                     /citation=[2]
      misc_feature    complement(2221..2225)
                      /note="artificial sequence"
      source          complement(2226..3014)
-                     /db_xref="taxon:562"
-                     /mol_type="other DNA"
                      /organism="Escherichia coli"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:562"
      mobile_element  complement(2226..3014)
                      /mobile_element_type="transposon:Tn903"
-     overlap         3035..3447
-                     /note="olp_CZGciqyU6lvE0nkiVzpgF3eFLvs"
-                     /ApEinfo_revcolor="#E5C8D7"
-                     /chksum="CZGciqyU6lvE0nkiVzpgF3eFLvs"
-                     /ApEinfo_fwdcolor="#C7CFFC"
+     CDS             complement(2229..3038)
+                     /note="unnamed protein product; Kanamycin resistance gene"
+                     /citation=[1]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA05683.1"
+                     /translation="MGKEKTHVSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKP
+                     DAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTA
+                     FQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASD
+                     FDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIAD
+                     RYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
+     gene            complement(3039..3382)
+                     /gene="TEF"
+     regulatory      complement(3039..3382)
+                     /regulatory_class="promoter"
+                     /gene="TEF"
+                     /note="Translation elongation factor 1 alpha"
+                     /citation=[2]
+     primer_bind     3292..3305
+                     /label="477_bleMX4r"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3394..3407)
-                     /note="478_bleMX4f"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     3408..3437
-                     /note="475_CEN6ARSHr"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            3408..3437
-                     /label="475_CEN6ARSHr"
-     misc_feature    3414..3530
-                     /note="CEN6"
-     misc_feature    3531..3905
-                     /note="ARSH4"
-     primer_bind     complement(3903..3920)
-                     /note="476_CEN6ARSHf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="478_bleMX4f"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      4694
+                     /direction=BOTH
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

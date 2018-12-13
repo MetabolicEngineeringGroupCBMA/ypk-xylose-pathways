@@ -1,46 +1,35 @@
-LOCUS       pMEC1128                8570 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  cSEGUID_ycHQ8EOwqQihZOUFmIbCiwHhMZ0_2015-07-15T12:33:44.949552
-ACCESSION   -
-VERSION     -
-DBLINK      BioProject:PRJNA43747
+LOCUS       pMEC1128                8570 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  cSEGUID_ycHQ8EOwqQihZOUFmIbCiwHhMZ0_2018-05-15T07:38:25.887910.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     overlap         433..530
-                     /note="olp_pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_fwdcolor="#D5BEB0"
-                     /chksum="pX1elTSrsO-Y7S81pRpDvK_GuRY"
-                     /ApEinfo_revcolor="#B5C5E5"
-     misc            531..559
-                     /label="415_ScTDH3tpf"
+     primer_bind     433..456
+                     /label="167"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      source          538..1235
-                     /strain="S288c"
+                     /organism="Saccharomyces cerevisiae S288C"
                      /mol_type="genomic DNA"
-                     /organism="Saccharomyces cerevisiae S288c"
-                     /chromosome="VII"
+                     /strain="S288C"
                      /db_xref="taxon:559292"
+                     /chromosome="VII"
      primer_bind     538..559
-                     /note="415_ScTDH3tpf"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="415_ScTDH3tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(1210..1235)
-                     /note="623_ScTDH3tpr_PacI"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(1210..1242)
                      /label="623_ScTDH3tpr_PacI"
-     overlap         1243..1280
-                     /note="olp_m_4jtQmCZgh1wa0OPZ0OU_QwImY"
-                     /ApEinfo_fwdcolor="#D7CDDD"
-                     /chksum="m_4jtQmCZgh1wa0OPZ0OU_QwImY"
-                     /ApEinfo_revcolor="#C8C2EB"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      CDS             1283..2374
-                     /product="xylitol dehydrogenase"
                      /codon_start=1
                      /transl_table=12
-                     /db_xref="GI:640922"
+                     /product="xylitol dehydrogenase"
+                     /protein_id="CAA01269.1"
                      /translation="MTANPSLVLNKIDDISFETYDAPEISEPTDVLVQVKKTGICGSDI
                      HFYAHGRIGNFVLTKPMVLGHESAGTVVQVGKGVTSLKVGDNVAIEPGIPSRFSDEYKS
                      GHYNLCPHMAFAATPNSKEGEPNPPGTLCKYFKSPEDFLVKLPDHVSLELGALVEPLSV
@@ -48,47 +37,75 @@ FEATURES             Location/Qualifiers
                      THTFNSKTGGSEELIKAFGGNVPNVVLECTGAEPCIKLGVDAIAPGGRFVQVGNAAGPV
                      SFPITVFAMKELTLFGSFRYGFNDYKTAVGIFDTNYQNGRENAPIDFEQLITHRYKFKD
                      AIEAYDLVRAGKGAVKCLIDGPE"
-                     /protein_id="CAA01269.1"
      primer_bind     1283..1306
-                     /note="XDH_YPK_rec_fwd"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
+                     /label="XDH_YPK_rec_fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(2351..2374)
-                     /note="XDH_YPK_rec_rev"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(2351..2412)
                      /label="XDH_YPK_rec_rev"
-     overlap         2378..2412
-                     /note="olp_gVqHWzv3HOhuqbUhs0M6Bpf4WBM"
-                     /ApEinfo_fwdcolor="#F2E1C9"
-                     /chksum="gVqHWzv3HOhuqbUhs0M6Bpf4WBM"
-                     /ApEinfo_revcolor="#CDB7FE"
-     primer_bind     2413..2431
-                     /note="pfw1000"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     complement(3395..3412)
-                     /note="prv1000"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3395..3419)
-                     /label="PGIrv"
-     overlap         3420..3480
-                     /note="olp_OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_fwdcolor="#CFC6BB"
-                     /chksum="OmDbOULBfMl1s6bOD56K7WGX-Bw"
-                     /ApEinfo_revcolor="#F3C4C2"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2378..2397
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     2413..2433
+                     /label="549_ScPGI1tpf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            2683..2787
+                     /locus_tag="YBR196C-B"
+     mRNA            2683..2787
+                     /locus_tag="YBR196C-B"
+                     /product="hypothetical protein"
+     CDS             2683..2787
+                     /locus_tag="YBR196C-B"
+                     /note="hypothetical protein; identified by expression
+                     profiling and mass spectrometry; GO_component: GO:0005575 -
+                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
+                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
+                     biological_process [Evidence ND]"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07312.1"
+                     /db_xref="SGD:S000028816"
+                     /translation="MWVVLSKEKILLKKAYYAKTILFSALVLRGVRGE"
+     gene            3140..3289
+                     /locus_tag="YBR196C-A"
+     mRNA            3140..3289
+                     /locus_tag="YBR196C-A"
+                     /product="hypothetical protein"
+     CDS             3140..3289
+                     /locus_tag="YBR196C-A"
+                     /note="hypothetical protein; identified by fungal homology
+                     and RT-PCR; GO_component: GO:0005575 - cellular_component
+                     [Evidence ND]; GO_component: GO:0016021 - integral
+                     component of membrane [Evidence IEA]; GO_component:
+                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
+                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
+                     GO:0008150 - biological_process [Evidence ND]"
+                     /codon_start=1
+                     /product="hypothetical protein"
+                     /protein_id="DAA07311.1"
+                     /db_xref="SGD:S000028534"
+                     /translation="MSRVYIYPLTVFYFFAIEMSVFCYYNWFYRRNFPYLFRPIFPFLI
+                     VLIS"
+     primer_bind     complement(3392..3412)
+                     /label="622_ScPGI1tpr_PacI"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3457..3480)
-                     /note="166"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3457..3480)
                      /label="166"
-     rep_origin      complement(4103..4784)
-                     /label="ColE1 origin"
-     misc            complement(4865..5668)
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      3926
+                     /direction=BOTH
+     CDS             4150..4808
+                     /label="AmpR"
+     misc            6657..7460
                      /label="URA3"
+     rep_origin      7621..8302
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

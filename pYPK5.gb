@@ -1,76 +1,60 @@
-LOCUS       pYPK5                   6299 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  cSEGUID_bYXaKaxDTMFN5_B-QWoDqATVAb0_2015-07-15T15:49:51.630069
-ACCESSION   -
-VERSION     -
+LOCUS       pYPK5                   6299 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  cSEGUID_bYXaKaxDTMFN5_B-QWoDqATVAb0_2018-05-15T07:21:55.650351.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     gene            complement(315..947)
-                     /gene="crp"
-     CDS             complement(315..947)
-                     /product="catabolite gene activator protein"
-                     /codon_start=1
-                     /transl_table=11
-                     /note="artificially mutated crp; cyclic AMP receptor
-                     protein"
-                     /db_xref="GI:2769262"
-                     /experiment="experimental evidence, no additional details
-                     recorded"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
-                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
-                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
-                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
-                     /gene="crp"
-                     /protein_id="CAA04867.1"
-     rep_origin      complement(1295..1976)
-                     /label="ColE1 origin"
-     overlap         1939..1979
-                     /note="olp_mVZDKn7mRKGKy1MZEBcu9lYxDY8"
-                     /ApEinfo_fwdcolor="#E4CFED"
-                     /chksum="mVZDKn7mRKGKy1MZEBcu9lYxDY8"
-                     /ApEinfo_revcolor="#D9EAC5"
-     terminator      complement(1989..2228)
-                     /product="TEF-TER"
-                     /label="TEF-TER"
+     primer_bind     1972..1985
+                     /label="531_pSU1_MX4f"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     promoter        1973..2340
+                     /product="TEF-PRO"
+                     /gene="TEF-PRO"
+                     /label="TEF-PRO"
+                     /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-                     /gene="TEF-TER"
-                     /ApEinfo_fwdcolor="cyan"
-     CDS             complement(2229..3257)
+     CDS             2341..3369
                      /product="hygromycin B phosphotransferase"
+                     /gene="hph"
                      /label="hygromycin B phosphotransferase"
+                     /ApEinfo_fwdcolor="pink"
                      /ApEinfo_revcolor="pink"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-                     /gene="hph"
-                     /ApEinfo_fwdcolor="pink"
-     promoter        complement(3258..3625)
-                     /product="TEF-PRO"
-                     /label="TEF-PRO"
+     terminator      3370..3609
+                     /product="TEF-TER"
+                     /gene="TEF-TER"
+                     /label="TEF-TER"
+                     /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-                     /gene="TEF-PRO"
-                     /ApEinfo_fwdcolor="cyan"
-     primer_bind     complement(3613..3626)
-                     /note="531_pSU1_MX4f"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            3613..3659
-                     /label="531_pSU1_MX4f"
-     overlap         3627..3659
-                     /note="olp_PZNoIoPxfxNVo-UQKKpJgNCRnDw"
-                     /ApEinfo_fwdcolor="#EFD2D0"
-                     /chksum="PZNoIoPxfxNVo-UQKKpJgNCRnDw"
-                     /ApEinfo_revcolor="#C2B2EA"
-     overlap         4260..4325
-                     /note="olp_fx8bTPMZsZcwMZ4vVMIKPJe6wJc"
-                     /ApEinfo_fwdcolor="#E7BFB2"
-                     /chksum="fx8bTPMZsZcwMZ4vVMIKPJe6wJc"
-                     /ApEinfo_revcolor="#C7D9C3"
+     primer_bind     complement(3606..3619)
+                     /label="477_bleMX4r"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     3627..3653
+                     /label="534_pSU0_2u_rev"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc            3867..4670
+                     /label="URA3"
+     rep_origin      4184..4865
+                     /label="ColE1 origin"
+     misc            4386..5189
+                     /label="URA3"
+     primer_bind     complement(5225..5245)
+                     /label="535_pSU0_2u_Fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      6251
+                     /direction=BOTH
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

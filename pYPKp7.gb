@@ -1,6 +1,6 @@
-LOCUS       pYPKp7                  6180 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  Product_866_pYPKpwF (79-mer)_865_pYPKpwR (79-mer)
-            cSEGUID_w8zCE05nnVaKMSe-K0q29kjVt4k_2015-07-15T15:53:13.692687
+LOCUS       pYPKp7                  6180 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  pcr product_866_pYPKpwF (79-mer)_865_pYPKpwR (79-mer)
+            cSEGUID_w8zCE05nnVaKMSe-K0q29kjVt4k_2018-05-15T07:38:49.495956.
 ACCESSION   6180bp gCItH7lLRXLdK3XbHaL3u89TYD4
 VERSION     6180bp gCItH7lLRXLdK3XbHaL3u89TYD4
 KEYWORDS    .
@@ -9,61 +9,50 @@ SOURCE      .
             .
 FEATURES             Location/Qualifiers
      primer_bind     complement(458..486)
-                     /note="865_pYPKpwR"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            complement(458..496)
                      /label="865_pYPKpwR"
-     misc            497..535
-                     /label="866_pYPKpwF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     506..535
-                     /note="866_pYPKpwF"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     rep_origin      complement(1136..1817)
-                     /label="ColE1 origin"
-     overlap         1793..1819
-                     /note="olp_Vz6HNwLIswTkTlL2QRfRTpiuAPM"
-                     /ApEinfo_fwdcolor="#C6DBB2"
-                     /chksum="Vz6HNwLIswTkTlL2QRfRTpiuAPM"
-                     /ApEinfo_revcolor="#CCB1C7"
+                     /label="866_pYPKpwF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      955
+                     /direction=BOTH
      primer_bind     1820..1848
-                     /note="678_pYPK0_hygfwd:"
+                     /label="678_pYPK0_hygfwd:"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      misc_feature    1897..1930
                      /note="loxP site"
      regulatory      1931..2328
-                     /note="from TEF"
                      /regulatory_class="promoter"
+                     /note="from TEF"
      gene            2329..3138
                      /gene="kanMX"
      CDS             2329..3138
-                     /product="geneticin resistance protein"
+                     /gene="kanMX"
                      /codon_start=1
                      /transl_table=11
-                     /db_xref="GI:11344910"
+                     /product="geneticin resistance protein"
+                     /protein_id="AAG34543.1"
                      /translation="MGKEKTHVSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKP
                      DAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTA
                      FQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASD
                      FDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIAD
                      RYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
-                     /gene="kanMX"
-                     /protein_id="AAG34543.1"
      regulatory      3139..3403
-                     /note="from TEF"
                      /regulatory_class="terminator"
+                     /note="from TEF"
      misc_feature    3404..3437
                      /note="loxP site"
      primer_bind     complement(3485..3504)
-                     /note="666_pYPK0_hygrev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3485..3533)
                      /label="666_pYPK0_hygrev"
-     overlap         3505..3533
-                     /note="olp_qy6sz9DB3IIP_DoA7rrIe_OyxR8"
-                     /ApEinfo_fwdcolor="#B1F4B3"
-                     /chksum="qy6sz9DB3IIP_DoA7rrIe_OyxR8"
-                     /ApEinfo_revcolor="#D2B7F7"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc            4263..5066
+                     /label="URA3"
+     rep_origin      5227..5908
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

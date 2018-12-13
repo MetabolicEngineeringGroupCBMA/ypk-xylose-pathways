@@ -1,75 +1,56 @@
-LOCUS       pYPK1                   4640 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  @_rc cSEGUID_cBXvb5dxm6dsur7YGH-fQNjeUGg_2015-07-15T15:48:45.335256
-ACCESSION   -_rc
-VERSION     -_rc
+LOCUS       pYPK1                   4640 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  description_rc
+            cSEGUID_cBXvb5dxm6dsur7YGH-fQNjeUGg_2018-05-15T07:36:56.101325.
+ACCESSION   id_rc
+VERSION     id_rc
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     gene            complement(315..947)
-                     /gene="crp"
-     CDS             complement(315..947)
-                     /product="catabolite gene activator protein"
-                     /codon_start=1
-                     /transl_table=11
-                     /note="artificially mutated crp; cyclic AMP receptor
-                     protein"
-                     /db_xref="GI:2769262"
-                     /experiment="experimental evidence, no additional details
-                     recorded"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
-                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
-                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
-                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
-                     /gene="crp"
-                     /protein_id="CAA04867.1"
-     overlap         1279..1978
-                     /note="olp_gf0xzr_JzrjxWRje_FrAQpd6LeA"
-                     /ApEinfo_revcolor="#E8DBBA"
-                     /chksum="gf0xzr_JzrjxWRje_FrAQpd6LeA"
-                     /ApEinfo_fwdcolor="#E1DED0"
-     misc            1939..1992
+     rep_origin      complement(590)
+                     /direction=BOTH
+     primer_bind     complement(1979..1992)
                      /label="477_bleMX4r"
-     primer_bind     1979..1992
-                     /note="477_bleMX4r"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      gene            complement(2229..2609)
                      /gene="ble"
      CDS             complement(2229..2609)
-                     /product="bleomycin resistance protein"
+                     /gene="ble"
                      /codon_start=1
                      /transl_table=11
-                     /db_xref="GI:11344913"
+                     /product="bleomycin resistance protein"
+                     /protein_id="AAG34545.1"
                      /translation="MADQATPNLPSRDFDSTAAFYERLGFGIVFRDAGWMILQRGDLKL
                      EFFAHPGLDPLASWFSCCLRLDDLAEFYRQCKSVGIQETSSGYPRIHAPELQEWGGTMA
                      ALVDPDGTLLRLIQNELLAGIS"
-                     /gene="ble"
-                     /protein_id="AAG34545.1"
      primer_bind     complement(2965..2978)
-                     /note="478_bleMX4f"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /label="478_bleMX4f"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     2979..3008
-                     /note="475_CEN6ARSHr"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            2979..3008
                      /label="475_CEN6ARSHr"
-     misc_feature    2985..3101
-                     /note="CEN6"
-     misc_feature    3102..3476
-                     /note="ARSH4"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3474..3491)
-                     /note="476_CEN6ARSHf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     overlap         4219..4463
-                     /note="olp_mGvCDRsViMEGD5V6qEoVS_rrgoQ"
-                     /ApEinfo_revcolor="#F9EAD8"
-                     /chksum="mGvCDRsViMEGD5V6qEoVS_rrgoQ"
-                     /ApEinfo_fwdcolor="#DDE5C4"
+                     /label="476_CEN6ARSHf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            complement(3584..4444)
+                     /gene="Amp"
+     CDS             complement(3584..4444)
+                     /gene="Amp"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ampicillin resistant protein"
+                     /protein_id="BAE72674.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

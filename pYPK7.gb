@@ -1,73 +1,49 @@
-LOCUS       pYPK7                   6339 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  cSEGUID_OzTYGqLHmK4hKgFANunZ7k9JJUs_2015-07-15T15:50:00.834229
-ACCESSION   -
-VERSION     -
+LOCUS       pYPK7                   6339 bp    DNA     circular UNK 09-SEP-2018
+DEFINITION  cSEGUID_OzTYGqLHmK4hKgFANunZ7k9JJUs_2018-05-15T07:37:43.225500.
+ACCESSION   id
+VERSION     id
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     gene            complement(315..947)
-                     /gene="crp"
-     CDS             complement(315..947)
-                     /product="catabolite gene activator protein"
-                     /codon_start=1
-                     /transl_table=11
-                     /note="artificially mutated crp; cyclic AMP receptor
-                     protein"
-                     /db_xref="GI:2769262"
-                     /experiment="experimental evidence, no additional details
-                     recorded"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
-                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
-                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
-                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
-                     /gene="crp"
-                     /protein_id="CAA04867.1"
-     rep_origin      complement(1295..1976)
-                     /label="ColE1 origin"
-     overlap         1952..1978
-                     /note="olp_Vz6HNwLIswTkTlL2QRfRTpiuAPM"
-                     /ApEinfo_fwdcolor="#C6DBB2"
-                     /chksum="Vz6HNwLIswTkTlL2QRfRTpiuAPM"
-                     /ApEinfo_revcolor="#CCB1C7"
+     rep_origin      1114
+                     /direction=BOTH
      primer_bind     1979..2007
-                     /note="678_pYPK0_hygfwd:"
+                     /label="678_pYPK0_hygfwd:"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      misc_feature    2056..2089
                      /note="loxP site"
      regulatory      2090..2487
-                     /note="from TEF"
                      /regulatory_class="promoter"
+                     /note="from TEF"
      gene            2488..3297
                      /gene="kanMX"
      CDS             2488..3297
-                     /product="geneticin resistance protein"
+                     /gene="kanMX"
                      /codon_start=1
                      /transl_table=11
-                     /db_xref="GI:11344910"
+                     /product="geneticin resistance protein"
+                     /protein_id="AAG34543.1"
                      /translation="MGKEKTHVSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKP
                      DAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTA
                      FQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASD
                      FDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIAD
                      RYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
-                     /gene="kanMX"
-                     /protein_id="AAG34543.1"
      regulatory      3298..3562
-                     /note="from TEF"
                      /regulatory_class="terminator"
+                     /note="from TEF"
      misc_feature    3563..3596
                      /note="loxP site"
      primer_bind     complement(3644..3663)
-                     /note="666_pYPK0_hygrev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3644..3692)
                      /label="666_pYPK0_hygrev"
-     overlap         3664..3692
-                     /note="olp_qy6sz9DB3IIP_DoA7rrIe_OyxR8"
-                     /ApEinfo_fwdcolor="#B1F4B3"
-                     /chksum="qy6sz9DB3IIP_DoA7rrIe_OyxR8"
-                     /ApEinfo_revcolor="#D2B7F7"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc            4422..5225
+                     /label="URA3"
+     rep_origin      5386..6067
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

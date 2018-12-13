@@ -1,0 +1,24 @@
+>567_pCAPsAjiIF (23-mer)
+GTcggctgcaggtcactagtgag
+>577_crp585-557 (29-mer)
+gttctgatcctcgagcatcttaagaattc
+
+>468_pCAPs_release_fw (25-mer)
+gtcgaggaacgccaggttgcccact
+>467_pCAPs_release_re (31-mer) 
+ATTTAAatcctgatgcgtttgtctgcacaga
+
+>568_pCAPsAjiIR (22-mer) 
+GTGCcatctgtgcagacaaacg
+>578_crp42-70 (29-mer)
+gttcttgtctcattgccacattcataagt
+
+>775_tp_ZraI_fwd (18-mer)
+gcggccgctgacTTAAAT
+>778_tp_Eco32I_rev (20-mer)
+ggtaaatccggatTAATTAA
+
+>167 pCAPSfw (24-mer)
+TCCTGACGGGTAATTTTGATTTGC
+>166 pCAPSrv (24-mer) 
+CTGTGAAGTGGCTGAAATTTCGTA

@@ -4,15 +4,11 @@ bash Miniconda_latest.sh -b -p $HOME/miniconda
 export PATH="$HOME/miniconda/bin:$PATH"
 rm Miniconda_latest.sh
 conda config --set always_yes yes --set show_channel_urls yes
-conda update -qy conda
-conda config --add channels BjornFJohansson
-conda create -qy -n testenv python=3.5 nbval pytest lxml requests
+conda update conda
+conda config --append channels BjornFJohansson
+conda create -qy -n testenv python=3.6 nbval pytest lxml requests
 source activate testenv
-
-
-
-conda install -c BjornFJohansson pydna
-
-
-
+which python
+python --version
+conda install pydna
 python run_test.py

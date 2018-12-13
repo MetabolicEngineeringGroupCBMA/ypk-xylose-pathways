@@ -1,76 +1,69 @@
-LOCUS       pYPK3                   5288 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  @_rc cSEGUID_HGdQuJehFgtyDtEoXeOty-J5sg8_2015-07-15T15:49:10.401707
-ACCESSION   -_rc
-VERSION     -_rc
+LOCUS       pYPK3                   5288 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  description_rc
+            cSEGUID_HGdQuJehFgtyDtEoXeOty-J5sg8_2018-05-15T07:19:24.973662.
+ACCESSION   id_rc
+VERSION     id_rc
 KEYWORDS    .
 SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
-     gene            complement(315..947)
-                     /gene="crp"
-     CDS             complement(315..947)
-                     /product="catabolite gene activator protein"
+     gene            411..1271
+                     /gene="Amp"
+     CDS             411..1271
+                     /gene="Amp"
                      /codon_start=1
                      /transl_table=11
-                     /note="artificially mutated crp; cyclic AMP receptor
-                     protein"
-                     /db_xref="GI:2769262"
-                     /experiment="experimental evidence, no additional details
-                     recorded"
-                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
-                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
-                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
-                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
-                     /gene="crp"
-                     /protein_id="CAA04867.1"
-     overlap         1979..2229
-                     /note="olp_9sIPnHtE8eM_ayUn8O6H4MqIjXo"
-                     /ApEinfo_revcolor="#F4CCB9"
-                     /chksum="9sIPnHtE8eM_ayUn8O6H4MqIjXo"
-                     /ApEinfo_fwdcolor="#BEB8C8"
+                     /product="ampicillin resistant protein"
+                     /protein_id="BAE72674.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+     primer_bind     1364..1381
+                     /label="476_CEN6ARSHf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1847..1876)
+                     /label="475_CEN6ARSHr"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1877..1890
+                     /label="478_bleMX4f"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      terminator      complement(1989..2228)
                      /product="TEF-TER"
+                     /gene="TEF-TER"
                      /label="TEF-TER"
+                     /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-                     /gene="TEF-TER"
-                     /ApEinfo_fwdcolor="cyan"
-     overlap         2397..3137
-                     /note="olp_VCBsoomD0cYHdfoB0vl7wPB4xgo"
-                     /ApEinfo_revcolor="#DBDAFA"
-                     /chksum="VCBsoomD0cYHdfoB0vl7wPB4xgo"
-                     /ApEinfo_fwdcolor="#B8D8CF"
      primer_bind     2397..2423
-                     /note="324_Hygrev"
-                     /ApEinfo_revcolor="red"
-                     /ApEinfo_fwdcolor="green"
-     misc            2397..2423
                      /label="324_Hygrev"
-     overlap         3254..3626
-                     /note="olp_GsWfrC1uI6tM8JxO4JFKoMN_nd8"
-                     /ApEinfo_revcolor="#DCDEBA"
-                     /chksum="GsWfrC1uI6tM8JxO4JFKoMN_nd8"
-                     /ApEinfo_fwdcolor="#C7B9CD"
-     primer_bind     complement(3613..3626)
-                     /note="478_bleMX4f"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     primer_bind     3627..3656
-                     /note="475_CEN6ARSHr"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            3627..3656
-                     /label="475_CEN6ARSHr"
-     misc_feature    3633..3749
-                     /note="CEN6"
-     misc_feature    3750..4124
-                     /note="ARSH4"
-     primer_bind     complement(4122..4139)
-                     /note="476_CEN6ARSHf"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(3111..3137)
+                     /label="325_Hygfwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     promoter        complement(3258..3625)
+                     /product="TEF-PRO"
+                     /gene="TEF-PRO"
+                     /label="TEF-PRO"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     primer_bind     3511..3524
+                     /label="477_bleMX4r"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      4913
+                     /direction=BOTH
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

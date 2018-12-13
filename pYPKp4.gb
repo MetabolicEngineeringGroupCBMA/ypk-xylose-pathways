@@ -1,6 +1,6 @@
-LOCUS       pYPKp4                  6331 bp    DNA     circular UNK 15-JUL-2015
-DEFINITION  Product_866_pYPKpwF (49-mer)_865_pYPKpwR (49-mer)
-            cSEGUID_24-DQfaAOdXPwn9hfx-xzkNuH7Y_2015-07-15T15:51:20.235406
+LOCUS       pYPKp4                  6331 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  pcr product_866_pYPKpwF (49-mer)_865_pYPKpwR (49-mer)
+            cSEGUID_24-DQfaAOdXPwn9hfx-xzkNuH7Y_2018-05-15T07:39:15.346789.
 ACCESSION   6331bp o_zSMjZY-PIliCFT6jB2bUMXg_Y
 VERSION     6331bp o_zSMjZY-PIliCFT6jB2bUMXg_Y
 KEYWORDS    .
@@ -9,64 +9,51 @@ SOURCE      .
             .
 FEATURES             Location/Qualifiers
      primer_bind     complement(458..486)
-                     /note="865_pYPKpwR"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(458..496)
                      /label="865_pYPKpwR"
-     misc            497..535
-                     /label="866_pYPKpwF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     506..535
-                     /note="866_pYPKpwF"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     rep_origin      complement(1136..1817)
-                     /label="ColE1 origin"
-     overlap         1793..1819
-                     /note="olp_Vz6HNwLIswTkTlL2QRfRTpiuAPM"
-                     /ApEinfo_revcolor="#B0DDC4"
-                     /chksum="Vz6HNwLIswTkTlL2QRfRTpiuAPM"
-                     /ApEinfo_fwdcolor="#F1F7FE"
+                     /label="866_pYPKpwF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      955
+                     /direction=BOTH
      primer_bind     1820..1848
-                     /note="678_pYPK0_hygfwd:"
+                     /label="678_pYPK0_hygfwd:"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      promoter        1935..2302
                      /product="TEF-PRO"
+                     /gene="TEF-PRO"
                      /label="TEF-PRO"
+                     /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-                     /gene="TEF-PRO"
-                     /ApEinfo_fwdcolor="cyan"
-     overlap         2423..3163
-                     /note="olp_VCBsoomD0cYHdfoB0vl7wPB4xgo"
-                     /ApEinfo_revcolor="#FADEBA"
-                     /chksum="VCBsoomD0cYHdfoB0vl7wPB4xgo"
-                     /ApEinfo_fwdcolor="#E9ECDD"
+     primer_bind     2423..2449
+                     /label="325_Hygfwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      primer_bind     complement(3137..3163)
-                     /note="324_Hygrev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3137..3163)
                      /label="324_Hygrev"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
      terminator      3332..3571
                      /product="TEF-TER"
+                     /gene="TEF-TER"
                      /label="TEF-TER"
+                     /ApEinfo_fwdcolor="cyan"
                      /ApEinfo_revcolor="green"
                      /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
                      width 5 offset 0"
-                     /gene="TEF-TER"
-                     /ApEinfo_fwdcolor="cyan"
      primer_bind     complement(3636..3655)
-                     /note="666_pYPK0_hygrev"
-                     /ApEinfo_fwdcolor="green"
-                     /ApEinfo_revcolor="red"
-     misc            complement(3636..3684)
                      /label="666_pYPK0_hygrev"
-     overlap         3656..3684
-                     /note="olp_qy6sz9DB3IIP_DoA7rrIe_OyxR8"
-                     /ApEinfo_revcolor="#C7D9ED"
-                     /chksum="qy6sz9DB3IIP_DoA7rrIe_OyxR8"
-                     /ApEinfo_fwdcolor="#EBD8E4"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc            4414..5217
+                     /label="URA3"
+     rep_origin      5378..6059
+                     /label="ColE1 origin"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
