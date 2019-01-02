@@ -1,0 +1,106 @@
+LOCUS       YPK                      544 bp ds-DNA     linear       27-NOV-2018
+DEFINITION  .
+ACCESSION   
+VERSION     
+SOURCE      .
+  ORGANISM  .
+COMMENT     
+COMMENT     
+COMMENT     ApEinfo:methylated:1
+FEATURES             Location/Qualifiers
+     misc_feature    279..544
+                     /locus_tag="gray2"
+                     /label="gray2"
+                     /ApEinfo_label="gray2"
+                     /ApEinfo_fwdcolor="#eceef3"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    1..139
+                     /locus_tag="gray1"
+                     /label="gray1"
+                     /ApEinfo_label="gray1"
+                     /ApEinfo_fwdcolor="#d6e0dc"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    169..218
+                     /locus_tag="red"
+                     /label="red"
+                     /ApEinfo_label="red"
+                     /ApEinfo_fwdcolor="#ff615c"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    219..249
+                     /locus_tag="green"
+                     /label="green"
+                     /ApEinfo_label="green"
+                     /ApEinfo_fwdcolor="#86ff90"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    140..168
+                     /locus_tag="blue"
+                     /label="blue"
+                     /ApEinfo_label="blue"
+                     /ApEinfo_fwdcolor="#00a3ff"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    250..278
+                     /locus_tag="yellow"
+                     /label="yellow"
+                     /ApEinfo_label="yellow"
+                     /ApEinfo_fwdcolor="#ffff73"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+     misc_feature    516..544
+                     /locus_tag="578"
+                     /label="578"
+                     /ApEinfo_label="578"
+                     /ApEinfo_fwdcolor="#ff908c"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /ApEinfo_hidden
+     misc_feature    1..29
+                     /locus_tag="577"
+                     /label="577"
+                     /ApEinfo_label="577"
+                     /ApEinfo_fwdcolor="#00ff19"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /ApEinfo_hidden
+     misc_feature    140..168
+                     /locus_tag="511"
+                     /label="511"
+                     /ApEinfo_label="511"
+                     /ApEinfo_fwdcolor="#84ff86"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /ApEinfo_hidden
+     misc_feature    250..278
+                     /locus_tag="512"
+                     /label="512"
+                     /ApEinfo_label="512"
+                     /ApEinfo_fwdcolor="#ffb6bc"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 1 2 0 0 -1} {} 0}
+                     width 5 offset 0"
+                     /ApEinfo_hidden
+ORIGIN
+        1 gttctgatcc tcgagcatct taagaattcg tcccacggtt tgtctagagc agccgacaat
+       61 ctggccaatt tcctgacggg taattttgat ttgcatgccg tccgggtgag tcatagcgtc
+      121 tggttgtttt gccagattca gcagagtctg tgcaatgcgg ccgctGACGT Cgaggaacgc
+      181 caggttgccc actttctcac tagtgacctg cagccGACGT Gccatctgtg cagacaaacg
+      241 catcagGATA TCcggattta cctgaatcaa ttggcgaaat tttttgtacg aaatttcagc
+      301 cacttcacag gcggttttcg cacgtaccca tgcgctacgt tcctggccct cttcaaacag
+      361 gcccagttcg ccaataaaat caccctgatt cagataggag aggatcattt ctttaccctc
+      421 ttcgtctttg atcagcactg ccacagagcc tttaacgatg tagtacagcg tttccgcttt
+      481 ttcaccctgg tgaataagcg tgctcttgga tgggtactta tgaatgtggc aatgagacaa
+      541 gaac     
+//
