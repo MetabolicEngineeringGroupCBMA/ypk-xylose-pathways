@@ -1,0 +1,190 @@
+LOCUS       pYPK2                   5069 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  description_rc
+            cSEGUID_X9gHbzMYILV9E2vkmRsDRdsVlJY_2018-05-15T07:38:43.409044.
+ACCESSION   id_rc
+VERSION     id_rc
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     gene            complement(313..945)
+                     /gene="crp"
+     CDS             complement(313..945)
+                     /gene="crp"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="artificially mutated crp; cyclic AMP receptor
+                     protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="catabolite gene activator protein"
+                     /protein_id="CAA04867.1"
+                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
+                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
+                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
+                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
+     rep_origin      1311
+                     /direction=BOTH
+     primer_bind     complement(1979..1992)
+                     /label="477_bleMX4r"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     source          complement(1996..2220)
+                     /organism="Eremothecium gossypii"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:33169"
+     gene            complement(2026..2220)
+                     /gene="TEF"
+     regulatory      complement(2026..2220)
+                     /regulatory_class="terminator"
+                     /gene="TEF"
+                     /note="translation elongation factor 1 alpha"
+                     /citation=[2]
+     misc_feature    complement(2221..2225)
+                     /note="artificial sequence"
+     source          complement(2226..3014)
+                     /organism="Escherichia coli"
+                     /mol_type="other DNA"
+                     /db_xref="taxon:562"
+     mobile_element  complement(2226..3014)
+                     /mobile_element_type="transposon:Tn903"
+     CDS             complement(2229..3038)
+                     /note="unnamed protein product; Kanamycin resistance gene"
+                     /citation=[1]
+                     /codon_start=1
+                     /transl_table=11
+                     /protein_id="CAA05683.1"
+                     /translation="MGKEKTHVSRPRLNSNMDADLYGYKWARDNVGQSGATIYRLYGKP
+                     DAPELFLKHGKGSVANDVTDEMVRLNWLTEFMPLPTIKHFIRTPDDAWLLTTAIPGKTA
+                     FQVLEEYPDSGENIVDALAVFLRRLHSIPVCNCPFNSDRVFRLAQAQSRMNNGLVDASD
+                     FDDERNGWPVEQVWKEMHKLLPFSPDSVVTHGDFSLDNLIFDEGKLIGCIDVGRVGIAD
+                     RYQDLAILWNCLGEFSPSLQKRLFQKYGIDNPDMNKLQFHLMLDEFF"
+     gene            complement(3039..3382)
+                     /gene="TEF"
+     regulatory      complement(3039..3382)
+                     /regulatory_class="promoter"
+                     /gene="TEF"
+                     /note="Translation elongation factor 1 alpha"
+                     /citation=[2]
+     primer_bind     complement(3394..3407)
+                     /label="478_bleMX4f"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(3394..3407)
+                     /label="478_bleMX4f"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     3408..3437
+                     /label="475_CEN6ARSHr"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     misc_feature    3414..3530
+                     /note="CEN6"
+     misc_feature    3531..3905
+                     /note="ARSH4"
+     primer_bind     complement(3903..3920)
+                     /label="476_CEN6ARSHf"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     gene            complement(4013..4873)
+                     /gene="Amp"
+     CDS             complement(4013..4873)
+                     /gene="Amp"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="ampicillin resistant protein"
+                     /protein_id="BAE72674.1"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCDTLLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDESDTTMPVAMPTTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKRSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+ORIGIN
+        1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
+       61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
+      121 ttggcgggtg tcggggctgg cttaactatg cggcatcaga gcagattgta ctgagagtgc
+      181 accatagatc ctgaggatcg gggtgataaa tcagtctgcg ccacatcggg ggaaacaaaa
+      241 tggcgcgaga tctaaaaaaa aaggctccaa aaggagcctt tcgcgctacc aggtaacgcg
+      301 ccactccgac gggattaacg agtgccgtaa acgacgatgg ttttaccgtg tgcggagatc
+      361 aggttctgat cctcgagcat cttaagaatt cgtcccacgg tttgtctaga gcagccgaca
+      421 atctggccaa tttcctgacg ggtaattttg atttgcatgc cgtccgggtg agtcatagcg
+      481 tctggttgtt ttgccagatt cagcagagtc tgtgcaatgc ggccgctgac gtcgaggaac
+      541 gccaggttgc ccactttctc actagtgacc tgcagccggc gcgccatctg tgcagacaaa
+      601 cgcatcagga tatccggatt tacctgaatc aattggcgaa attttttgta cgaaatttca
+      661 gccacttcac aggcggtttt cgcacgtacc catgcgctac gttcctggcc ctcttcaaac
+      721 aggcccagtt cgccaataaa atcaccctga ttcagatagg agaggatcat ttctttaccc
+      781 tcttcgtctt tgatcagcac tgccacagag cctttaacga tgtagtacag cgtttccgct
+      841 ttttcaccct ggtgaataag cgtgctcttg gatgggtact tatgaatgtg gcaatgagac
+      901 aagaaccatt cgagagtagg atccgtttga ggtttaccaa gtaccataag atccttaaat
+      961 ttttattatc tagctagatg ataatattat atcaagaatt gtacctgaaa gcaaataaat
+     1021 tttttatctg gcttaactat gcggcatcag agcagattgt actgagagtg caccatatgc
+     1081 ggtgtgaaat accgcacaga tgcgtaagga gaaaataccg catcaggcgc tcttccgctt
+     1141 cctcgctcac tgactcgctg cgctcggtcg ttcggctgcg gcgagcggta tcagctcact
+     1201 caaaggcggt aatacggtta tccacagaat caggggataa cgcaggaaag aacatgtgag
+     1261 caaaaggcca gcaaaaggcc aggaaccgta aaaaggccgc gttgctggcg tttttccata
+     1321 ggctccgccc ccctgacgag catcacaaaa atcgacgctc aagtcagagg tggcgaaacc
+     1381 cgacaggact ataaagatac caggcgtttc cccctggaag ctccctcgtg cgctctcctg
+     1441 ttccgaccct gccgcttacc ggatacctgt ccgcctttct cccttcggga agcgtggcgc
+     1501 tttctcatag ctcacgctgt aggtatctca gttcggtgta ggtcgttcgc tccaagctgg
+     1561 gctgtgtgca cgaacccccc gttcagcccg accgctgcgc cttatccggt aactatcgtc
+     1621 ttgagtccaa cccggtaaga cacgacttat cgccactggc agcagccact ggtaacagga
+     1681 ttagcagagc gaggtatgta ggcggtgcta cagagttctt gaagtggtgg cctaactacg
+     1741 gctacactag aaggacagta tttggtatct gcgctctgct gaagccagtt accttcggaa
+     1801 aaagagttgg tagctcttga tccggcaaac aaaccaccgc tggtagcggt ggtttttttg
+     1861 tttgcaagca gcagattacg cgcagaaaaa aaggatctca agaagatcct ttgatctttt
+     1921 ctacggggtc tgacgctcag tggaacgaaa actcacgtta agggattttg gtcatgagga
+     1981 gctcgttttc gacactggat ggcggcgtta gtatcgaatc gacagcagta tagcgaccag
+     2041 cattcacata cgattgacgc atgatattac tttctgcgca cttaacttcg catctgggca
+     2101 gatgatgtcg aggcgaaaaa aaatataaat cacgctaaca tttgattaaa atagaacaac
+     2161 tacaatataa aaaaactata caaatgacaa gttcttgaaa acaagaatct ttttattgtc
+     2221 agtactgatt agaaaaactc atcgagcatc aaatgaaact gcaatttatt catatcagga
+     2281 ttatcaatac catatttttg aaaaagccgt ttctgtaatg aaggagaaaa ctcaccgagg
+     2341 cagttccata ggatggcaag atcctggtat cggtctgcga ttccgactcg tccaacatca
+     2401 atacaaccta ttaatttccc ctcgtcaaaa ataaggttat caagtgagaa atcaccatga
+     2461 gtgacgactg aatccggtga gaatggcaaa agcttatgca tttctttcca gacttgttca
+     2521 acaggccagc cattacgctc gtcatcaaaa tcactcgcat caaccaaacc gttattcatt
+     2581 cgtgattgcg cctgagcgag acgaaatacg cgatcgctgt taaaaggaca attacaaaca
+     2641 ggaatcgaat gcaaccggcg caggaacact gccagcgcat caacaatatt ttcacctgaa
+     2701 tcaggatatt cttctaatac ctggaatgct gttttgccgg ggatcgcagt ggtgagtaac
+     2761 catgcatcat caggagtacg gataaaatgc ttgatggtcg gaagaggcat aaattccgtc
+     2821 agccagttta gtctgaccat ctcatctgta acatcattgg caacgctacc tttgccatgt
+     2881 ttcagaaaca actctggcgc atcgggcttc ccatacaatc gatagattgt cgcacctgat
+     2941 tgcccgacat tatcgcgagc ccatttatac ccatataaat cagcatccat gttggaattt
+     3001 aatcgcggcc tcgaaacgtg agtcttttcc ttacccatgg ttgtttatgt tcggatgtga
+     3061 tgtgagaact gtatcctagc aagattttaa aaggaagtat atgaaagaag aacctcagtg
+     3121 gcaaatccta accttttata tttctctaca ggggcgcggc gtggggacaa ttcaacgcgt
+     3181 ctgtgagggg agcgtttccc tgctcgcagg tctgcagcga ggagccgtaa tttttgcttc
+     3241 gcgccgtgcg gccatcaaaa tgtatggatg caaatgatta tacatgggga tgtatgggct
+     3301 aaatgtacgg gcgacagtca catcatgccc ctgagctgcg cacgtcaaga ctgtcaagga
+     3361 gggtattctg ggcctccatg tcgctggccg ggtgacccgg cggggacctt ttcatcacgt
+     3421 gctataaaaa taattataat ttaaattttt taatataaat atataaatta aaaatagaaa
+     3481 gtaaaaaaag aaattaaaga aaaaatagtt tttgttttcc gaagatgtaa aagactctag
+     3541 ggggatcgcc aacaaatact accttttatc ttgctcttcc tgctctcagg tattaatgcc
+     3601 gaattgtttc atcttgtctg tgtagaagac cacacacgaa aatcctgtga ttttacattt
+     3661 tacttatcgt taatcgaatg tatatctatt taatctgctt ttcttgtcta ataaatatat
+     3721 atgtaaagta cgctttttgt tgaaattttt taaacctttg tttatttttt tttcttcatt
+     3781 ccgtaactct tctaccttct ttatttactt tctaaaatcc aaatacaaaa cataaaaata
+     3841 aataaacaca gagtaaattc ccaaattatt ccatcattaa aagatacgag gcgcgtgtaa
+     3901 gttacaggca agcgatccgt ttatcaaaaa ggatcttcac ctagatcctt ttaaattaaa
+     3961 aatgaagttt taaatcaatc taaagtatat atgagtaaac ttggtctgac agttaccaat
+     4021 gcttaatcag tgaggcacct atctcagcga tctgtctatt tcgttcatcc atagttgcct
+     4081 gactccccgt cgtgtagata actacgatac gggagcgctt accatctggc cccagtgctg
+     4141 caatgatacc gcgagaccca cgctcaccgg ctccagattt atcagcaata aaccagccag
+     4201 ccggaagggc cgagcgcaga agtggtcctg caactttatc cgcctccatc cagtctatta
+     4261 attgttgccg ggaagctaga gtaagtagtt cgccagttaa tagtttgcgc aacgttgttg
+     4321 gcattgctac aggcatcgtg gtgtcactct cgtcgtttgg tatggcttca ttcagctccg
+     4381 gttcccaacg atcaaggcga gttacatgat cccccatgtt gtgcaaaaaa gcggttagct
+     4441 ccttcggtcc tccgatcgtt gtcagaagta agttggccgc agtgttatca ctcatggtta
+     4501 tggcagcact gcataattct cttactgtca tgccatccgt aagatgcttt tctgtgactg
+     4561 gtgagtactc aaccaagtca ttctgagaat agtgtatgcg gcgaccgagt tgctcttgcc
+     4621 cggcgtcaat acgggataat agtgtatcac atagcagaac tttaaaagtg ctcatcattg
+     4681 gaaaacgttc ttcggggcga aaactctcaa ggatcttacc gctgttgaga tccagttcga
+     4741 tgtaacccac tcgtgcaccc aactgatctt cagcatcttt tactttcacc agcgtttctg
+     4801 ggtgagcaaa aacaggaagg caaaatgccg caaaaaaggg aataagggcg acacggaaat
+     4861 gttgaatact catactcttc ctttttcaat attattgaag catttatcag ggttattgtc
+     4921 tcatgagcgg atacatattt gaatgtattt agaaaaataa acaaataggg gttccgcgca
+     4981 catttccccg aaaagtgcca cctgctaaga aaccattatt atcatgacat taacctataa
+     5041 aaataggcgt atcacgaggc cctttcgtc
+//

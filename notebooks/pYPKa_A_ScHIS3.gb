@@ -1,0 +1,165 @@
+LOCUS       name                    3802 bp    DNA     circular UNK 01-JAN-1980
+DEFINITION  <unknown description>
+            cSEGUID_SuTj4l27jSSln3F7NSKaJtJga5E_2018-05-15T07:40:55.278784.
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+DBLINK      BioProject: PRJNA43747
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     primer_bind     complement(558..578)
+                     /label="567_pCAPsAjiIF"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     source          590..1252
+                     /organism="Saccharomyces cerevisiae S288C"
+                     /mol_type="genomic DNA"
+                     /strain="S288C"
+                     /db_xref="taxon:559292"
+                     /chromosome="XV"
+     gene            590..1252
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+     mRNA            590..1252
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+     CDS             590..1252
+                     /gene="HIS3"
+                     /locus_tag="YOR202W"
+                     /gene_synonym="HIS10"
+                     /gene_synonym="HIS8"
+                     /EC_number="4.2.1.19"
+                     /note="Imidazoleglycerol-phosphate dehydratase; catalyzes
+                     the sixth step in histidine biosynthesis; mutations cause
+                     histidine auxotrophy and sensitivity to Cu, Co, and Ni
+                     salts; transcription is regulated by general amino acid
+                     control via Gcn4p; GO_component: GO:0005575 -
+                     cellular_component [Evidence ND]; GO_function: GO:0004424 -
+                     imidazoleglycerol-phosphate dehydratase activity [Evidence
+                     IEA,IEA]; GO_function: GO:0004424 -
+                     imidazoleglycerol-phosphate dehydratase activity [Evidence
+                     IMP] [PMID 14190241]; GO_function: GO:0004424 -
+                     imidazoleglycerol-phosphate dehydratase activity [Evidence
+                     IDA] [PMID 341150]; GO_function: GO:0016829 - lyase
+                     activity [Evidence IEA]; GO_process: GO:0008652 - cellular
+                     amino acid biosynthetic process [Evidence IEA]; GO_process:
+                     GO:0000105 - histidine biosynthetic process [Evidence
+                     IEA,IEA,IEA]; GO_process: GO:0000105 - histidine
+                     biosynthetic process [Evidence IMP] [PMID 14190241];
+                     GO_process: GO:0000105 - histidine biosynthetic process
+                     [Evidence IDA] [PMID 341150]"
+                     /codon_start=1
+                     /product="imidazoleglycerol-phosphate dehydratase HIS3"
+                     /protein_id="DAA10975.1"
+                     /db_xref="SGD:S000005728"
+                     /translation="MTEQKALVKRITNETKIQIAISLKGGPLAIEHSIFPEKEAEAVAE
+                     QATQSQVINVHTGIGFLDHMIHALAKHSGWSLIVECIGDLHIDDHHTTEDCGIALGQAF
+                     KEALGAVRGVKRFGSGFAPLDEALSRAVVDLSNRPYAVVELGLQREKVGDLSCEMIPHF
+                     LESFAEASRITLHVDCLRGKNDHHRSESAFKALAVAIREATSPNGTNDVPSTKGVLM"
+     primer_bind     590..607
+                     /label="572_ScHIS3fwd"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     complement(1228..1252)
+                     /label="571_ScHIS3rev"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     primer_bind     1257..1276
+                     /label="568_pCAPsAjiIR"
+                     /ApEinfo_fwdcolor="#baffa3"
+                     /ApEinfo_revcolor="#ffbaba"
+     rep_origin      1987
+                     /direction=BOTH
+     gene            complement(2746..3606)
+                     /gene="bla"
+     CDS             complement(2746..3606)
+                     /gene="bla"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="beta-lactamase"
+                     /protein_id="CAA04868.1"
+                     /db_xref="GOA:Q79DR3"
+                     /db_xref="HSSP:P62593"
+                     /db_xref="InterPro:IPR000871"
+                     /db_xref="InterPro:IPR001466"
+                     /db_xref="InterPro:IPR012338"
+                     /db_xref="UniProtKB/TrEMBL:Q79DR3"
+                     /translation="MSIQHFRVALIPFFAAFCLPVFAHPETLVKVKDAEDQLGARVGYI
+                     ELDLNSGKILESFRPEERFPMMSTFKVLLCGAVLSRIDAGQEQLGRRIHYSQNDLVEYS
+                     PVTEKHLTDGMTVRELCSAAITMSDNTAANLLLTTIGGPKELTAFLHNMGDHVTRLDRW
+                     EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
+                     LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
+                     LIKHW"
+ORIGIN
+        1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
+       61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg
+      121 ttggcgggtg tcggggctgg cttaactatg cggcatcaga gcagattgta ctgagagtgc
+      181 accatagatc ctgaggatcg gggtgataaa tcagtctgcg ccacatcggg ggaaacaaaa
+      241 tggcgcgaga tctaaaaaaa aaggctccaa aaggagcctt tcgcgctacc aggtaacgcg
+      301 ccactccgac gggattaacg agtgccgtaa acgacgatgg ttttaccgtg tgcggagatc
+      361 aggttctgat cctcgagcat cttaagaatt cgtcccacgg tttgtctaga gcagccgaca
+      421 atctggccaa tttcctgacg ggtaattttg atttgcatgc cgtccgggtg agtcatagcg
+      481 tctggttgtt ttgccagatt cagcagagtc tgtgcaatgc ggccgctgac gtcgaggaac
+      541 gccaggttgc ccactttctc actagtgacc tgcagccgac cgcgccaaaa tgacagagca
+      601 gaaagcccta gtaaagcgta ttacaaatga aaccaagatt cagattgcga tctctttaaa
+      661 gggtggtccc ctagcgatag agcactcgat cttcccagaa aaagaggcag aagcagtagc
+      721 agaacaggcc acacaatcgc aagtgattaa cgtccacaca ggtatagggt ttctggacca
+      781 tatgatacat gctctggcca agcattccgg ctggtcgcta atcgttgagt gcattggtga
+      841 cttacacata gacgaccatc acaccactga agactgcggg attgctctcg gtcaagcttt
+      901 taaagaggcc ctaggggccg tgcgtggagt aaaaaggttt ggatcaggat ttgcgccttt
+      961 ggatgaggca ctttccagag cggtggtaga tctttcgaac aggccgtacg cagttgtcga
+     1021 acttggtttg caaagggaga aagtaggaga tctctcttgc gagatgatcc cgcattttct
+     1081 tgaaagcttt gcagaggcta gcagaattac cctccacgtt gattgtctgc gaggcaagaa
+     1141 tgatcatcac cgtagtgaga gtgcgttcaa ggctcttgcg gttgccataa gagaagccac
+     1201 ctcgcccaat ggtaccaacg atgttccctc caccaaaggt gttcttatgt aggggtgcca
+     1261 tctgtgcaga caaacgcatc aggatatccg gatttacctg aatcaattgg cgaaattttt
+     1321 tgtacgaaat ttcagccact tcacaggcgg ttttcgcacg tacccatgcg ctacgttcct
+     1381 ggccctcttc aaacaggccc agttcgccaa taaaatcacc ctgattcaga taggagagga
+     1441 tcatttcttt accctcttcg tctttgatca gcactgccac agagccttta acgatgtagt
+     1501 acagcgtttc cgctttttca ccctggtgaa taagcgtgct cttggatggg tacttatgaa
+     1561 tgtggcaatg agacaagaac cattcgagag taggatccgt ttgaggttta ccaagtacca
+     1621 taagatcctt aaatttttat tatctagcta gatgataata ttatatcaag aattgtacct
+     1681 gaaagcaaat aaatttttta tctggcttaa ctatgcggca tcagagcaga ttgtactgag
+     1741 agtgcaccat atgcggtgtg aaataccgca cagatgcgta aggagaaaat accgcatcag
+     1801 gcgctcttcc gcttcctcgc tcactgactc gctgcgctcg gtcgttcggc tgcggcgagc
+     1861 ggtatcagct cactcaaagg cggtaatacg gttatccaca gaatcagggg ataacgcagg
+     1921 aaagaacatg tgagcaaaag gccagcaaaa ggccaggaac cgtaaaaagg ccgcgttgct
+     1981 ggcgtttttc cataggctcc gcccccctga cgagcatcac aaaaatcgac gctcaagtca
+     2041 gaggtggcga aacccgacag gactataaag ataccaggcg tttccccctg gaagctccct
+     2101 cgtgcgctct cctgttccga ccctgccgct taccggatac ctgtccgcct ttctcccttc
+     2161 gggaagcgtg gcgctttctc atagctcacg ctgtaggtat ctcagttcgg tgtaggtcgt
+     2221 tcgctccaag ctgggctgtg tgcacgaacc ccccgttcag cccgaccgct gcgccttatc
+     2281 cggtaactat cgtcttgagt ccaacccggt aagacacgac ttatcgccac tggcagcagc
+     2341 cactggtaac aggattagca gagcgaggta tgtaggcggt gctacagagt tcttgaagtg
+     2401 gtggcctaac tacggctaca ctagaaggac agtatttggt atctgcgctc tgctgaagcc
+     2461 agttaccttc ggaaaaagag ttggtagctc ttgatccggc aaacaaacca ccgctggtag
+     2521 cggtggtttt tttgtttgca agcagcagat tacgcgcaga aaaaaaggat ctcaagaaga
+     2581 tcctttgatc ttttctacgg ggtctgacgc tcagtggaac gaaaactcac gttaagggat
+     2641 tttggtcatg agattatcaa aaaggatctt cacctagatc cttttaaatt aaaaatgaag
+     2701 ttttaaatca atctaaagta tatatgagta aacttggtct gacagttacc aatgcttaat
+     2761 cagtgaggca cctatctcag cgatctgtct atttcgttca tccatagttg cctgactccc
+     2821 cgtcgtgtag ataactacga tacgggaggg cttaccatct ggccccagtg ctgcaatgat
+     2881 accgcgagac ccacgctcac cggctccaga tttatcagca ataaaccagc cagccggaag
+     2941 ggccgagcgc agaagtggtc ctgcaacttt atccgcctcc atccagtcta ttaattgttg
+     3001 ccgggaagct agagtaagta gttcgccagt taatagtttg cgcaacgttg ttgccattgc
+     3061 tacaggcatc gtggtgtcac gctcgtcgtt tggtatggct tcattcagct ccggttccca
+     3121 acgatcaagg cgagttacat gatcccccat gttgtgcaaa aaagcggtta gctccttcgg
+     3181 tcctccgatc gttgtcagaa gtaagttggc cgcagtgtta tcactcatgg ttatggcagc
+     3241 actgcataat tctcttactg tcatgccatc cgtaagatgc ttttctgtga ctggtgagta
+     3301 ctcaaccaag tcattctgag aatagtgtat gcggcgaccg agttgctctt gcccggcgtc
+     3361 aatacgggat aataccgcgc cacatagcag aactttaaaa gtgctcatca ttggaaaacg
+     3421 ttcttcgggg cgaaaactct caaggatctt accgctgttg agatccagtt cgatgtaacc
+     3481 cactcgtgca cccaactgat cttcagcatc ttttactttc accagcgttt ctgggtgagc
+     3541 aaaaacagga aggcaaaatg ccgcaaaaaa gggaataagg gcgacacgga aatgttgaat
+     3601 actcatactc ttcctttttc aatattattg aagcatttat cagggttatt gtctcatgag
+     3661 cggatacata tttgaatgta tttagaaaaa taaacaaata ggggttccgc gcacatttcc
+     3721 ccgaaaagtg ccacctgcta agaaaccatt attatcatga cattaaccta taaaaatagg
+     3781 cgtatcacga ggccctttcg tc
+//
