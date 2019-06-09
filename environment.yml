@@ -6,3 +6,7 @@ channels:
 dependencies:
 - python=3.7
 - pydna
+- pip
+- pip:
+  - ipynb
+
