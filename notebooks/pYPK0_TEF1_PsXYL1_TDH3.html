@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>pYPKp7</title>
+<title>pYPK0_TEF1_PsXYL1_TDH3</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13121,9 +13121,8 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="pYPKp7">pYPKp7<a class="anchor-link" href="#pYPKp7">&#182;</a></h1><p>The pYPKp7 is a version of the pYPK7 with a deletion in the crp gene that originates from 
-the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw.ipynb">pYPKpw</a>.</p>
-<p>This plasmid can be linearized with ZraI or FspAI.</p>
+<h1 id="Construction-of-pYPK0_TEF1_PsXYL1_TDH3-(pMEC1126)">Construction of pYPK0_TEF1_PsXYL1_TDH3 (pMEC1126)<a class="anchor-link" href="#Construction-of-pYPK0_TEF1_PsXYL1_TDH3-(pMEC1126)">&#182;</a></h1><p><a href="pYPKa_Z_TEF1.ipynb">pYPKa_Z_TEF1</a></p>
+<p><a href="pYPKa_E_TDH3.ipynb">pYPKa_E_TDH3</a></p>
 
 </div>
 </div>
@@ -13146,7 +13145,7 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK7</span> <span class="o">=</span> <span class="n">read</span><span class="p">(</span><span class="s2">&quot;pYPK7.gb&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p567</span><span class="p">,</span><span class="n">p577</span><span class="p">,</span><span class="n">p468</span><span class="p">,</span><span class="n">p467</span><span class="p">,</span><span class="n">p568</span><span class="p">,</span><span class="n">p578</span><span class="p">,</span><span class="n">p775</span><span class="p">,</span><span class="n">p778</span><span class="p">,</span><span class="n">p167</span><span class="p">,</span><span class="n">p166</span> <span class="o">=</span> <span class="n">parse</span><span class="p">(</span><span class="s2">&quot;yeast_pahtway_kit_standard_primers.txt&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13154,15 +13153,20 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 </div>
 
 </div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="ypk_std_primers.ipynb">Yeast Pathway Kit Standard Primers</a></p>
+
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span><span class="p">,</span><span class="n">r</span> <span class="o">=</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&gt;866_pYPKpwF (79-mer)</span>
-<span class="s1">              GCATGATATCttcacaggcggttttcgcacgtacccatg</span>
-<span class="s1">              &gt;865_pYPKpwR (79-mer)</span>
-<span class="s1">              GCATGACGTCaccagacgctatgactcacccggacggca&#39;&#39;&#39;</span><span class="p">,</span> <span class="n">ds</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">Bio.Restriction</span> <span class="kn">import</span> <span class="n">ZraI</span><span class="p">,</span> <span class="n">AjiI</span><span class="p">,</span> <span class="n">EcoRV</span>
 </pre></div>
 
     </div>
@@ -13175,36 +13179,10 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">seq</span> <span class="o">=</span> <span class="n">pcr</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">pYPK7</span><span class="p">)</span>
-
-<span class="n">seq</span> <span class="o">=</span> <span class="n">seq</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span>
-
-<span class="n">pYPKp7</span> <span class="o">=</span> <span class="n">seq</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="n">pYPK7</span><span class="p">)</span>
-
-<span class="n">pYPKp7</span><span class="o">.</span><span class="n">stamp</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK0</span> <span class="o">=</span> <span class="n">read</span><span class="p">(</span><span class="s2">&quot;pYPK0.gb&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[4]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>cSEGUID_w8zCE05nnVaKMSe-K0q29kjVt4k</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13214,9 +13192,30 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">locus</span> <span class="o">=</span> <span class="s2">&quot;pYPKp7&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">promoter_clone</span> <span class="o">=</span> <span class="n">pYPKa_Z_TEF1</span> <span class="o">=</span> <span class="n">read</span><span class="p">(</span><span class="s2">&quot;pYPKa_Z_TEF1.gb&quot;</span><span class="p">)</span>
+</pre></div>
 
-<span class="n">pYPKp7</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;pYPKp7.gb&quot;</span><span class="p">)</span>
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><a href="http://www.ncbi.nlm.nih.gov/nuccore/X59465.1">Genbank</a> record</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># NBVAL_IGNORE_OUTPUT</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">IFrame</span>
+<span class="n">IFrame</span><span class="p">(</span><span class="s1">&#39;http://www.ncbi.nlm.nih.gov/pubmed/1756986&#39;</span><span class="p">,</span> <span class="n">width</span><span class="o">=</span><span class="s1">&#39;100%&#39;</span><span class="p">,</span> <span class="n">height</span><span class="o">=</span><span class="mi">250</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13229,29 +13228,24 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 
 <div class="output_area">
 
-    <div class="prompt"></div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
-<div class="output_html rendered_html output_subarea ">
-<font face=monospace><a href='pYPKp7.gb' target='_blank'>pYPKp7.gb</a></font><br>
+<div class="output_html rendered_html output_subarea output_execute_result">
+
+        <iframe
+            width="100%"
+            height="250"
+            src="http://www.ncbi.nlm.nih.gov/pubmed/1756986"
+            frameborder="0"
+            allowfullscreen
+        ></iframe>
+        
 </div>
 
 </div>
 
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">Bio.Restriction</span> <span class="kn">import</span> <span class="n">ZraI</span><span class="p">,</span> <span class="n">FspAI</span><span class="p">,</span> <span class="n">EcoRV</span>
-</pre></div>
-
-    </div>
 </div>
 </div>
 
@@ -13261,30 +13255,11 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">linearize</span><span class="p">(</span><span class="n">ZraI</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">gb</span> <span class="o">=</span><span class="n">Genbank</span><span class="p">(</span><span class="s2">&quot;bjornjobbb@gmail.com&quot;</span><span class="p">)</span>
+<span class="n">gene_template</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;X59465.1&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[7]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Dseqrecord(-6180)</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
@@ -13294,7 +13269,7 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">linearize</span><span class="p">(</span><span class="n">FspAI</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">gene_template</span><span class="o">.</span><span class="n">list_features</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -13313,11 +13288,639 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>Dseqrecord(-6180)</pre>
+<pre>+-----+------------------+-----+------+------+------+--------------+------+
+| Ft# | Label or Note    | Dir | Sta  | End  |  Len | type         | orf? |
++-----+------------------+-----+------+------+------+--------------+------+
+|   0 | nd               | --&gt; | 0    | 2052 | 2052 | source       |  no  |
+|   1 | nd               | --&gt; | 0    | 355  |  355 | regulatory   |  no  |
+|   2 | nd               | --&gt; | 192  | 199  |    7 | regulatory   |  no  |
+|   3 | nd               | --&gt; | 272  | 281  |    9 | regulatory   |  no  |
+|   4 | nd               | --&gt; | 287  | 301  |   14 | stem_loop    |  no  |
+|   5 | N:label:xyl1_cDN | --&gt; | 342  | 1366 | 1024 | misc_feature |  no  |
+|   6 | nd               | --&gt; | 355  | 1312 |  957 | gene         | yes  |
+|   7 | nd               | --&gt; | 355  | 1312 |  957 | CDS          | yes  |
+|   8 | nd               | --&gt; | 1334 | 1339 |    5 | polyA_site   |  no  |
++-----+------------------+-----+------+------+------+--------------+------+</pre>
 </div>
 
 </div>
 
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">orf</span> <span class="o">=</span> <span class="n">gene_template</span><span class="o">.</span><span class="n">extract_feature</span><span class="p">(</span><span class="mi">7</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">orf</span><span class="o">.</span><span class="n">isorf</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[10]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>True</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">orf</span><span class="o">.</span><span class="n">seq</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>ATGCCTTCTATTAAGTTGAACTCTGGTTACGACATGCCAGCCGTCGGTTTCGGCTGTTGGAAAGTCGACGTCGACACCTGTTCTGAACAGATCTACCGTGCTATCAAGACCGGTTACAGATTGTTCGACGGTGCCGAAGATTACGCCAACGAAAAGTTAGTTGGTGCCGGTGTCAAGAAGGCCATTGACGAAGGTATCGTCAAGCGTGAAGACTTGTTCCTTACCTCCAAGTTGTGGAACAACTACCACCACCCAGACAACGTCGAAAAGGCCTTGAACAGAACCCTTTCTGACTTGCAAGTTGACTACGTTGACTTGTTCTTGATCCACTTCCCAGTCACCTTCAAGTTCGTTCCATTAGAAGAAAAGTACCCACCAGGATTCTACTGTGGTAAGGGTGACAACTTCGACTACGAAGATGTTCCAATTTTAGAGACCTGGAAGGCTCTTGAAAAGTTGGTCAAGGCCGGTAAGATCAGATCTATCGGTGTTTCTAACTTCCCAGGTGCTTTGCTCTTGGACTTGTTGAGAGGTGCTACCATCAAGCCATCTGTCTTGCAAGTTGAACACCACCCATACTTGCAACAACCAAGATTGATCGAATTCGCTCAATCCCGTGGTATTGCTGTCACCGCTTACTCTTCGTTCGGTCCTCAATCTTTCGTTGAATTGAACCAAGGTAGAGCTTTGAACACTTCTCCATTGTTCGAGAACGAAACTATCAAGGCTATCGCTGCTAAGCACGGTAAGTCTCCAGCTCAAGTCTTGTTGAGATGGTCTTCCCAAAGAGGCATTGCCATCATTCCAAAGTCCAACACTGTCCCAAGATTGTTGGAAAACAAGGACGTCAACAGCTTCGACTTGGACGAACAAGATTTCGCTGACATTGCCAAGTTGGACATCAACTTGAGATTCAACGACCCATGGGACTGGGACAAGATTCCTATCTTCGTCTAA
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">orf</span><span class="p">))</span>
+<span class="n">orf</span><span class="o">.</span><span class="n">seguid</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>957
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[12]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>lGWKlZ3EDAyY2V-7tTQoJRqgW6w</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">orf</span><span class="o">.</span><span class="n">seq</span><span class="o">.</span><span class="n">translate</span><span class="p">()))</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>MPSIKLNSGYDMPAVGFGCWKVDVDTCSEQIYRAIKTGYRLFDGAEDYANEKLVGAGVKKAIDEGIVKREDLFLTSKLWNNYHHPDNVEKALNRTLSDLQVDYVDLFLIHFPVTFKFVPLEEKYPPGFYCGKGDNFDYEDVPILETWKALEKLVKAGKIRSIGVSNFPGALLLDLLRGATIKPSVLQVEHHPYLQQPRLIEFAQSRGIAVTAYSSFGPQSFVELNQGRALNTSPLFENETIKAIAAKHGKSPAQVLLRWSSQRGIAIIPKSNTVPRLLENKDVNSFDLDEQDFADIAKLDINLRFNDPWDWDKIPIFV*
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pf</span><span class="p">,</span> <span class="n">pr</span> <span class="o">=</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;</span>
+
+<span class="s1">&gt;XR_YPK_rec_fwd </span>
+<span class="s1">gtcgaggaacgccaggttgcccactttctcactagtgaAAATGCCTTCTATTAAGTTGAACTCTGG</span>
+<span class="s1">&gt;XR_YPK_rec_rev </span>
+<span class="s1">ATTTAAatcctgatgcgtttgtctgcacagatggcgcgTTAGACGAAGATAGGAATCTTGTCCC</span>
+
+<span class="s1">&#39;&#39;&#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span> <span class="o">=</span><span class="n">pcr</span><span class="p">(</span> <span class="n">pf</span><span class="p">,</span> <span class="n">pr</span><span class="p">,</span> <span class="n">orf</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">g</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[16]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>                                        5ATGCCTTCTATTAAGTTGAACTCTGG...GGGACAAGATTCCTATCTTCGTCTAA3
+                                                                      ||||||||||||||||||||||||||
+                                                                     3CCCTGTTCTAAGGATAGAAGCAGATTgcgcggtagacacgtctgtttgcgtagtcctaAATTTA5
+5gtcgaggaacgccaggttgcccactttctcactagtgaAAATGCCTTCTATTAAGTTGAACTCTGG3
+                                         ||||||||||||||||||||||||||
+                                        3TACGGAAGATAATTCAACTTGAGACC...CCCTGTTCTAAGGATAGAAGCAGATT5</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">terminator_clone</span> <span class="o">=</span> <span class="n">pYPKa_E_TDH3</span> <span class="o">=</span><span class="n">read</span><span class="p">(</span><span class="s2">&quot;pYPKa_E_TDH3.gb&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p</span>  <span class="o">=</span> <span class="n">pcr</span><span class="p">(</span> <span class="n">p167</span><span class="p">,</span> <span class="n">p567</span><span class="p">,</span> <span class="n">promoter_clone</span><span class="p">)</span>
+<span class="n">t</span>  <span class="o">=</span> <span class="n">pcr</span><span class="p">(</span> <span class="n">p568</span><span class="p">,</span> <span class="n">p166</span><span class="p">,</span> <span class="n">terminator_clone</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK0_E_Z</span><span class="p">,</span> <span class="n">stuffer</span> <span class="o">=</span> <span class="n">pYPK0</span><span class="o">.</span><span class="n">cut</span><span class="p">((</span><span class="n">EcoRV</span><span class="p">,</span> <span class="n">ZraI</span><span class="p">))</span>
+<span class="n">pYPK0_E_Z</span><span class="p">,</span> <span class="n">stuffer</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[19]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(Dseqrecord(-5681), Dseqrecord(-81))</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="p">(</span><span class="n">pYPK0_E_Z</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">g</span><span class="p">,</span> <span class="n">t</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[20]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(Dseqrecord(-5681), Amplicon(741), Amplicon(1035), Amplicon(804))</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">asm</span> <span class="o">=</span><span class="n">Assembly</span><span class="p">((</span><span class="n">pYPK0_E_Z</span><span class="p">,</span> <span class="n">p</span><span class="p">,</span> <span class="n">g</span><span class="p">,</span> <span class="n">t</span><span class="p">),</span> <span class="n">limit</span><span class="o">=</span><span class="mi">29</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">asm</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[22]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>Assembly
+fragments..: 5681bp 741bp 1035bp 804bp
+limit(bp)..: 29
+G.nodes....: 8
+algorithm..: common_sub_strings</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">candidate</span> <span class="o">=</span> <span class="n">asm</span><span class="o">.</span><span class="n">assemble_circular</span><span class="p">()[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">candidate</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[23]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre> -|name|98
+|       \/
+|       /\
+|       98|741bp_PCR_prod|38
+|                         \/
+|                         /\
+|                         38|1035bp_PCR_prod|35
+|                                            \/
+|                                            /\
+|                                            35|804bp_PCR_prod|61
+|                                                              \/
+|                                                              /\
+|                                                              61-
+|                                                                 |
+ -----------------------------------------------------------------</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK0_TEF1_PsXYL1_TDH3</span> <span class="o">=</span> <span class="n">candidate</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="n">pYPK0</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The pYPK0_TEF1_PsXYL1_TDH3 has cseguid <code>ak608NPPLpMmn_YIHGwQPcQzee0</code> and 8015 bp</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">pYPK0_TEF1_PsXYL1_TDH3</span><span class="p">))</span>
+<span class="n">pYPK0_TEF1_PsXYL1_TDH3</span><span class="o">.</span><span class="n">cseguid</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>8015
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[25]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>ak608NPPLpMmn_YIHGwQPcQzee0</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK0_TEF1_PsXYL1_TDH3</span><span class="o">.</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;pMEC1126&quot;</span>
+<span class="c1">#pYPK0_TEF1_PsXYL1_TDH3.description = &quot;pYPK0_TEF1_PsXYL1_TDH3tp&quot;</span>
+<span class="n">pYPK0_TEF1_PsXYL1_TDH3</span><span class="o">.</span><span class="n">stamp</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[26]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>cSEGUID_ak608NPPLpMmn_YIHGwQPcQzee0</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK0_TEF1_PsXYL1_TDH3</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;pYPK0_TEF1_PsXYL1_TDH3.gb&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='pYPK0_TEF1_PsXYL1_TDH3.gb' target='_blank'>pYPK0_TEF1_PsXYL1_TDH3.gb</a></font><br>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Download-sequence">Download sequence<a class="anchor-link" href="#Download-sequence">&#182;</a></h2><p><a href="pYPK0_TEF1_PsXYL1_TDH3.gb">pYPK0_TEF1_PsXYL1_TDH3</a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">reloaded</span> <span class="o">=</span><span class="n">read</span><span class="p">(</span><span class="s2">&quot;pYPK0_TEF1_PsXYL1_TDH3.gb&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">reloaded</span><span class="o">.</span><span class="n">cseguid</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[29]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>ak608NPPLpMmn_YIHGwQPcQzee0</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+    </div>
 </div>
 </div>
 

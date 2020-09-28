@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>pYPKp7</title>
+<title>mumberg_32_vectors</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13121,9 +13121,107 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="pYPKp7">pYPKp7<a class="anchor-link" href="#pYPKp7">&#182;</a></h1><p>The pYPKp7 is a version of the pYPK7 with a deletion in the crp gene that originates from 
-the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw.ipynb">pYPKpw</a>.</p>
-<p>This plasmid can be linearized with ZraI or FspAI.</p>
+<h1 id="Mumberg-32-expression-vectors">Mumberg 32 expression vectors<a class="anchor-link" href="#Mumberg-32-expression-vectors">&#182;</a></h1><p>This pydna notebook automatically assembles the sequences of the 32 expression 
+vectors described in</p>
+<p><a href="http://www.sciencedirect.com/science/article/pii/0378111995000377">Mumberg,D., Müller,R. and Funk,M. (1995) Yeast vectors for the controlled 
+expression of heterologous proteins in different genetic backgrounds. 
+Gene, 156, 119–122.</a></p>
+<p>These plasmids were made from the pRS series of yeast vectors.</p>
+<p>a [XhoI - KpnI fragment of the ScCYC1 terminator] was cloned using the same sites in pRS416
+resulting in p416CYC1t</p>
+<p>PCR generated SacI - XbaI promoter fragments of  ScTDH3pr, ScTEF1pr, ScADH1pr and ScCYC1pr promoters 
+were cloned using the same sites resulting in:</p>
+
+<pre><code>p416GPD sequenced SacI,XbaI,XhoI,KpnI are unique
+p416TEF sequenced SacI,XbaI,XhoI,KpnI are unique
+p416ADH
+p416CYC sequenced SacI,XbaI,KpnI are unique
+
+</code></pre>
+<p>The SacI - KpnI promoter + terminator fragment was transferred to other pRS vectors using a strategy that is 
+undisclosed in the paper.</p>
+
+<pre><code>ScTDH3pr-ScCYC1t
+ScTEF1pr-ScCYC1t
+ScADH1pr-ScCYC1t
+ScCYC1pr-ScCYC1t
+
+</code></pre>
+<p>Probably SacI - KpnI were used. In the case of pRS423 and pRS425, there are 
+two KpnI sites, so maybe a partial cut was used?</p>
+
+<pre><code>                        this part is the opposite direction in the paper (this version here is correct!)
+                           &lt;---------------&gt;
+mcs:
+     7 SpeI      19 SmaI     31 EcoRI    43 HindIII           64 XhoI
+1 XbaI      13 BamHI    25 PstI     37 EcoRV    49 ClaI  58 SalI
+|     |     |     |     |     |     |     |     |        |     |     
+TCTAGAACTAGTGGATCCCCCGGGCTGCAGGAATTCGATATCAAGCTTATCGATACCGTCGACCTCGAG
+TCTAGAACTAGTGGATCCCCCGGGCTGCAGC...|
+                          ---------
+                          |...GAATTCGATATCAAGCTTATCGATACCGTCG               
+
+
+
+TCTAGAACTAGTGGATCCCCCGGGCTGCAGAatggttttcggtaacaggca
+
+       ccgttcggtctttagatagttaaGAATTCGATATCAAGCTTATCGATACCGTCGACCTCGAG
+
+&gt;primerfw
+TCTAGAACTAGTGGATCCCCCGGGCTGCAGA...
+&gt;primerrev
+CGACGGTATCGATAAGCTTGATATCGAATTC...
+
+            XbaI SpeI BamHI SmaI PstI EcoRI EcoRV HindIII ClaI SalI XhoI
+
+p413 HIS3   XbaI SpeI BamHI SmaI      EcoRI EcoRV         ClaI SalI XhoI
+p414 TRP1   XbaI SpeI BamHI SmaI PstI EcoRI               ClaI SalI XhoI
+p415 LEU2   XbaI SpeI BamHI SmaI PstI             HindIII      SalI XhoI
+p416 URA3   XbaI SpeI BamHI SmaI      EcoRI       HindIII ClaI SalI XhoI
+
+p423 HIS3        SpeI BamHI SmaI      EcoRI EcoRV         ClaI SalI XhoI
+p424 TRP1        SpeI BamHI SmaI PstI EcoRI               ClaI SalI XhoI
+p425 LEU2        SpeI BamHI SmaI PstI             HindIII      SalI XhoI
+p426 URA3        SpeI BamHI SmaI      EcoRI       HindIII ClaI SalI XhoI
+
+</code></pre>
+<p>XbaI only unique in   p41XXXX (All centromeric vectors, but no episomal vectors)
+XhoI is not unique in p4XXCYC1 (any vector with ScCYC1 promoter)</p>
+
+<pre><code>M#  vector          ori         marker
+--  -------  
+M1  p413GPD         CEN6/ARSH4  HIS3
+M2  p423GPD          2 um       HIS3
+M3  p414GPD         CEN6/ARSH4  TRP1
+M4  p424GPD          2 um       TRP1
+M5  p415GPD         CEN6/ARSH4  LEU2
+M6  p425GPD          2 um       LEU2
+M7  p416GPD         CEN6/ARSH4  URA3 sequenced http://www.ncbi.nlm.nih.gov/nuccore/82548122
+M8  p426GPD          2 um       URA3 sequenced http://www.ncbi.nlm.nih.gov/nuccore/76496266
+M9  p413TEF         CEN6/ARSH4  HIS3
+M10 p423TEF          2 um       HIS3
+M11 p414TEF         CEN6/ARSH4  TRP1
+M12 p424TEF          2 um       TRP1
+M13 p415TEF         CEN6/ARSH4  LEU2
+M14 p425TEF          2 um       LEU2
+M15 p416TEF         CEN6/ARSH4  URA3 sequenced http://www.ncbi.nlm.nih.gov/nuccore/124365231
+M16 p426TEF          2 um       URA3 assemb
+M17 p413ADH         CEN6/ARSH4  HIS3
+M18 p423ADH          2 um       HIS3
+M19 p414ADH         CEN6/ARSH4  TRP1
+M20 p424ADH          2 um       TRP1
+M21 p415ADH         CEN6/ARSH4  LEU2
+M22 p425ADH          2 um       LEU2 &lt;-bad, not sold from ATCC anymore
+M23 p416ADH         CEN6/ARSH4  URA3
+M24 p426ADH          2 um       URA3
+M25 p413CYC         CEN6/ARSH4  HIS3
+M26 p423CYC          2 um       HIS3
+M27 p414CYC         CEN6/ARSH4  TRP1
+M28 p424CYC          2 um       TRP1
+M29 p415CYC         CEN6/ARSH4  LEU2
+M30 p425CYC          2 um       LEU2
+M31 p416CYC         CEN6/ARSH4  URA3 sequenced
+M32 p426CYC         2 um        URA3</code></pre>
 
 </div>
 </div>
@@ -13134,6 +13232,74 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pydna.all</span> <span class="kn">import</span> <span class="o">*</span>
+<span class="n">gb</span> <span class="o">=</span><span class="n">Genbank</span><span class="p">(</span><span class="s2">&quot;bjornjobb@gmail.com&quot;</span><span class="p">)</span>
+
+<span class="c1"># The DNA fragments below were obtained from Saccharomyces Genome Database</span>
+<span class="c1"># www.sgd.org</span>
+
+
+<span class="n">cyc1term</span> <span class="o">=</span><span class="n">Dseqrecord</span><span class="p">(</span><span class="s2">&quot;ctcgagtcatgtaattagttatgtcacgcttacattcacgccctccccccacat&quot;</span>
+                            <span class="s2">&quot;ccgctctaaccgaaaaggaaggagttagacaacctgaagtctaggtccctattt&quot;</span>
+                            <span class="s2">&quot;atttttttatagttatgttagtattaagaacgttatttatatttcaaatttttc&quot;</span>
+                            <span class="s2">&quot;ttttttttctgtacagacgcgtgtacgcatgtaacattatactgaaaaccttgc&quot;</span>
+                            <span class="s2">&quot;ttgagaaggttttgggacgctcgaaggctttaatttgcggccggtaccn&quot;</span><span class="p">)</span>
+
+<span class="n">tefprom</span> <span class="o">=</span><span class="n">Dseqrecord</span><span class="p">(</span><span class="s2">&quot;gagctcatagcttcaaaatgtttctactccttttttactcttccagattttctcgga&quot;</span>
+                           <span class="s2">&quot;ctccgcgcatcgccgtaccacttcaaaacacccaagcacagcatactaaatttcccc&quot;</span>
+                           <span class="s2">&quot;tctttcttcctctagggtgtcgttaattacccgtactaaaggtttggaaaagaaaaa&quot;</span>
+                           <span class="s2">&quot;agagaccgcctcgtttctttttcttcgtcgaaaaaggcaataaaaatttttatcacg&quot;</span>
+                           <span class="s2">&quot;tttctttttcttgaaaattttttttttgatttttttctctttcgatgacctcccatt&quot;</span>
+                           <span class="s2">&quot;gatatttaagttaataaacggtcttcaatttctcaagtttcagtttcatttttcttg&quot;</span>
+                           <span class="s2">&quot;ttctattacaactttttttacttcttgctcattagaaagaaagcatagcaatctaat&quot;</span>
+                           <span class="s2">&quot;ctaagttttctaga&quot;</span><span class="p">)</span>
+
+<span class="n">cycprom</span> <span class="o">=</span><span class="n">Dseqrecord</span><span class="p">(</span><span class="s2">&quot;gagctcatttggcgagcgttggttggtggatcaagcccacgcgtaggcaatcctcga&quot;</span>
+                           <span class="s2">&quot;gcagatccgccaggcgtgtatatatagcgtggatggccaggcaactttagtgctgac&quot;</span>
+                           <span class="s2">&quot;acatacaggcatatatatatgtgtgcgacgacacatgatcatatggcatgcatgtgc&quot;</span>
+                           <span class="s2">&quot;tctgtatgtatataaaactcttgttttcttcttttctctaaatattctttccttata&quot;</span>
+                           <span class="s2">&quot;cattaggacctttgcagcataaattactatacttctatagacacgcaaacacaaata&quot;</span>
+                           <span class="s2">&quot;cacacactaatctaga&quot;</span><span class="p">)</span>
+
+<span class="n">adhprom</span> <span class="o">=</span><span class="n">Dseqrecord</span><span class="p">(</span><span class="s2">&quot;gagctcTAAAACAAGAAGAGGGTTGACTACATCACGATGAGGGGGATCGAAGAAATG&quot;</span>
+                           <span class="s2">&quot;ATGGTAAATGAAATAGGAAATCAAGGAGCATGAAGGCAAAAGACAAATATAAGGGTC&quot;</span>
+                           <span class="s2">&quot;GAACGAAAAATAAAGTGAAAAGTGTTGATATGATGTATTTGGCTTTGCGGCGCCGAA&quot;</span>
+                           <span class="s2">&quot;AAAACGAGTTTACGCAATTGCACAATCATGCTGACTCTGTGGCGGACCCGCGCTCTT&quot;</span>
+                           <span class="s2">&quot;GCCGGCCCGGCGATAACGCTGGGCGTGAGGCTGTGCCCGGCGGAGTTTTTTGCGCCT&quot;</span>
+                           <span class="s2">&quot;GCATTTTCCAAGGTTTACCCTGCGCTAAGGGGCGAGATTGGAGAAGCAATAAGAATG&quot;</span>
+                           <span class="s2">&quot;CCGGTTGGGGTTGCGATGATGACGACCACGACAACTGGTGTCATTATTTAAGTTGCC&quot;</span>
+                           <span class="s2">&quot;GAAAGAACCTGAGTGCATTTGCAACATGAGTATACTAGAAGAATGAGCCAAGACTTG&quot;</span>
+                           <span class="s2">&quot;CGAGACGCGAGTTTGCCGGTGGTGCGAACAATAGAGCGACCATGACCTTGAAGGTGA&quot;</span>
+                           <span class="s2">&quot;GACGCGCATAACCGCTAGAGTACTTTGAAGAGGAAACAGCAATAGGGTTGCTACCAG&quot;</span>
+                           <span class="s2">&quot;TATAAATAGACAGGTACATACAACACTGGAAATGGTTGTCTGTTTGAGTACGCTTTC&quot;</span>
+                           <span class="s2">&quot;AATTCATTTGGGTGTGCACTTTATTATGTTACAATATGGAAGGGAACTTTACACTTC&quot;</span>
+                           <span class="s2">&quot;TCCTATGCACATATATTAATTAAAGTCCAATGCTAGTAGAGAAGGGGGGTAACACCC&quot;</span>
+                           <span class="s2">&quot;CTCCGCGCTCTTTTCCGATTTTTTTCTAAACCGTGGAATATTTCGGATATCCTTTTG&quot;</span>
+                           <span class="s2">&quot;TTGTTTCCGGGTGTACAATATGGACTTCCTCTTTTCTGGCAACCAAACCCATACATC&quot;</span>
+                           <span class="s2">&quot;GGGATTCCTATAATACCTTCGTTGGTCTCCCTAACATGTAGGTGGCGGAGGGGAGAT&quot;</span>
+                           <span class="s2">&quot;ATACAATAGAACAGATACCAGACAAGACATAATGGGCTAAACAAGACTACACCAATT&quot;</span>
+                           <span class="s2">&quot;ACACTGCCTCATTGATGGTGGTACATAACGAACTAATACTGTAGCCCTAGACTTGAT&quot;</span>
+                           <span class="s2">&quot;AGCCATCATCATATCGAAGTTTCACTACCCTTTTTCCATTTGCCATCTATTGAAGTA&quot;</span>
+                           <span class="s2">&quot;ATAATAGGCGCATGCAACTTCTTTTCTTTTTTTTTCTTTTCTCTCTCCCCCGTTGTT&quot;</span>
+                           <span class="s2">&quot;GTCTCACCATATCCGCAATGACAAAAAAATGATGGAAGACACTAAAGGAAAAAATTA&quot;</span>
+                           <span class="s2">&quot;ACGACAAAGACAGCACCAACAGATGTCGTTGTTCCAGAGCTGATGAGGGGTATCTCG&quot;</span>
+                           <span class="s2">&quot;AAGCACACGAAACTTTTTCCTTCCTTCATTCACGCACACTACTCTCTAATGAGCAAC&quot;</span>
+                           <span class="s2">&quot;GGTATACGGCCTTCCTTCCAGTTACTTGAATTTGAAATAAAAAAAAGTTTGCTGTCT&quot;</span>
+                           <span class="s2">&quot;TGCTATCAAGTATAAATAGACCTGCAATTATTAATCTTTTGTTTCCTCGTCATTGTT&quot;</span>
+                           <span class="s2">&quot;CTCGTTCCCTTTCTTCCTTGTTTCTTTTTCTGCACAATATTTCAAGCTATACCAAGC&quot;</span>
+                           <span class="s2">&quot;ATACAATCAACTATCTCATATACAtctaga&quot;</span><span class="p">)</span>
+
+<span class="n">gpdprom</span> <span class="o">=</span><span class="n">Dseqrecord</span><span class="p">(</span><span class="s2">&quot;gagctcagtttatcattatcaatactcgccatttcaaagaatacgtaaataattaat&quot;</span>
+                           <span class="s2">&quot;agtagtgattttcctaactttatttagtcaaaaaattagccttttaattctgctgta&quot;</span>
+                           <span class="s2">&quot;acccgtacatgcccaaaatagggggcgggttacacagaatatataacatcgtaggtg&quot;</span>
+                           <span class="s2">&quot;tctgggtgaacagtttattcctggcatccactaaatataatggagcccgctttttaa&quot;</span>
+                           <span class="s2">&quot;gctggcatccagaaaaaaaaagaatcccagcaccaaaatattgttttcttcaccaac&quot;</span>
+                           <span class="s2">&quot;catcagttcataggtccattctcttagcgcaactacagagaacaggggcacaaacag&quot;</span>
+                           <span class="s2">&quot;gcaaaaaacgggcacaacctcaatggagtgatgcaacctgcctggagtaaatgatga&quot;</span>
+                           <span class="s2">&quot;cacaaggcaattgacccacgcatgtatctatctcattttcttacaccttctattacc&quot;</span>
+                           <span class="s2">&quot;ttctgctctctctgatttggaaaaagctgaaaaaaaaggttgaaaccagttccctga&quot;</span>
+                           <span class="s2">&quot;aattattcccctacttgactaataagtatataaagacggtaggtattgattgtaatt&quot;</span>
+                           <span class="s2">&quot;ctgtaaatctatttcttaaacttcttaaattctacttttatagttagtctttttttt&quot;</span>
+                           <span class="s2">&quot;agttttaaaacaccagaacttagtttcgacggattctaga&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13146,7 +13312,19 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK7</span> <span class="o">=</span> <span class="n">read</span><span class="p">(</span><span class="s2">&quot;pYPK7.gb&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">Bio.Restriction</span> <span class="kn">import</span> <span class="n">XhoI</span><span class="p">,</span> <span class="n">KpnI</span><span class="p">,</span> <span class="n">SacI</span><span class="p">,</span> <span class="n">XbaI</span>
+
+<span class="c1"># The Mumberg vectors depend on these pRS plasmids</span>
+
+<span class="n">pRS413</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;U03447&quot;</span><span class="p">)</span>
+<span class="n">pRS414</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;U03448&quot;</span><span class="p">)</span>
+<span class="n">pRS415</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;U03449&quot;</span><span class="p">)</span>
+<span class="n">pRS416</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;U03450&quot;</span><span class="p">)</span>
+
+<span class="n">pRS423</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;U03454&quot;</span><span class="p">)</span>
+<span class="n">pRS424</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;U03453&quot;</span><span class="p">)</span>
+<span class="n">pRS425</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;U03452&quot;</span><span class="p">)</span>
+<span class="n">pRS426</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;U03451&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13159,10 +13337,9 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span><span class="p">,</span><span class="n">r</span> <span class="o">=</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&gt;866_pYPKpwF (79-mer)</span>
-<span class="s1">              GCATGATATCttcacaggcggttttcgcacgtacccatg</span>
-<span class="s1">              &gt;865_pYPKpwR (79-mer)</span>
-<span class="s1">              GCATGACGTCaccagacgctatgactcacccggacggca&#39;&#39;&#39;</span><span class="p">,</span> <span class="n">ds</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The CYC1 terminator was cloned in pRS416 using XhoI and KpnI</span>
+
+<span class="n">p416cyc1term</span> <span class="o">=</span> <span class="p">(</span> <span class="n">pRS416</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">XhoI</span><span class="p">,</span> <span class="n">KpnI</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">rc</span><span class="p">()</span> <span class="o">+</span> <span class="n">cyc1term</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">XhoI</span><span class="p">,</span> <span class="n">KpnI</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="p">)</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span>
 </pre></div>
 
     </div>
@@ -13175,13 +13352,7 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">seq</span> <span class="o">=</span> <span class="n">pcr</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">pYPK7</span><span class="p">)</span>
-
-<span class="n">seq</span> <span class="o">=</span> <span class="n">seq</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span>
-
-<span class="n">pYPKp7</span> <span class="o">=</span> <span class="n">seq</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="n">pYPK7</span><span class="p">)</span>
-
-<span class="n">pYPKp7</span><span class="o">.</span><span class="n">stamp</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">p416cyc1term</span>
 </pre></div>
 
     </div>
@@ -13200,7 +13371,7 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>cSEGUID_w8zCE05nnVaKMSe-K0q29kjVt4k</pre>
+<pre>Dseqrecord(o5141)</pre>
 </div>
 
 </div>
@@ -13214,9 +13385,67 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">locus</span> <span class="o">=</span> <span class="s2">&quot;pYPKp7&quot;</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># The p416cyc1term was opened using SacI and XbaI</span>
 
-<span class="n">pYPKp7</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;pYPKp7.gb&quot;</span><span class="p">)</span>
+<span class="n">stuffer</span><span class="p">,</span> <span class="n">bb</span> <span class="o">=</span> <span class="n">p416cyc1term</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">XbaI</span><span class="p">)</span>
+<span class="n">bb</span><span class="p">,</span> <span class="n">stuffer</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[5]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>(Dseqrecord(-5121), Dseqrecord(-28))</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Each promoter was cloned in front of the CYC1 terminator</span>
+
+
+<span class="n">p416GPD</span> <span class="o">=</span> <span class="p">(</span> <span class="n">bb</span> <span class="o">+</span> <span class="n">gpdprom</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">XbaI</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="p">)</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="s2">&quot;gacgaaagggcctcgtgatacgccta&quot;</span><span class="p">)</span>
+<span class="n">p416TEF</span> <span class="o">=</span> <span class="p">(</span> <span class="n">bb</span> <span class="o">+</span> <span class="n">tefprom</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">XbaI</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="p">)</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="s2">&quot;gacgaaagggcctcgtgatacgccta&quot;</span><span class="p">)</span>
+<span class="n">p416ADH</span> <span class="o">=</span> <span class="p">(</span> <span class="n">bb</span> <span class="o">+</span> <span class="n">adhprom</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">XbaI</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="p">)</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="s2">&quot;gacgaaagggcctcgtgatacgccta&quot;</span><span class="p">)</span>
+<span class="n">p416CYC</span> <span class="o">=</span> <span class="p">(</span> <span class="n">bb</span> <span class="o">+</span> <span class="n">cycprom</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">XbaI</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="p">)</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="s2">&quot;gacgaaagggcctcgtgatacgccta&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Write the first four plamids to files </span>
+
+<span class="n">p416GPD</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;p416GPD.gb&quot;</span><span class="p">)</span>
+<span class="n">p416TEF</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;p416TEF.gb&quot;</span><span class="p">)</span>
+<span class="n">p416ADH</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;p416ADH.gb&quot;</span><span class="p">)</span>
+<span class="n">p416CYC</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;p416CYC.gb&quot;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -13234,53 +13463,43 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 
 
 <div class="output_html rendered_html output_subarea ">
-<font face=monospace><a href='pYPKp7.gb' target='_blank'>pYPKp7.gb</a></font><br>
+<font face=monospace><a href='p416GPD.gb' target='_blank'>p416GPD.gb</a></font><br>
 </div>
 
 </div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">Bio.Restriction</span> <span class="kn">import</span> <span class="n">ZraI</span><span class="p">,</span> <span class="n">FspAI</span><span class="p">,</span> <span class="n">EcoRV</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">linearize</span><span class="p">(</span><span class="n">ZraI</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[7]:</div>
+    <div class="prompt"></div>
 
 
 
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p416TEF.gb' target='_blank'>p416TEF.gb</a></font><br>
+</div>
 
-<div class="output_text output_subarea output_execute_result">
-<pre>Dseqrecord(-6180)</pre>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p416ADH.gb' target='_blank'>p416ADH.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p416CYC.gb' target='_blank'>p416CYC.gb</a></font><br>
 </div>
 
 </div>
@@ -13294,7 +13513,40 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">linearize</span><span class="p">(</span><span class="n">FspAI</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># cut out each type of promoter</span>
+
+<span class="n">gpdcyc</span>  <span class="o">=</span> <span class="n">p416GPD</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">KpnI</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">gpdcyc</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;GPD&quot;</span>
+<span class="n">tefcyc</span>  <span class="o">=</span> <span class="n">p416TEF</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">KpnI</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">tefcyc</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;TEF&quot;</span>
+<span class="n">adhcyc</span>  <span class="o">=</span> <span class="n">p416ADH</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">KpnI</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">adhcyc</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;ADH&quot;</span>
+<span class="n">cyccyc</span>  <span class="o">=</span> <span class="n">p416CYC</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">KpnI</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">cyccyc</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s2">&quot;CYC&quot;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">FileLink</span>
+
+<span class="n">cassettes</span> <span class="o">=</span> <span class="p">[</span> <span class="n">gpdcyc</span><span class="p">,</span> <span class="n">tefcyc</span><span class="p">,</span> <span class="n">adhcyc</span><span class="p">,</span> <span class="n">cyccyc</span> <span class="p">]</span>
+<span class="n">pRS</span>       <span class="o">=</span> <span class="p">[</span> <span class="n">pRS413</span><span class="p">,</span> <span class="n">pRS423</span><span class="p">,</span> <span class="n">pRS414</span><span class="p">,</span> <span class="n">pRS424</span><span class="p">,</span> <span class="n">pRS415</span><span class="p">,</span> <span class="n">pRS425</span><span class="p">,</span> <span class="n">pRS426</span> <span class="p">]</span>
+             
+<span class="k">for</span> <span class="n">cassette</span> <span class="ow">in</span> <span class="n">cassettes</span><span class="p">:</span>
+    <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">pRS</span><span class="p">:</span> 
+        <span class="n">pl</span> <span class="o">=</span> <span class="p">(</span><span class="n">v</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">SacI</span><span class="p">,</span> <span class="n">KpnI</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">rc</span><span class="p">()</span> <span class="o">+</span> <span class="n">cassette</span> <span class="p">)</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="s2">&quot;gacgaaagggcctcgtgatacgccta&quot;</span><span class="p">)</span>
+        <span class="n">new_name</span> <span class="o">=</span> <span class="s2">&quot;p</span><span class="si">{no}{prom}</span><span class="s2">.gb&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">no</span> <span class="o">=</span> <span class="n">v</span><span class="o">.</span><span class="n">name</span><span class="p">[</span><span class="mi">3</span><span class="p">:],</span> <span class="n">prom</span> <span class="o">=</span> <span class="n">cassette</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="n">pl</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">new_name</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">new_name</span> <span class="o">==</span><span class="s2">&quot;p426GPD.gb&quot;</span><span class="p">:</span>
+            <span class="n">p426GPD</span><span class="o">=</span><span class="n">pl</span>
 </pre></div>
 
     </div>
@@ -13307,15 +13559,430 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt"></div>
 
 
 
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Dseqrecord(-6180)</pre>
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p413GPD.gb' target='_blank'>p413GPD.gb</a></font><br>
 </div>
 
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p423GPD.gb' target='_blank'>p423GPD.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p414GPD.gb' target='_blank'>p414GPD.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p424GPD.gb' target='_blank'>p424GPD.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p415GPD.gb' target='_blank'>p415GPD.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p425GPD.gb' target='_blank'>p425GPD.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p426GPD.gb' target='_blank'>p426GPD.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p413TEF.gb' target='_blank'>p413TEF.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p423TEF.gb' target='_blank'>p423TEF.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p414TEF.gb' target='_blank'>p414TEF.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p424TEF.gb' target='_blank'>p424TEF.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p415TEF.gb' target='_blank'>p415TEF.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p425TEF.gb' target='_blank'>p425TEF.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p426TEF.gb' target='_blank'>p426TEF.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p413ADH.gb' target='_blank'>p413ADH.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p423ADH.gb' target='_blank'>p423ADH.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p414ADH.gb' target='_blank'>p414ADH.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p424ADH.gb' target='_blank'>p424ADH.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p415ADH.gb' target='_blank'>p415ADH.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p425ADH.gb' target='_blank'>p425ADH.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p426ADH.gb' target='_blank'>p426ADH.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p413CYC.gb' target='_blank'>p413CYC.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p423CYC.gb' target='_blank'>p423CYC.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p414CYC.gb' target='_blank'>p414CYC.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p424CYC.gb' target='_blank'>p424CYC.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p415CYC.gb' target='_blank'>p415CYC.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p425CYC.gb' target='_blank'>p425CYC.gb</a></font><br>
+</div>
+
+</div>
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<font face=monospace><a href='p426CYC.gb' target='_blank'>p426CYC.gb</a></font><br>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="DOWNLOAD">DOWNLOAD<a class="anchor-link" href="#DOWNLOAD">&#182;</a></h2><p><a href="p413GPD.gb">   p413GPD </a>
+<a href="p423GPD.gb">   p423GPD </a>
+<a href="p414GPD.gb">   p414GPD </a>
+<a href="p424GPD.gb">   p424GPD </a>
+<a href="p415GPD.gb">   p415GPD </a>
+<a href="p425GPD.gb">   p425GPD </a>
+<a href="p426GPD.gb">   p426GPD </a></p>
+<p><a href="p413TEF.gb">   p413TEF </a>
+<a href="p423TEF.gb">   p423TEF </a>
+<a href="p414TEF.gb">   p414TEF </a>
+<a href="p424TEF.gb">   p424TEF </a>
+<a href="p415TEF.gb">   p415TEF </a>
+<a href="p425TEF.gb">   p425TEF </a>
+<a href="p426TEF.gb">   p426TEF </a></p>
+<p><a href="p413ADH.gb">   p413ADH </a>
+<a href="p423ADH.gb">   p423ADH </a>
+<a href="p414ADH.gb">   p414ADH </a>
+<a href="p424ADH.gb">   p424ADH </a>
+<a href="p415ADH.gb">   p415ADH </a>
+<a href="p425ADH.gb">   p425ADH </a>
+<a href="p426ADH.gb">   p426ADH </a></p>
+<p><a href="p413CYC.gb">   p413CYC </a>
+<a href="p423CYC.gb">   p423CYC </a>
+<a href="p414CYC.gb">   p414CYC </a>
+<a href="p424CYC.gb">   p424CYC </a>
+<a href="p415CYC.gb">   p415CYC </a>
+<a href="p425CYC.gb">   p425CYC </a>
+<a href="p426CYC.gb">   p426CYC </a></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># download four of the sequences available from genbank</span>
+
+<span class="n">p416GPD_genbank</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;DQ269148&quot;</span><span class="p">)</span>
+<span class="n">p426GPD_genbank</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;DQ019861&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span> <span class="c1"># This Genbank record is linear although it describes a circular plasmid</span>
+<span class="n">p416TEF_genbank</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;EF210199&quot;</span><span class="p">)</span>
+<span class="n">p416CYC_genbank</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">nucleotide</span><span class="p">(</span><span class="s2">&quot;EF210198&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># verify that the sequences made here and the ones </span>
+<span class="c1"># available from genbank are equivalent</span>
+
+<span class="k">assert</span> <span class="n">eq</span><span class="p">(</span><span class="n">p416GPD_genbank</span><span class="p">,</span> <span class="n">p416GPD</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">eq</span><span class="p">(</span><span class="n">p416TEF_genbank</span><span class="p">,</span> <span class="n">p416TEF</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">eq</span><span class="p">(</span><span class="n">p416CYC_genbank</span><span class="p">,</span> <span class="n">p416CYC</span><span class="p">)</span>
+<span class="k">assert</span> <span class="n">eq</span><span class="p">(</span><span class="n">p426GPD_genbank</span><span class="p">,</span> <span class="n">p426GPD</span><span class="p">)</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;done!&quot;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>done!
+</pre>
+</div>
 </div>
 
 </div>

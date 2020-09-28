@@ -57,7 +57,8 @@ results once per week to ensure [reproducibility](https://en.wikipedia.org/wiki/
 
 If the badge below is green, all tests gave the expected results.
 
-[![test jupyter notebooks](https://github.com/MetabolicEngineeringGroupCBMA/ypk-xylose-pathways/workflows/test%20jupiter%20notebooks/badge.svg)](https://github.com/MetabolicEngineeringGroupCBMA/pydna_template/actions?query=workflow%3A%22test+jupiter+notebooks%22)
+[![test jupyter notebooks](https://github.com/MetabolicEngineeringGroupCBMA/ypk-xylose-pathways/workflows/test%20jupiter%20notebooks/badge.svg)](
+https://github.com/MetabolicEngineeringGroupCBMA/ypk-xylose-pathways/actions?query=workflow%3A%22test+jupiter+notebooks%22)
 
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)

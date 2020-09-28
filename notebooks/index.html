@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>pYPKp7</title>
+<title>index</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13121,206 +13121,516 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="pYPKp7">pYPKp7<a class="anchor-link" href="#pYPKp7">&#182;</a></h1><p>The pYPKp7 is a version of the pYPK7 with a deletion in the crp gene that originates from 
-the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw.ipynb">pYPKpw</a>.</p>
-<p>This plasmid can be linearized with ZraI or FspAI.</p>
+<h1 id="Xylose-pathway-constructs-described-in-Pereira-et-al.-2015">Xylose pathway constructs described in Pereira et al. 2015<a class="anchor-link" href="#Xylose-pathway-constructs-described-in-Pereira-et-al.-2015">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>This is an <a href="http://jupyter.org/">Jupyter notebook (ipynb)</a> file. An ipynb file is document containing a mixture between <a href="https://www.python.org/">Python</a> source code and text. This file links to other ipynb files which describe in detail every genetic construction made as a part of this work (Pereira et al. 2015) using the software package <a href="http://www.biomedcentral.com/1471-2105/16/142/abstract">pydna</a>.</p>
+<p>Since <a href="http://www.biomedcentral.com/1471-2105/16/142/abstract">pydna</a> in used, the documentation is executable on the users computer if downloaded. To execute the Jupyter notebooks, Python and <a href="https://pypi.python.org/pypi/pydna/">pydna</a> and its dependencies must be installed. The simplest way to acchieve this is to install the free Python distribution <a href="https://store.continuum.io/cshop/anaconda/">Anaconda</a> for which there is a pydna <a href="https://anaconda.org/BjornFJohansson/pydna">package</a> for most platforms.</p>
+<p>Standard primers and additional information on the yeast pathway kit can be found here <a href="ypk_std_primers.ipynb">ypk_std_primers</a>.</p>
 
 </div>
 </div>
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[1]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pydna.all</span> <span class="kn">import</span> <span class="o">*</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK7</span> <span class="o">=</span> <span class="n">read</span><span class="p">(</span><span class="s2">&quot;pYPK7.gb&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span><span class="p">,</span><span class="n">r</span> <span class="o">=</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&gt;866_pYPKpwF (79-mer)</span>
-<span class="s1">              GCATGATATCttcacaggcggttttcgcacgtacccatg</span>
-<span class="s1">              &gt;865_pYPKpwR (79-mer)</span>
-<span class="s1">              GCATGACGTCaccagacgctatgactcacccggacggca&#39;&#39;&#39;</span><span class="p">,</span> <span class="n">ds</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">seq</span> <span class="o">=</span> <span class="n">pcr</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">pYPK7</span><span class="p">)</span>
-
-<span class="n">seq</span> <span class="o">=</span> <span class="n">seq</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span>
-
-<span class="n">pYPKp7</span> <span class="o">=</span> <span class="n">seq</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="n">pYPK7</span><span class="p">)</span>
-
-<span class="n">pYPKp7</span><span class="o">.</span><span class="n">stamp</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[4]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>cSEGUID_w8zCE05nnVaKMSe-K0q29kjVt4k</pre>
-</div>
-
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Multigene-xylose-metabolic-pathways">Multigene xylose metabolic pathways<a class="anchor-link" href="#Multigene-xylose-metabolic-pathways">&#182;</a></h2><table>
+<thead><tr>
+<th>Pathway</th>
+<th>Expressed genes</th>
+<th>Genbank</th>
+<th>Notebook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pMEC1135</td>
+<td>SsXR(N272D), SsXDH, ScXK, ScTAL1</td>
+<td><a href="pMEC1135.gb">genbank</a></td>
+<td><a href="pMEC1135.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pMEC1136</td>
+<td>SsXR(wt), SsXDH, ScXK, ScTAL1</td>
+<td><a href="pMEC1136.gb">genbank</a></td>
+<td><a href="pMEC1136.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pMEC1137</td>
+<td>ScTKL1, ScRPE1, ScRKI1, CiGXF1</td>
+<td><a href="pMEC1137.gb">genbank</a></td>
+<td><a href="pMEC1137.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pMEC1138</td>
+<td>SsXR(N272D), SsXDH, ScXK, ScTAL1, ScTKL1, ScRPE1, ScRKI1, CiGXF1</td>
+<td><a href="pMEC1138.gb">genbank</a></td>
+<td><a href="pMEC1138.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pMEC1139</td>
+<td>SsXR, SsXDH, ScXK, ScTAL1, ScTKL1, ScRPE1, ScRKI1, CiGXF1</td>
+<td><a href="pMEC1139.gb">genbank</a></td>
+<td><a href="pMEC1139.ipynb">notebook</a></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
-
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">locus</span> <span class="o">=</span> <span class="s2">&quot;pYPKp7&quot;</span>
-
-<span class="n">pYPKp7</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;pYPKp7.gb&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<font face=monospace><a href='pYPKp7.gb' target='_blank'>pYPKp7.gb</a></font><br>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">Bio.Restriction</span> <span class="kn">import</span> <span class="n">ZraI</span><span class="p">,</span> <span class="n">FspAI</span><span class="p">,</span> <span class="n">EcoRV</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">linearize</span><span class="p">(</span><span class="n">ZraI</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[7]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Dseqrecord(-6180)</pre>
-</div>
-
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Single-gene-expression-vectors">Single gene expression vectors<a class="anchor-link" href="#Single-gene-expression-vectors">&#182;</a></h2><table>
+<thead><tr>
+<th>Construct</th>
+<th>Description</th>
+<th>Genbank</th>
+<th>Notebook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pYPK0_TEF1_PsXYL1_N272D_TDH3</td>
+<td>Xylose reductase (N272D)</td>
+<td><a href="pYPK0_TEF1_PsXYL1_N272D_TDH3.gb">genbank</a></td>
+<td><a href="pYPK0_TEF1_PsXYL1_N272D_TDH3.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_TEF1_PsXYL1_TDH3</td>
+<td>Xylose reductase (wt)</td>
+<td><a href="pYPK0_TEF1_PsXYL1_TDH3.gb">genbank</a></td>
+<td><a href="pYPK0_TEF1_PsXYL1_TDH3.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_TDH3_PsXYL2_PGI1</td>
+<td>Xylitol dehydrogenase</td>
+<td><a href="pYPK0_TDH3_PsXYL2_PGI1.gb">genbank</a></td>
+<td><a href="pYPK0_TDH3_PsXYL2_PGI1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_PGI1_ScXKS1_FBA1</td>
+<td>Xylulose kinase</td>
+<td><a href="pYPK0_PGI1_ScXKS1_FBA1.gb">genbank</a></td>
+<td><a href="pYPK0_PGI1_ScXKS1_FBA1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_FBA1_ScTAL1_PDC1</td>
+<td>Transaldolase</td>
+<td><a href="pYPK0_FBA1_ScTAL1_PDC1.gb">genbank</a></td>
+<td><a href="pYPK0_FBA1_ScTAL1_PDC1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_PDC1_ScTKL1_RPS19b</td>
+<td>Transketolase</td>
+<td><a href="pYPK0_PDC1_ScTKL1_RPS19b.gb">genbank</a></td>
+<td><a href="pYPK0_PDC1_ScTKL1_RPS19b.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_RPS19b_ScRPE1_RPS19a</td>
+<td>ribulose-phosphate 3-epimerase</td>
+<td><a href="pYPK0_RPS19b_ScRPE1_RPS19a.gb">genbank</a></td>
+<td><a href="pYPK0_RPS19b_ScRPE1_RPS19a.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_RPS19a_ScRKI1_TPI1</td>
+<td>ribose-5-phosphate isomerase</td>
+<td><a href="pYPK0_RPS19a_ScRKI1_TPI1.gb">genbank</a></td>
+<td><a href="pYPK0_RPS19a_ScRKI1_TPI1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_TPI1_CiGXF1_ENO2</td>
+<td>C. intermedia GXF1 xylose transporter</td>
+<td><a href="pYPK0_TPI1_CiGXF1_ENO2.gb">genbank</a></td>
+<td><a href="pYPK0_I1_CiGXF1_ENO2.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_PGI1_CiGXF1_TDH3</td>
+<td>?C. intermedia GXF1 xylose transporter?</td>
+<td><a href="pYPK0_PGI1_CiGXF1_TDH3.gb">genbank</a></td>
+<td><a href="pYPK0_PGI1_CiGXF1_TDH3.ipynb">notebook</a></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Promoter-vectors">Promoter vectors<a class="anchor-link" href="#Promoter-vectors">&#182;</a></h2><table>
+<thead><tr>
+<th style="text-align:left">Construct</th>
+<th style="text-align:left">Genbank file</th>
+<th style="text-align:left">Notebook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">pYPKa_Z_FBA1tp</td>
+<td style="text-align:left"><a href="pYPKa_Z_FBA1tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_Z_FBA1tp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_Z_PDC1tp</td>
+<td style="text-align:left"><a href="pYPKa_Z_PDC1tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_Z_PDC1tp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_Z_RPS19atp</td>
+<td style="text-align:left"><a href="pYPKa_Z_RPS19atp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_Z_RPS19atp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_Z_RPS19btp</td>
+<td style="text-align:left"><a href="pYPKa_Z_RPS19btp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_Z_RPS19btp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_Z_TDH3tp</td>
+<td style="text-align:left"><a href="pYPKa_Z_TDH3tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_Z_TDH3tp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_Z_TEF1tp</td>
+<td style="text-align:left"><a href="pYPKa_Z_TEF1tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_Z_TEF1tp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_Z_TPI1tp</td>
+<td style="text-align:left"><a href="pYPKa_Z_TPI1tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_Z_TPI1tp.ipynb">notebook</a></td>
+</tr>
+</tbody>
+</table>
 
 </div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">linearize</span><span class="p">(</span><span class="n">FspAI</span><span class="p">)</span>
-</pre></div>
-
-    </div>
 </div>
 </div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[8]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Dseqrecord(-6180)</pre>
-</div>
-
-</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Gene-vectors">Gene vectors<a class="anchor-link" href="#Gene-vectors">&#182;</a></h2><table>
+<thead><tr>
+<th style="text-align:left">Construct</th>
+<th style="text-align:left">Genbank file</th>
+<th style="text-align:left">Notebook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">pYPKa_A_ScRKI1</td>
+<td style="text-align:left"><a href="pYPKa_A_ScRKI1.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_A_ScRKI1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_A_ScRPE1</td>
+<td style="text-align:left"><a href="pYPKa_A_ScRPE1.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_A_ScRPE1.ipynb">notebook</a></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Terminator-vectors">Terminator vectors<a class="anchor-link" href="#Terminator-vectors">&#182;</a></h2><table>
+<thead><tr>
+<th style="text-align:left">Construct</th>
+<th style="text-align:left">Genbank file</th>
+<th style="text-align:left">Notebook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">pYPKa_E_ENO2tp</td>
+<td style="text-align:left"><a href="pYPKa_E_ENO2tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_E_ENO2tp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_E_FBA1tp</td>
+<td style="text-align:left"><a href="pYPKa_E_FBA1tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_E_FBA1tp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_E_PDC1tp</td>
+<td style="text-align:left"><a href="pYPKa_E_PDC1tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_E_PDC1tp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_E_RPS19atp</td>
+<td style="text-align:left"><a href="pYPKa_E_RPS19atp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_E_RPS19atp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_E_RPS19btp</td>
+<td style="text-align:left"><a href="pYPKa_E_RPS19btp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_E_RPS19btp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_E_TDH3tp</td>
+<td style="text-align:left"><a href="pYPKa_E_TDH3tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_E_TDH3tp.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td style="text-align:left">pYPKa_E_TPI1tp</td>
+<td style="text-align:left"><a href="pYPKa_E_TPI1tp.gb">genbank</a></td>
+<td style="text-align:left"><a href="pYPKa_E_TPI1tp.ipynb">notebook</a></td>
+</tr>
+</tbody>
+</table>
 
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Pathway-backbone-vectors">Pathway backbone vectors<a class="anchor-link" href="#Pathway-backbone-vectors">&#182;</a></h2><table>
+<thead><tr>
+<th>Vector</th>
+<th>Short description</th>
+<th>Genbank</th>
+<th>Notebooks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pYPK0</td>
+<td>Yeast version of pCAPs</td>
+<td><a href="pYPK0.gb">genbank</a></td>
+<td><a href="pYPK0.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPKpw</td>
+<td>A version of pYPK0 with a deletion in crp</td>
+<td><a href="pYPKpw.gb">genbank</a></td>
+<td><a href="pYPKpw.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK1</td>
+<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/10514571">bleMX4</a>, CEN6/ARS4</td>
+<td><a href="pYPK1.gb">genbank</a></td>
+<td><a href="pYPK1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK2</td>
+<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/7747518">kanMX4</a>, CEN6/ARS4</td>
+<td><a href="pYPK2.gb">genbank</a></td>
+<td><a href="pYPK2.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK3</td>
+<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/10514571">hphMX4</a>, CEN6/ARS4</td>
+<td><a href="pYPK3.gb">genbank</a></td>
+<td><a href="pYPK3.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK4</td>
+<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/10514571">hphMX4</a>, 2μ</td>
+<td><a href="pYPK4.gb">genbank</a></td>
+<td><a href="pYPK4.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK7</td>
+<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/7747518">kanMX4</a>, 2µ</td>
+<td><a href="pYPK7.gb">genbank</a></td>
+<td><a href="pYPK7.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPKp3</td>
+<td>A version of pYPK3 with a deletion in crp</td>
+<td><a href="pYPKp3.gb">genbank</a></td>
+<td><a href="pYPKp3.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPKp4</td>
+<td>A version of pYPK4 with a deletion in crp</td>
+<td><a href="pYPKp4.gb">genbank</a></td>
+<td><a href="pYPKp4.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPKp7</td>
+<td>A version of pYPK7 with a deletion in crp</td>
+<td><a href="pYPKp7.gb">genbank</a></td>
+<td><a href="pYPKp7.ipynb">notebook</a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="HIS3-expression-constructs">HIS3 expression constructs<a class="anchor-link" href="#HIS3-expression-constructs">&#182;</a></h2><table>
+<thead><tr>
+<th>plasmid</th>
+<th>comment</th>
+<th>Genbank</th>
+<th>Notebook</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pYPK0_TEF1_HIS3_TDH3</td>
+<td></td>
+<td><a href="pYPK0_TEF1_HIS3_TDH3.gb">genbank</a></td>
+<td><a href="pYPK0_TEF1_HIS3_TDH3.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_TDH3_HIS3_PGI1</td>
+<td></td>
+<td><a href="pYPK0_TDH3_HIS3_PGI1.gb">genbank</a></td>
+<td><a href="pYPK0_TDH3_HIS3_PGI1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_PGI1_HIS3_FBA1</td>
+<td></td>
+<td><a href="pYPK0_PGI1_HIS3_FBA1.gb">genbank</a></td>
+<td><a href="pYPK0_PGI1_HIS3_FBA1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_FBA1_HIS3_PDC1</td>
+<td></td>
+<td><a href="pYPK0_FBA1_HIS3_PDC1.gb">genbank</a></td>
+<td><a href="pYPK0_FBA1_HIS3_PDC1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_PDC1_HIS3_RPS19b</td>
+<td></td>
+<td><a href="pYPK0_PDC1_HIS3_RPS19b.gb">genbank</a></td>
+<td><a href="pYPK0_PDC1_HIS3_RPS19b.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_RPS19b_HIS3_RPS19a</td>
+<td></td>
+<td><a href="pYPK0_RPS19b_HIS3_RPS19a.gb">genbank</a></td>
+<td><a href="pYPK0_RPS19b_HIS3_RPS19a.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_RPS19a_HIS3_TPI1</td>
+<td></td>
+<td><a href="pYPK0_RPS19a_HIS3_TPI1.gb">genbank</a></td>
+<td><a href="pYPK0_RPS19a_HIS3_TPI1.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_TPI1_HIS3_ENO2</td>
+<td></td>
+<td><a href="pYPK0_TPI1_HIS3_ENO2.gb">genbank</a></td>
+<td><a href="pYPK0_TPI1_HIS3_ENO2.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>CEN.PK</td>
+<td></td>
+<td></td>
+<td><a href="http://www.ncbi.nlm.nih.gov/pubmed/10862876">ref</a></td>
+</tr>
+<tr>
+<td>pYPK0</td>
+<td></td>
+<td><a href="pYPK0.gb">genbank</a></td>
+<td><a href="pYPK0.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_HIS3</td>
+<td></td>
+<td><a href="pYPK0_HIS3.gb">genbank</a></td>
+<td><a href="pYPK0_HIS3.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_TDH1_rev_HIS3_ENO2</td>
+<td></td>
+<td><a href="pYPK0_TDH1_rev_HIS3_ENO2.gb">genbank</a></td>
+<td><a href="pYPK0_TDH1_rev_HIS3_ENO2.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>p413TEF</td>
+<td></td>
+<td><a href="Mumberg/p413TEF.gb">genbank</a></td>
+<td><a href="Mumberg/mumberg_32_vectors.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>p423TEF</td>
+<td></td>
+<td><a href="Mumberg/p423TEF.gb">genbank</a></td>
+<td><a href="Mumberg/mumberg_32_vectors.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>p426TDH3_HIS3</td>
+<td></td>
+<td><a href="p426TDH3_HIS3.gb">genbank</a></td>
+<td><a href="p426TDH3_HIS3.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>p426TEF1_HIS3</td>
+<td></td>
+<td><a href="p426TEF1_HIS3.gb">genbank</a></td>
+<td><a href="p426TEF1_HIS3.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK3_RPS19b_HIS3_RPS19a</td>
+<td></td>
+<td><a href="pYPK3_RPS19b_HIS3_RPS19a.gb">genbank</a></td>
+<td><a href="pYPK3_RPS19b_HIS3_RPS19a.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pYPK0_RPS19b_HIS3_TDH1</td>
+<td></td>
+<td><a href="pYPK0_RPS19b_HIS3_TDH1.gb">genbank</a></td>
+<td><a href="pYPK0_RPS19b_HIS3_TDH1.ipynb">notebook</a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Miscellaneous-vectors">Miscellaneous vectors<a class="anchor-link" href="#Miscellaneous-vectors">&#182;</a></h2><table>
+<thead><tr>
+<th>Vector</th>
+<th>Short description</th>
+<th>Genbank</th>
+<th>Notebooks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>pYPKa</td>
+<td>pCAPs with a unique AjiI site</td>
+<td><a href="pYPKa.gb">genbank</a></td>
+<td><a href="pYPKa.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pMEC1030</td>
+<td>pSU0 lacking a the EcoRV site</td>
+<td><a href="pMEC1030.gb">genbank</a></td>
+<td><a href="pMEC1030.ipynb">notebook</a></td>
+</tr>
+<tr>
+<td>pMEC1042</td>
+<td>pSU0 lacking a the EcoRV site</td>
+<td><a href="pMEC1042.gb">genbank</a></td>
+<td><a href="pMEC1042.ipynb">notebook</a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
 </div>
     </div>
   </div>

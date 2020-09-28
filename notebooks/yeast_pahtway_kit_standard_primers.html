@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>pYPKp7</title>
+<title>yeast_pahtway_kit_standard_primers</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13121,9 +13121,14 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="pYPKp7">pYPKp7<a class="anchor-link" href="#pYPKp7">&#182;</a></h1><p>The pYPKp7 is a version of the pYPK7 with a deletion in the crp gene that originates from 
-the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw.ipynb">pYPKpw</a>.</p>
-<p>This plasmid can be linearized with ZraI or FspAI.</p>
+<h1 id="Standard-primers-for-the-Yeast-Pathway-Kit">Standard primers for the Yeast Pathway Kit<a class="anchor-link" href="#Standard-primers-for-the-Yeast-Pathway-Kit">&#182;</a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>The six primers below are necessary and sufficient to carry out assemblies with the YPK system.</p>
 
 </div>
 </div>
@@ -13133,191 +13138,322 @@ the pCAPs vector. The pYPKp7 is a dominant marker version of the <a href="pYPKpw
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pydna.all</span> <span class="kn">import</span> <span class="o">*</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">pydna.parsers</span> <span class="kn">import</span> <span class="n">parse</span>
+<span class="n">p567</span><span class="p">,</span><span class="n">p577</span><span class="p">,</span><span class="n">p468</span><span class="p">,</span><span class="n">p467</span><span class="p">,</span><span class="n">p568</span><span class="p">,</span><span class="n">p578</span><span class="p">,</span><span class="n">p775</span><span class="p">,</span><span class="n">p778</span>  <span class="o">=</span>       <span class="n">parse</span><span class="p">(</span><span class="s1">&#39;&#39;&#39; &gt;567_pCAPsAjiIF (23-mer)</span>
+<span class="s1">                                                            GTcggctgcaggtcactagtgag</span>
+<span class="s1">                                                            &gt;577_crp585-557 (29-mer)</span>
+<span class="s1">                                                            gttctgatcctcgagcatcttaagaattc</span>
+
+<span class="s1">                                                            &gt;468_pCAPs_release_fw (25-mer)</span>
+<span class="s1">                                                            gtcgaggaacgccaggttgcccact</span>
+<span class="s1">                                                            &gt;467_pCAPs_release_re (31-mer) </span>
+<span class="s1">                                                            ATTTAAatcctgatgcgtttgtctgcacaga</span>
+
+<span class="s1">                                                            &gt;568_pCAPsAjiIR (22-mer) </span>
+<span class="s1">                                                            GTGCcatctgtgcagacaaacg</span>
+<span class="s1">                                                            &gt;578_crp42-70 (29-mer)</span>
+<span class="s1">                                                            gttcttgtctcattgccacattcataagt</span>
+
+<span class="s1">                                                            &gt;775_tp_ZraI_fwd (18-mer)</span>
+<span class="s1">                                                            gcggccgctgacTTAAAT</span>
+<span class="s1">                                                            &gt;778_tp_Eco32I_rev (20-mer)</span>
+<span class="s1">                                                            ggtaaatccggatTAATTAA&#39;&#39;&#39;</span><span class="p">)</span>
+
+<span class="c1"># The primers 167 and 166 were used instead of 577 and 578 for some constructions</span>
+
+<span class="n">p167</span><span class="p">,</span><span class="n">p166</span> <span class="o">=</span>       <span class="n">parse</span><span class="p">(</span><span class="s1">&#39;&#39;&#39; &gt;167 pCAPSfw (24-mer)</span>
+<span class="s1">                            TCCTGACGGGTAATTTTGATTTGC</span>
+<span class="s1">                            &gt;166 pCAPSrv (24-mer) </span>
+<span class="s1">                            CTGTGAAGTGGCTGAAATTTCGTA&#39;&#39;&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Primer-positions-in-pYPKa-derived-vectors:">Primer positions in pYPKa derived vectors:<a class="anchor-link" href="#Primer-positions-in-pYPKa-derived-vectors:">&#182;</a></h3>
+<pre><code>                             &gt;aATG-.-&gt;
+            &gt;-TP--&gt;           \     /           &gt;-TP--&gt;
+             \   /             \   /             \   /
+              \ /               \ /               \ /
+  167&gt; 511&gt;    |&lt;776             |             777&gt;|    &lt;512     &lt;166
+ 577&gt;      775&gt;|468&gt;         &lt;567|568&gt;         &lt;467|&lt;778     &lt;578    &lt;342
+               |                 |                 | 
+ ✽✽✽✽✽✽✽✽✽✽✽✽N-Z====&lt;50bp&gt;=======A+++++&lt;31bp&gt;++++++EA••••••••••••••••••••
+|            o r                 j                 cc                    |
+|            t a                 i                 oc                    |
+|            I I                 I                 RI                    |
+|                               (*)                VI                    |
+|                                                   I                    |
+|                                                                        |
+ --------------------- pYPKa --------------------------------------------
+
+(*) AjiI is only unique in the pYPKa vector, not in the pYPK0 or vectors derived from pYPK0 such as pYPKpw vectors. AjiI is unique in the pLBL2 vector.
+
+NotI   GC^GGCCGC
+ZraI   GAC^GTC
+AjiI   CAC^GTC
+EcoRV  GAT^ATC
+AccIII T^CCGGA
+
+
+Below is a list of primers for the pYPKa backbone that have been tested
+
+577 gttctgatcctcgagcatcttaagaattc
+167 TCCTGACGGGTAATTTTGATTTGC
+511 gtcagcggccgcattgcacagactctgct
+775 gcggccgctgacTTAAAT
+776 cgttcctcgacTAATTAA
+468 gtcgaggaacgccaggttgcccact
+567 GTcggctgcaggtcactagtgag
+568 GTGCcatctgtgcagacaaacg
+467 ATTTAAatcctgatgcgtttgtctgcacaga
+777 acgcatcaggatTTAAAT
+778 ggtaaatccggatTAATTAA
+512 ttcgccaattgattcaggtaaatccggat
+578 gttcttgtctcattgccacattcataagt
+166 CTGTGAAGTGGCTGAAATTTCGTA
+342 CCTTTTTACGGTTCCTGGCCT
+
+
+
+
+
+</code></pre>
+<h3 id="Background">Background<a class="anchor-link" href="#Background">&#182;</a></h3><p>The yeast pathway kit is a system for the <em>in vivo</em> assembly of entire metabolic or other multi gene pathways in <em>Saccharomyces cerevisiae</em>. It has three principal components which are combinations of DNA fragments cloned in the pYPKa positive selection vector:</p>
+<ol>
+<li>pYPKa clones of promoters cloned using the blunt ZraI restriction site</li>
+<li>pYPKa clones of genes to be expressed cloned using the blunt AjiI restriction site</li>
+<li>pYPKa clones of terminators cloned using the blunt EcoRV restriction site</li>
+<li>pYPKpw acceptor vector</li>
+</ol>
+<h3 id="pYPKa">pYPKa<a class="anchor-link" href="#pYPKa">&#182;</a></h3><p>pCAPs [Schlieper et al., 1998] is a small (3128 bp) positive selection vector for E. coli. It has the the usual ampicilllin resistance gene for selection and a collection of restriction sites in a gene encoding a toxic version of the cyclic AMP receptor protein, CRP. When DNA fragments are cloned within this gene, cell survival is permitted by the inactivation of the toxic CRP gene. Thus, there is positive selection for inserted fragments within the gene. This leads to very high frequency of correct clones in cloning experiments. pYPKa is a modified version carrying an additional AjiI restriction site.</p>
+<p>The pYPKa CRP gene has the following useful restriction enzyme sites in the order they appear in the pCAPs sequence file which is the opposite direction of the transcription of the CRP gene. The positions are given as distance between cut cites of the enzymes.</p>
+<table>
+<thead><tr>
+<th>Enzyme</th>
+<th>distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>stop</td>
+<td>0</td>
+</tr>
+<tr>
+<td>XhoI</td>
+<td>58</td>
+</tr>
+<tr>
+<td>EcoRI</td>
+<td>14</td>
+</tr>
+<tr>
+<td>XbaI</td>
+<td>19</td>
+</tr>
+<tr>
+<td>MscI</td>
+<td>21</td>
+</tr>
+<tr>
+<td>SphI</td>
+<td>33</td>
+</tr>
+<tr>
+<td>NotI</td>
+<td>60</td>
+</tr>
+<tr>
+<td><strong>ZraI</strong></td>
+<td>11</td>
+</tr>
+<tr>
+<td><strong>AjiI</strong></td>
+<td>50</td>
+</tr>
+<tr>
+<td><strong>EcoRV</strong></td>
+<td>32</td>
+</tr>
+<tr>
+<td>AccIII</td>
+<td>2</td>
+</tr>
+<tr>
+<td>MfeI</td>
+<td>17</td>
+</tr>
+<tr>
+<td>BsaAI</td>
+<td>74</td>
+</tr>
+<tr>
+<td>OliI</td>
+<td>164</td>
+</tr>
+<tr>
+<td>BamHI</td>
+<td>70</td>
+</tr>
+<tr>
+<td>start</td>
+<td>28</td>
+</tr>
+</tbody>
+</table>
+<h2 id="Strategy-for-cloning-promoters-and-terminators-in-pYPKa">Strategy for cloning promoters and terminators in pYPKa<a class="anchor-link" href="#Strategy-for-cloning-promoters-and-terminators-in-pYPKa">&#182;</a></h2><p>The same genetic elements are used as both promoters and terminators in the yeast pathway kit system. This is possible if intergenic sequences from between tandemly expressed genes are used.</p>
+<p>Tandemly expressed genes:</p>
+
+<pre><code>... Promoter&gt; Gene 1 &gt;Terminator Promoter&gt; Gene 2 &gt;Terminator ...
+
+</code></pre>
+<p>The first part of such an intergenic sequence contains the terminator of the upstream gene, and the latter part the promoter of the downstream gene.</p>
+<p>There are at least seven promoters that include strong promoters that have been reportedly used for expression of homologous or heterologous genes in S. cerevisiae (see table below) that are also intergenic sequences from tandemly expressed genes. These range in size between 500 and 900 bp.</p>
+<table>
+<thead><tr>
+<th>TP</th>
+<th>Expressed gene</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ScENO2</td>
+<td>Enolase II</td>
+</tr>
+<tr>
+<td>ScFBA1</td>
+<td>Fructose 1,6-bisphosphate aldolase</td>
+</tr>
+<tr>
+<td>ScPDC1</td>
+<td>Pyruvate decarboxylase</td>
+</tr>
+<tr>
+<td>ScPGI1</td>
+<td>Phosphoglucose isomerase</td>
+</tr>
+<tr>
+<td>ScTDH3</td>
+<td>Glyceraldehyde-3-phosphate-dehydrogenase</td>
+</tr>
+<tr>
+<td>ScTEF1</td>
+<td>Translational elongation factor EF-1 alpha</td>
+</tr>
+<tr>
+<td>ScTPI1</td>
+<td>Triose phosphate isomerase</td>
+</tr>
+</tbody>
+</table>
+<p>Each promoter is amplified with primers with six base pairs overhang. The overhangs
+are identical for all promoters and terminators.</p>
+<p>Figure 2: Tails of primers used to amplify tps</p>
+
+<pre><code>&gt;ScNNNNtpf
+TTAAAT.....
+
+&gt;ScNNNNtpr_PacI
+TAATTAA.....
+
+</code></pre>
+<p>Each PCR product will have the following general structure (both strands shown):</p>
+
+<pre><code>    TTAAAT...TTAATTA
+    AATTTA...AATTAAT
+
+
+</code></pre>
+<p>The forward (tpf) primer adds a partial SmiI (ATTT^AAAT) site in front of the terminator of the tp PCR product. The reverse (tpr_PacI) primer adds a partial PacI (TTAAT^TAA) site at the end of the promoter. These sites are only present when cloned in the EcoRV site in pYPKa location as shown below:</p>
+
+<pre><code>    ZraI                                              AjiI                           EcoRV
+
+===GAC                                                                                   
+      GTCgaggaacgccaggttgcccactttctcactagtgacctgcagccGAC                               
+                                                        GTGccatctgtgcagacaaacgcatcagGAT
+                                                                                       ATCcggattt---
+
+</code></pre>
+<p>pYPKa opened by ZraI or EcoRV:</p>
+
+<pre><code>            ZraI                                EcoRV 
+
+===GAC                   GTC===AjiI===GAT                   ATC---
+
+
+</code></pre>
+<p>Terminator promoter sequences cloned in both locations:</p>
+
+<pre><code>===GAC TTAAAT-promoter-TTAATTA GTC===AjiI===GAT TTAAAT-terminator-TTAATTA ATC---
+                                             ---------            ---------
+
+                                                SmiI                 PacI
+
+</code></pre>
+<p>The <a href="http://rebase.neb.com/rebase/enz/SmiI.html">SmiI</a> site can be used to add for example c-terminal tags or as an alternative for pathway extension.</p>
+<h2 id="Gene-cloning">Gene cloning<a class="anchor-link" href="#Gene-cloning">&#182;</a></h2><p>Tailed primers can be used to amplify genes for recombination between any two promoters and terminators. The primer tails need to be designed to promote recombination between the promoter and terminator:</p>
+
+<pre><code> &gt;Gene_YPK_rec_fwd
+ tgcccactttctcactagtgacctgcagccgac-A-ATG...
+                                     ---
+                                     sta
+                                     rtc
+                                     odo
+                                     n                                              
+ &lt;--------------  33 nt --------&gt;
+
+ &gt;Gene_YPK_rec_rev
+ AAatcctgatgcgtttgtctgcacagatggCAC...
+                                  ---
+                                  sto
+                                  pco
+                                  don
+ &lt;---------- 33 nt---------------&gt;
+
+</code></pre>
+<p>Alternatively, genes can be cloned in the blunt AjiI site of pYPKa by the same strategy as used for the promoters and terminators.</p>
+<p>The gene can be released by ZraI + EcoRV digestion if no restriction sites for these genes are present in the gene, alternatively the gene with flanking sequences can be reamplified with primers 468 and 467.</p>
+<p>The resulting cassette is similar to the one amplified with the tailed primers above, but the cloning primers can be made shorter and thereby less expensive and possibly more efficient.</p>
+<p>The primers 775, 776, 777 and 778 can be used to check presence and orientation of all
+terminator-promoters cloned in the ZraI or EcoRV site in pCAPs</p>
+<h2 id="pYPKpw">pYPKpw<a class="anchor-link" href="#pYPKpw">&#182;</a></h2><p>The pYPKpw is a version of the pCAPs vector that has additional sequences for maintenance in <em>Saccharomyces cerevisiae</em> . The additional genes are URA3 for prototrophic selection for uracile and the 2µ sequence for replication There is also a deletion in the CRP gene.</p>
+<h2 id="Assembly-of-single-gene-expression-vectors">Assembly of single gene expression vectors<a class="anchor-link" href="#Assembly-of-single-gene-expression-vectors">&#182;</a></h2><p>The pYPKpw plasmid is linearized with ZraI, FspAI or EcoRV and mixed with three linear DNA fragments:</p>
+<ul>
+<li>A promoter amplified with the 577 and 567 primer</li>
+<li>a gene amplified with tailed primers or using 467, 468</li>
+<li>A terminator amplified with the 568 and 578 primers</li>
+</ul>
+
+<pre><code>       ✽✽✽✽promoter====    ++++terminator••••
+        \/          \/      \/            \/
+        /\          /\      /\            /\
+ ------✽✽✽✽        ====gene++++          ••••-------                           
+|                                                   |
+|                                                   |
+|                                                   |
+ --------------------- pYPKpw ----------------------
+
+
+</code></pre>
+<p>The entire single gene expression cassette (promoter-gene-terminator) can be cut out from the pYPKpw vector using <a href="http://rebase.neb.com/rebase/enz/NotI.html">NotI</a> on the plasmid backbone and the <a href="http://rebase.neb.com/rebase/enz/PacI.html">PacI</a> generated by the tp primer tails.</p>
+
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPK7</span> <span class="o">=</span> <span class="n">read</span><span class="p">(</span><span class="s2">&quot;pYPK7.gb&quot;</span><span class="p">)</span>
+<div class=" highlight hl-ipython3"><pre><span></span> 
 </pre></div>
 
     </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">f</span><span class="p">,</span><span class="n">r</span> <span class="o">=</span><span class="n">parse</span><span class="p">(</span><span class="s1">&#39;&#39;&#39;&gt;866_pYPKpwF (79-mer)</span>
-<span class="s1">              GCATGATATCttcacaggcggttttcgcacgtacccatg</span>
-<span class="s1">              &gt;865_pYPKpwR (79-mer)</span>
-<span class="s1">              GCATGACGTCaccagacgctatgactcacccggacggca&#39;&#39;&#39;</span><span class="p">,</span> <span class="n">ds</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">seq</span> <span class="o">=</span> <span class="n">pcr</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">r</span><span class="p">,</span> <span class="n">pYPK7</span><span class="p">)</span>
-
-<span class="n">seq</span> <span class="o">=</span> <span class="n">seq</span><span class="o">.</span><span class="n">looped</span><span class="p">()</span>
-
-<span class="n">pYPKp7</span> <span class="o">=</span> <span class="n">seq</span><span class="o">.</span><span class="n">synced</span><span class="p">(</span><span class="n">pYPK7</span><span class="p">)</span>
-
-<span class="n">pYPKp7</span><span class="o">.</span><span class="n">stamp</span><span class="p">()</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[4]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>cSEGUID_w8zCE05nnVaKMSe-K0q29kjVt4k</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">locus</span> <span class="o">=</span> <span class="s2">&quot;pYPKp7&quot;</span>
-
-<span class="n">pYPKp7</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s2">&quot;pYPKp7.gb&quot;</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt"></div>
-
-
-
-<div class="output_html rendered_html output_subarea ">
-<font face=monospace><a href='pYPKp7.gb' target='_blank'>pYPKp7.gb</a></font><br>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">Bio.Restriction</span> <span class="kn">import</span> <span class="n">ZraI</span><span class="p">,</span> <span class="n">FspAI</span><span class="p">,</span> <span class="n">EcoRV</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">linearize</span><span class="p">(</span><span class="n">ZraI</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[7]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Dseqrecord(-6180)</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">pYPKp7</span><span class="o">.</span><span class="n">linearize</span><span class="p">(</span><span class="n">FspAI</span><span class="p">)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-    <div class="prompt output_prompt">Out[8]:</div>
-
-
-
-
-<div class="output_text output_subarea output_execute_result">
-<pre>Dseqrecord(-6180)</pre>
-</div>
-
-</div>
-
 </div>
 </div>
 
