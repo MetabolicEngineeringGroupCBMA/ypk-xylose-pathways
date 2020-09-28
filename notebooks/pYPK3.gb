@@ -1,6 +1,5 @@
 LOCUS       pYPK3                   5288 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  description_rc
-            cSEGUID_HGdQuJehFgtyDtEoXeOty-J5sg8_2018-05-15T07:19:24.973662.
+DEFINITION  description_rc cSEGUID_HGdQuJehFgtyDtEoXeOty-J5sg8.
 ACCESSION   id_rc
 VERSION     id_rc
 KEYWORDS    .

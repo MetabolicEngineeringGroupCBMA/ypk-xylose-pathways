@@ -1,6 +1,5 @@
 LOCUS       pMEC1132                7703 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  pYPK0_RPS19a_ScRKI1_TPI1tp
-            cSEGUID_79JiqIENZc7fgGgYo9WS44MLsBA_2018-05-15T07:37:17.197151.
+DEFINITION  pYPK0_RPS19a_ScRKI1_TPI1tp cSEGUID_79JiqIENZc7fgGgYo9WS44MLsBA.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -56,6 +55,16 @@ FEATURES             Location/Qualifiers
                      /gene="RKI1"
                      /locus_tag="YOR095C"
                      /EC_number="5.3.1.6"
+                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004751
+                     ribose-5-phosphate isomerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0008615
+                     pyridoxine biosynthetic process [PMID:14690456]"
                      /note="Ribose-5-phosphate ketol-isomerase; catalyzes the
                      interconversion of ribose 5-phosphate and ribulose
                      5-phosphate in the pentose phosphate pathway; participates

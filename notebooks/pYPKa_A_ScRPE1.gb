@@ -1,6 +1,5 @@
 LOCUS       name                    3856 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  <unknown description>
-            cSEGUID_ohg-HZ_50aunMEGIUMYkvAcTTXM_2018-05-15T07:40:02.257256.
+DEFINITION  <unknown description> cSEGUID_ohg-HZ_50aunMEGIUMYkvAcTTXM.
 ACCESSION   <unknown id>
 VERSION     <unknown id>
 DBLINK      BioProject: PRJNA128
@@ -9,6 +8,35 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     terminator      complement(282..314)
+                     /locus_tag="3' part of coli chr"
+                     /label="3' part of coli chr"
+                     /ApEinfo_label="3' part of coli chr"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             complement(join(315..580,1309..1675))
+                     /gene="crp"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="artificially mutated crp; cyclic AMP receptor
+                     protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="catabolite gene activator protein"
+                     /protein_id="CAA04867.1"
+                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
+                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
+                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
+                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
+                     /locus_tag="catabolite gene activator protein"
+                     /label="catabolite gene activator protein"
+                     /ApEinfo_label="catabolite gene activator protein"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      primer_bind     complement(558..578)
                      /label="567_pCAPsAjiIF"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -29,6 +57,12 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YJL121C"
                      /gene_synonym="EPI1; POS18"
                      /EC_number="5.1.3.1"
+                     /experiment="EXISTENCE:direct assay:GO:0004750
+                     ribulose-phosphate 3-epimerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004750
+                     ribulose-phosphate 3-epimerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8929392]"
                      /note="D-ribulose-5-phosphate 3-epimerase; catalyzes a
                      reaction in the non-oxidative part of the pentose-phosphate
                      pathway; mutants are sensitive to oxidative stress"
@@ -54,10 +88,48 @@ FEATURES             Location/Qualifiers
                      /label="568_pCAPsAjiIR"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+     -10_signal      complement(1714..1719)
+                     /locus_tag="-10"
+                     /label="-10"
+                     /ApEinfo_label="-10"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     -35_signal      complement(1737..1742)
+                     /locus_tag="-35"
+                     /label="-35"
+                     /ApEinfo_label="-35"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     rep_origin      complement(2023..2705)
+                     /locus_tag="ColE1 origin"
+                     /label="ColE1 origin"
+                     /ApEinfo_label="ColE1 origin"
+                     /ApEinfo_fwdcolor="gray50"
+                     /ApEinfo_revcolor="gray50"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      rep_origin      2041
                      /direction=BOTH
+                     /locus_tag="rep_origin"
+                     /label="rep_origin"
+                     /ApEinfo_label="rep_origin"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      gene            complement(2800..3660)
                      /gene="bla"
+                     /locus_tag="bla"
+                     /label="bla"
+                     /ApEinfo_label="bla"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(2800..3660)
                      /gene="bla"
                      /codon_start=1
@@ -76,6 +148,21 @@ FEATURES             Location/Qualifiers
                      EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
+                     /locus_tag="beta-lactamase"
+                     /label="beta-lactamase"
+                     /ApEinfo_label="beta-lactamase"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             complement(2803..3462)
+                     /locus_tag="AmpR"
+                     /label="AmpR"
+                     /ApEinfo_label="AmpR"
+                     /ApEinfo_fwdcolor="yellow"
+                     /ApEinfo_revcolor="yellow"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

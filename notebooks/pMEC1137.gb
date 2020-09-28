@@ -1,6 +1,6 @@
 LOCUS       pMEC1137               14484 bp    DNA     circular UNK 01-JAN-1980
 DEFINITION  pYPK0-PDC1-ScTKL1-RPS19b-ScRPE1-RPS19a-ScRKI1-TPI1-CiGXF1-ScENO2
-            cSEGUID_6E0AGs78NqyqjtuAWRWhkIGlLnI_2018-05-15T07:40:15.403855.
+            cSEGUID_6E0AGs78NqyqjtuAWRWhkIGlLnI.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -44,6 +44,12 @@ FEATURES             Location/Qualifiers
                      /gene="TKL1"
                      /locus_tag="YPR074C"
                      /EC_number="2.2.1.1"
+                     /experiment="EXISTENCE:curator inference:GO:0005737
+                     cytoplasm [PMID:8299150]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004802
+                     transketolase activity [PMID:8226984]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8299150]"
                      /note="Transketolase; catalyzes conversion of
                      xylulose-5-phosphate and ribose-5-phosphate to
                      sedoheptulose-7-phosphate and glyceraldehyde-3-phosphate in
@@ -135,6 +141,12 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YJL121C"
                      /gene_synonym="EPI1; POS18"
                      /EC_number="5.1.3.1"
+                     /experiment="EXISTENCE:direct assay:GO:0004750
+                     ribulose-phosphate 3-epimerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004750
+                     ribulose-phosphate 3-epimerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8929392]"
                      /note="D-ribulose-5-phosphate 3-epimerase; catalyzes a
                      reaction in the non-oxidative part of the pentose-phosphate
                      pathway; mutants are sensitive to oxidative stress"
@@ -246,6 +258,16 @@ FEATURES             Location/Qualifiers
                      /gene="RKI1"
                      /locus_tag="YOR095C"
                      /EC_number="5.3.1.6"
+                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004751
+                     ribose-5-phosphate isomerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0008615
+                     pyridoxine biosynthetic process [PMID:14690456]"
                      /note="Ribose-5-phosphate ketol-isomerase; catalyzes the
                      interconversion of ribose 5-phosphate and ribulose
                      5-phosphate in the pentose phosphate pathway; participates
@@ -385,12 +407,11 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             complement(8815..9153)
                      /locus_tag="YHR173C"
+                     /experiment="EXISTENCE:direct assay:GO:0000324 fungal-type
+                     vacuole [PMID:26928762]"
                      /note="hypothetical protein; expressed at both mRNA and
                      protein levels; SWAT-GFP and mCherry fusion proteins
-                     localize to the vacuole; GO_component: GO:0000324 -
-                     fungal-type vacuole [Evidence IDA] [PMID 26928762];
-                     GO_function: GO:0003674 - molecular_function [Evidence ND];
-                     GO_process: GO:0008150 - biological_process [Evidence ND]"
+                     localize to the vacuole"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA35091.1"

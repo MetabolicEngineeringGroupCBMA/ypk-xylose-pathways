@@ -1,5 +1,5 @@
 LOCUS       name                    8215 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_9yP0r3XpSpOLLZg6tsXf3ePr860_2018-05-15T07:37:30.593056.
+DEFINITION  cSEGUID_9yP0r3XpSpOLLZg6tsXf3ePr860.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -30,10 +30,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YJL052C-A"
                      /note="hypothetical protein; identified based on comparison
                      to related yeast species; mCherry fusion protein localizes
-                     to the vacuole; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     to the vacuole"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA08746.1"
@@ -85,25 +82,21 @@ FEATURES             Location/Qualifiers
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /EC_number="4.2.1.19"
+                     /experiment="EXISTENCE:direct assay:GO:0000105 histidine
+                     biosynthetic process [PMID:341150]"
+                     /experiment="EXISTENCE:direct assay:GO:0004424
+                     imidazoleglycerol-phosphate dehydratase activity
+                     [PMID:341150]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0000105
+                     histidine biosynthetic process [PMID:14190241]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004424
+                     imidazoleglycerol-phosphate dehydratase activity
+                     [PMID:14190241]"
                      /note="Imidazoleglycerol-phosphate dehydratase; catalyzes
                      the sixth step in histidine biosynthesis; mutations cause
                      histidine auxotrophy and sensitivity to Cu, Co, and Ni
                      salts; transcription is regulated by general amino acid
-                     control via Gcn4p; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0004424 -
-                     imidazoleglycerol-phosphate dehydratase activity [Evidence
-                     IEA,IEA]; GO_function: GO:0004424 -
-                     imidazoleglycerol-phosphate dehydratase activity [Evidence
-                     IMP] [PMID 14190241]; GO_function: GO:0004424 -
-                     imidazoleglycerol-phosphate dehydratase activity [Evidence
-                     IDA] [PMID 341150]; GO_function: GO:0016829 - lyase
-                     activity [Evidence IEA]; GO_process: GO:0008652 - cellular
-                     amino acid biosynthetic process [Evidence IEA]; GO_process:
-                     GO:0000105 - histidine biosynthetic process [Evidence
-                     IEA,IEA,IEA]; GO_process: GO:0000105 - histidine
-                     biosynthetic process [Evidence IMP] [PMID 14190241];
-                     GO_process: GO:0000105 - histidine biosynthetic process
-                     [Evidence IDA] [PMID 341150]"
+                     control via Gcn4p"
                      /codon_start=1
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
                      /protein_id="DAA10975.1"
@@ -153,12 +146,11 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             complement(2546..2884)
                      /locus_tag="YHR173C"
+                     /experiment="EXISTENCE:direct assay:GO:0000324 fungal-type
+                     vacuole [PMID:26928762]"
                      /note="hypothetical protein; expressed at both mRNA and
                      protein levels; SWAT-GFP and mCherry fusion proteins
-                     localize to the vacuole; GO_component: GO:0000324 -
-                     fungal-type vacuole [Evidence IDA] [PMID 26928762];
-                     GO_function: GO:0003674 - molecular_function [Evidence ND];
-                     GO_process: GO:0008150 - biological_process [Evidence ND]"
+                     localize to the vacuole"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA35091.1"

@@ -1,5 +1,5 @@
 LOCUS       pMEC1128                8570 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  cSEGUID_ycHQ8EOwqQihZOUFmIbCiwHhMZ0_2018-05-15T07:38:25.887910.
+DEFINITION  cSEGUID_ycHQ8EOwqQihZOUFmIbCiwHhMZ0.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -61,10 +61,7 @@ FEATURES             Location/Qualifiers
      CDS             2683..2787
                      /locus_tag="YBR196C-B"
                      /note="hypothetical protein; identified by expression
-                     profiling and mass spectrometry; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     profiling and mass spectrometry"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07312.1"
@@ -78,12 +75,7 @@ FEATURES             Location/Qualifiers
      CDS             3140..3289
                      /locus_tag="YBR196C-A"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_component: GO:0016021 - integral
-                     component of membrane [Evidence IEA]; GO_component:
-                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
-                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
-                     GO:0008150 - biological_process [Evidence ND]"
+                     and RT-PCR"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"

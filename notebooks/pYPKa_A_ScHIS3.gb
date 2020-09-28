@@ -1,6 +1,5 @@
 LOCUS       name                    3802 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  <unknown description>
-            cSEGUID_SuTj4l27jSSln3F7NSKaJtJga5E_2018-05-15T07:40:55.278784.
+DEFINITION  <unknown description> cSEGUID_SuTj4l27jSSln3F7NSKaJtJga5E.
 ACCESSION   <unknown id>
 VERSION     <unknown id>
 DBLINK      BioProject: PRJNA43747
@@ -9,6 +8,35 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     terminator      complement(282..314)
+                     /locus_tag="3' part of coli chr"
+                     /label="3' part of coli chr"
+                     /ApEinfo_label="3' part of coli chr"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             complement(join(315..580,1255..1621))
+                     /gene="crp"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="artificially mutated crp; cyclic AMP receptor
+                     protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="catabolite gene activator protein"
+                     /protein_id="CAA04867.1"
+                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
+                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
+                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
+                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
+                     /locus_tag="catabolite gene activator protein"
+                     /label="catabolite gene activator protein"
+                     /ApEinfo_label="catabolite gene activator protein"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      primer_bind     complement(558..578)
                      /label="567_pCAPsAjiIF"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -36,25 +64,21 @@ FEATURES             Location/Qualifiers
                      /gene_synonym="HIS10"
                      /gene_synonym="HIS8"
                      /EC_number="4.2.1.19"
+                     /experiment="EXISTENCE:direct assay:GO:0000105 histidine
+                     biosynthetic process [PMID:341150]"
+                     /experiment="EXISTENCE:direct assay:GO:0004424
+                     imidazoleglycerol-phosphate dehydratase activity
+                     [PMID:341150]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0000105
+                     histidine biosynthetic process [PMID:14190241]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004424
+                     imidazoleglycerol-phosphate dehydratase activity
+                     [PMID:14190241]"
                      /note="Imidazoleglycerol-phosphate dehydratase; catalyzes
                      the sixth step in histidine biosynthesis; mutations cause
                      histidine auxotrophy and sensitivity to Cu, Co, and Ni
                      salts; transcription is regulated by general amino acid
-                     control via Gcn4p; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0004424 -
-                     imidazoleglycerol-phosphate dehydratase activity [Evidence
-                     IEA,IEA]; GO_function: GO:0004424 -
-                     imidazoleglycerol-phosphate dehydratase activity [Evidence
-                     IMP] [PMID 14190241]; GO_function: GO:0004424 -
-                     imidazoleglycerol-phosphate dehydratase activity [Evidence
-                     IDA] [PMID 341150]; GO_function: GO:0016829 - lyase
-                     activity [Evidence IEA]; GO_process: GO:0008652 - cellular
-                     amino acid biosynthetic process [Evidence IEA]; GO_process:
-                     GO:0000105 - histidine biosynthetic process [Evidence
-                     IEA,IEA,IEA]; GO_process: GO:0000105 - histidine
-                     biosynthetic process [Evidence IMP] [PMID 14190241];
-                     GO_process: GO:0000105 - histidine biosynthetic process
-                     [Evidence IDA] [PMID 341150]"
+                     control via Gcn4p"
                      /codon_start=1
                      /product="imidazoleglycerol-phosphate dehydratase HIS3"
                      /protein_id="DAA10975.1"
@@ -75,10 +99,48 @@ FEATURES             Location/Qualifiers
                      /label="568_pCAPsAjiIR"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+     -10_signal      complement(1660..1665)
+                     /locus_tag="-10"
+                     /label="-10"
+                     /ApEinfo_label="-10"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     -35_signal      complement(1683..1688)
+                     /locus_tag="-35"
+                     /label="-35"
+                     /ApEinfo_label="-35"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     rep_origin      complement(1969..2651)
+                     /locus_tag="ColE1 origin"
+                     /label="ColE1 origin"
+                     /ApEinfo_label="ColE1 origin"
+                     /ApEinfo_fwdcolor="gray50"
+                     /ApEinfo_revcolor="gray50"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      rep_origin      1987
                      /direction=BOTH
+                     /locus_tag="rep_origin"
+                     /label="rep_origin"
+                     /ApEinfo_label="rep_origin"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      gene            complement(2746..3606)
                      /gene="bla"
+                     /locus_tag="bla"
+                     /label="bla"
+                     /ApEinfo_label="bla"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(2746..3606)
                      /gene="bla"
                      /codon_start=1
@@ -97,6 +159,21 @@ FEATURES             Location/Qualifiers
                      EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
+                     /locus_tag="beta-lactamase"
+                     /label="beta-lactamase"
+                     /ApEinfo_label="beta-lactamase"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             complement(2749..3408)
+                     /locus_tag="AmpR"
+                     /label="AmpR"
+                     /ApEinfo_label="AmpR"
+                     /ApEinfo_fwdcolor="yellow"
+                     /ApEinfo_revcolor="yellow"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

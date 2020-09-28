@@ -1,6 +1,5 @@
 LOCUS       pYPKa_Z_PGI1tp          4141 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  pYPKa_Z_PGI1tp
-            cSEGUID_-yISaUslIcukBsT9XhxZdPoAIAQ_2018-05-15T07:40:26.470238.
+DEFINITION  pYPKa_Z_PGI1tp cSEGUID_-yISaUslIcukBsT9XhxZdPoAIAQ.
 ACCESSION   <unknown id>
 VERSION     <unknown id>
 DBLINK      BioProject: PRJNA43747
@@ -9,6 +8,35 @@ SOURCE      .
   ORGANISM  .
             .
 FEATURES             Location/Qualifiers
+     terminator      complement(282..314)
+                     /locus_tag="3' part of coli chr"
+                     /label="3' part of coli chr"
+                     /ApEinfo_label="3' part of coli chr"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             complement(join(315..530,1544..1960))
+                     /gene="crp"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="artificially mutated crp; cyclic AMP receptor
+                     protein"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="catabolite gene activator protein"
+                     /protein_id="CAA04867.1"
+                     /translation="MVLGKPQTDPTLEWFLSHCHIHKYPSKSTLIHQGEKAETLYYIVK
+                     GSVAVLIKDEEGKEMILSYLNQGDFIGELGLFEEGQERSAWVRAKTACEVAEISYKKFR
+                     QLIQVNPDILMRLSAQMARRLQVTSEKVGNLAFLDVSGRIAQTLLNLAKQPDAMTHPDG
+                     MQIKITRQEIGQIVGCSRQTVGRILKMLEDQNLISAHGKTIVVYGTR"
+                     /locus_tag="catabolite gene activator protein"
+                     /label="catabolite gene activator protein"
+                     /ApEinfo_label="catabolite gene activator protein"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      primer_bind     537..557
                      /label="549_ScPGI1tpf"
                      /ApEinfo_fwdcolor="#baffa3"
@@ -21,10 +49,7 @@ FEATURES             Location/Qualifiers
      CDS             807..911
                      /locus_tag="YBR196C-B"
                      /note="hypothetical protein; identified by expression
-                     profiling and mass spectrometry; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     profiling and mass spectrometry"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07312.1"
@@ -38,12 +63,7 @@ FEATURES             Location/Qualifiers
      CDS             1264..1413
                      /locus_tag="YBR196C-A"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_component: GO:0016021 - integral
-                     component of membrane [Evidence IEA]; GO_component:
-                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
-                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
-                     GO:0008150 - biological_process [Evidence ND]"
+                     and RT-PCR"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -62,10 +82,48 @@ FEATURES             Location/Qualifiers
                      /label="568_pCAPsAjiIR"
                      /ApEinfo_fwdcolor="#baffa3"
                      /ApEinfo_revcolor="#ffbaba"
+     -10_signal      complement(1999..2004)
+                     /locus_tag="-10"
+                     /label="-10"
+                     /ApEinfo_label="-10"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     -35_signal      complement(2022..2027)
+                     /locus_tag="-35"
+                     /label="-35"
+                     /ApEinfo_label="-35"
+                     /ApEinfo_fwdcolor="cyan"
+                     /ApEinfo_revcolor="green"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     rep_origin      complement(2308..2990)
+                     /locus_tag="ColE1 origin"
+                     /label="ColE1 origin"
+                     /ApEinfo_label="ColE1 origin"
+                     /ApEinfo_fwdcolor="gray50"
+                     /ApEinfo_revcolor="gray50"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      rep_origin      2326
                      /direction=BOTH
+                     /locus_tag="rep_origin"
+                     /label="rep_origin"
+                     /ApEinfo_label="rep_origin"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      gene            complement(3085..3945)
                      /gene="bla"
+                     /locus_tag="bla"
+                     /label="bla"
+                     /ApEinfo_label="bla"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
      CDS             complement(3085..3945)
                      /gene="bla"
                      /codon_start=1
@@ -84,6 +142,21 @@ FEATURES             Location/Qualifiers
                      EPELNEAIPNDERDTTMPVAMATTLRKLLTGELLTLASRQQLIDWMEADKVAGPLLRSA
                      LPAGWFIADKSGAGERGSRGIIAALGPDGKPSRIVVIYTTGSQATMDERNRQIAEIGAS
                      LIKHW"
+                     /locus_tag="beta-lactamase"
+                     /label="beta-lactamase"
+                     /ApEinfo_label="beta-lactamase"
+                     /ApEinfo_fwdcolor="pink"
+                     /ApEinfo_revcolor="pink"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
+     CDS             complement(3088..3747)
+                     /locus_tag="AmpR"
+                     /label="AmpR"
+                     /ApEinfo_label="AmpR"
+                     /ApEinfo_fwdcolor="yellow"
+                     /ApEinfo_revcolor="yellow"
+                     /ApEinfo_graphicformat="arrow_data {{0 0.5 0 1 2 0 0 -1 0
+                     -0.5} {} 0} width 5 offset 0"
 ORIGIN
         1 tcgcgcgttt cggtgatgac ggtgaaaacc tctgacacat gcagctcccg gagacggtca
        61 cagcttgtct gtaagcggat gccgggagca gacaagcccg tcagggcgcg tcagcgggtg

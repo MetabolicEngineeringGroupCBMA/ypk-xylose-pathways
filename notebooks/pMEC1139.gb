@@ -1,8 +1,7 @@
 LOCUS       pMEC1138               22594 bp    DNA     circular UNK 01-JAN-1980
 DEFINITION  pYPK0_TEF1_XR_TPI1_XDH_PDC1_XK_FBA1_TAL1
             _PDC1tpPDC1_ScTKL1_RPS19b_ScRPE1_RPS19a_ ScRKI1_TPI1_CiGXF1_ENO2
-            (alternative name pYPK0_8) cSEGUID_rjjimx-cVzquS3V5BP
-            VMOWPSwAI_2019-06-09T23:07:07.947472
+            (alternative name pYPK0_8) cSEGUID_rjjimx- cVzquS3V5BPVMOWPSwAI
             cSEGUID_rjjimx-cVzquS3V5BPVMOWPSwAI_2018-05-15T07:40:21.203583.
 ACCESSION   id
 VERSION     id
@@ -149,10 +148,7 @@ FEATURES             Location/Qualifiers
      CDS             4305..4409
                      /locus_tag="YBR196C-B"
                      /note="hypothetical protein; identified by expression
-                     profiling and mass spectrometry; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     profiling and mass spectrometry"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07312.1"
@@ -166,10 +162,7 @@ FEATURES             Location/Qualifiers
      CDS             4305..4409
                      /locus_tag="YBR196C-B"
                      /note="hypothetical protein; identified by expression
-                     profiling and mass spectrometry; GO_component: GO:0005575 -
-                     cellular_component [Evidence ND]; GO_function: GO:0003674 -
-                     molecular_function [Evidence ND]; GO_process: GO:0008150 -
-                     biological_process [Evidence ND]"
+                     profiling and mass spectrometry"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07312.1"
@@ -183,12 +176,7 @@ FEATURES             Location/Qualifiers
      CDS             4762..4911
                      /locus_tag="YBR196C-A"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_component: GO:0016021 - integral
-                     component of membrane [Evidence IEA]; GO_component:
-                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
-                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
-                     GO:0008150 - biological_process [Evidence ND]"
+                     and RT-PCR"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -203,12 +191,7 @@ FEATURES             Location/Qualifiers
      CDS             4762..4911
                      /locus_tag="YBR196C-A"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR; GO_component: GO:0005575 - cellular_component
-                     [Evidence ND]; GO_component: GO:0016021 - integral
-                     component of membrane [Evidence IEA]; GO_component:
-                     GO:0016020 - membrane [Evidence IEA,IEA]; GO_function:
-                     GO:0003674 - molecular_function [Evidence ND]; GO_process:
-                     GO:0008150 - biological_process [Evidence ND]"
+                     and RT-PCR"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
@@ -241,6 +224,12 @@ FEATURES             Location/Qualifiers
                      /gene="XKS1"
                      /locus_tag="YGR194C"
                      /EC_number="2.7.1.17"
+                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:direct assay:GO:0005998 xylulose
+                     catabolic process [PMID:10981687]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004856
+                     xylulokinase activity [PMID:9595677]"
                      /note="Xylulokinase; converts D-xylulose and ATP to
                      xylulose 5-phosphate and ADP; rate limiting step in
                      fermentation of xylulose; required for xylose fermentation
@@ -323,6 +312,13 @@ FEATURES             Location/Qualifiers
                      /gene="TAL1"
                      /locus_tag="YLR354C"
                      /EC_number="2.2.1.2"
+                     /experiment="EXISTENCE:direct assay:GO:0004801
+                     sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate
+                     glyceronetransferase activity [PMID:2185015]"
+                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:17397208]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8299150]"
                      /note="Transaldolase, enzyme in the non-oxidative pentose
                      phosphate pathway; converts sedoheptulose 7-phosphate and
                      glyceraldehyde 3-phosphate to erythrose 4-phosphate and
@@ -402,6 +398,12 @@ FEATURES             Location/Qualifiers
                      /gene="TKL1"
                      /locus_tag="YPR074C"
                      /EC_number="2.2.1.1"
+                     /experiment="EXISTENCE:curator inference:GO:0005737
+                     cytoplasm [PMID:8299150]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004802
+                     transketolase activity [PMID:8226984]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8299150]"
                      /note="Transketolase; catalyzes conversion of
                      xylulose-5-phosphate and ribose-5-phosphate to
                      sedoheptulose-7-phosphate and glyceraldehyde-3-phosphate in
@@ -493,6 +495,12 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YJL121C"
                      /gene_synonym="EPI1; POS18"
                      /EC_number="5.1.3.1"
+                     /experiment="EXISTENCE:direct assay:GO:0004750
+                     ribulose-phosphate 3-epimerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004750
+                     ribulose-phosphate 3-epimerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8929392]"
                      /note="D-ribulose-5-phosphate 3-epimerase; catalyzes a
                      reaction in the non-oxidative part of the pentose-phosphate
                      pathway; mutants are sensitive to oxidative stress"
@@ -604,6 +612,16 @@ FEATURES             Location/Qualifiers
                      /gene="RKI1"
                      /locus_tag="YOR095C"
                      /EC_number="5.3.1.6"
+                     /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:direct assay:GO:0005737 cytoplasm
+                     [PMID:14562095]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004751
+                     ribose-5-phosphate isomerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0008615
+                     pyridoxine biosynthetic process [PMID:14690456]"
                      /note="Ribose-5-phosphate ketol-isomerase; catalyzes the
                      interconversion of ribose 5-phosphate and ribulose
                      5-phosphate in the pentose phosphate pathway; participates
@@ -743,12 +761,11 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             complement(16925..17263)
                      /locus_tag="YHR173C"
+                     /experiment="EXISTENCE:direct assay:GO:0000324 fungal-type
+                     vacuole [PMID:26928762]"
                      /note="hypothetical protein; expressed at both mRNA and
                      protein levels; SWAT-GFP and mCherry fusion proteins
-                     localize to the vacuole; GO_component: GO:0000324 -
-                     fungal-type vacuole [Evidence IDA] [PMID 26928762];
-                     GO_function: GO:0003674 - molecular_function [Evidence ND];
-                     GO_process: GO:0008150 - biological_process [Evidence ND]"
+                     localize to the vacuole"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA35091.1"

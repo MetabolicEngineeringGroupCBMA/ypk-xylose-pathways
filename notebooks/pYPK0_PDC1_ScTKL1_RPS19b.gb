@@ -1,6 +1,5 @@
 LOCUS       pMEC1131                9404 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  pYPK0_PDC1_ScTKL1_RPS19btp
-            cSEGUID_m-7lOIJ60aZl4b7rN4vanlD7OWk_2018-05-15T08:08:54.210154.
+DEFINITION  pYPK0_PDC1_ScTKL1_RPS19btp cSEGUID_m-7lOIJ60aZl4b7rN4vanlD7OWk.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -40,6 +39,12 @@ FEATURES             Location/Qualifiers
                      /gene="TKL1"
                      /locus_tag="YPR074C"
                      /EC_number="2.2.1.1"
+                     /experiment="EXISTENCE:curator inference:GO:0005737
+                     cytoplasm [PMID:8299150]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004802
+                     transketolase activity [PMID:8226984]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8299150]"
                      /note="Transketolase; catalyzes conversion of
                      xylulose-5-phosphate and ribose-5-phosphate to
                      sedoheptulose-7-phosphate and glyceraldehyde-3-phosphate in

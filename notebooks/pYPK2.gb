@@ -1,6 +1,5 @@
 LOCUS       pYPK2                   5069 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  description_rc
-            cSEGUID_X9gHbzMYILV9E2vkmRsDRdsVlJY_2018-05-15T07:38:43.409044.
+DEFINITION  description_rc cSEGUID_X9gHbzMYILV9E2vkmRsDRdsVlJY.
 ACCESSION   id_rc
 VERSION     id_rc
 KEYWORDS    .

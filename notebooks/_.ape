@@ -1,0 +1,14 @@
+LOCUS       .                         37 bp    DNA              UNK 01-JAN-1980
+DEFINITION  .
+ACCESSION   <unknown id>
+VERSION     <unknown id>
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     misc            complement(join(13..17,23..27))
+                     /note="MyFeature"
+ORIGIN
+        1 tcggcgttgc tatgccgtta ggctagcctt gtacagt
+//

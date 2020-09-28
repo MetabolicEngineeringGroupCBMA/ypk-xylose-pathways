@@ -1,6 +1,5 @@
 LOCUS       pMEC1132                7686 bp    DNA     circular UNK 01-JAN-1980
-DEFINITION  pYPK0_RPS19b_ScRPE1_RPS19atp
-            cSEGUID_7ZyB5nd5PHehioELmuUpWJgPyHA_2018-05-15T07:37:14.090683.
+DEFINITION  pYPK0_RPS19b_ScRPE1_RPS19atp cSEGUID_7ZyB5nd5PHehioELmuUpWJgPyHA.
 ACCESSION   id
 VERSION     id
 KEYWORDS    .
@@ -58,6 +57,12 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YJL121C"
                      /gene_synonym="EPI1; POS18"
                      /EC_number="5.1.3.1"
+                     /experiment="EXISTENCE:direct assay:GO:0004750
+                     ribulose-phosphate 3-epimerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0004750
+                     ribulose-phosphate 3-epimerase activity [PMID:8929392]"
+                     /experiment="EXISTENCE:mutant phenotype:GO:0006098
+                     pentose-phosphate shunt [PMID:8929392]"
                      /note="D-ribulose-5-phosphate 3-epimerase; catalyzes a
                      reaction in the non-oxidative part of the pentose-phosphate
                      pathway; mutants are sensitive to oxidative stress"
