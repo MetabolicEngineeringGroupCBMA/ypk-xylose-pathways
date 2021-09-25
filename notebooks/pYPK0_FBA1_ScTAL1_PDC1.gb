@@ -40,8 +40,7 @@ FEATURES             Location/Qualifiers
                      /locus_tag="YLR354C"
                      /EC_number="2.2.1.2"
                      /experiment="EXISTENCE:direct assay:GO:0004801
-                     sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate
-                     glyceronetransferase activity [PMID:2185015]"
+                     transaldolase activity [PMID:2185015]"
                      /experiment="EXISTENCE:direct assay:GO:0005634 nucleus
                      [PMID:17397208]"
                      /experiment="EXISTENCE:mutant phenotype:GO:0006098

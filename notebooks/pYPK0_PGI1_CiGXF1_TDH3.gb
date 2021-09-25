@@ -40,8 +40,15 @@ FEATURES             Location/Qualifiers
                      /product="hypothetical protein"
      CDS             1264..1413
                      /locus_tag="YBR196C-A"
+                     /experiment="EXISTENCE:direct assay:GO:0005789 endoplasmic
+                     reticulum membrane [PMID:32034123]"
                      /note="hypothetical protein; identified by fungal homology
-                     and RT-PCR"
+                     and RT-PCR; ORF emerged de novo in thymine-rich ancestral
+                     non-genic region, accumulated substantial changes under
+                     positive selection, and progressively increased its
+                     transmembrane propensity to give rise to a protein that
+                     integrates into the endoplasmic reticulum (ER) membrane
+                     while retaining potential for adaptive change"
                      /codon_start=1
                      /product="hypothetical protein"
                      /protein_id="DAA07311.1"
